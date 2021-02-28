@@ -1,0 +1,53 @@
+@import "normalize";
+@import "color";
+/* base default*/
+$basefontsize: 16;
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  &::before, &::after {
+    box-sizing: border-box;
+  }
+}
+
+html {
+  line-height: 1.6;
+  font-size: $basefontsize + px;
+  font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','Cambria','Baskerville','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+}
+
+// @function rem($pixels, $context: $basefontsize) {
+//   @return $pixels / $context * 1rem;
+// }
+
+body {
+  color: $text-color;
+  background-color: $bg-color;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  letter-spacing: .05em;
+}
+
+a {
+  text-decoration: none;
+  color: $text-color;
+  &:hover {
+    opacity: .7;
+  }
+}
+
+address {
+  font-style: normal;
+}

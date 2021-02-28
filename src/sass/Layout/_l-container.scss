@@ -1,0 +1,8 @@
+.l-container {
+    margin: 0 auto;
+    width: 1100px;
+
+    &.-narrow {
+        width: 800px;
+    }
+}

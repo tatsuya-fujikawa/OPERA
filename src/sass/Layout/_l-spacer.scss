@@ -1,0 +1,27 @@
+.l-spacer {
+    padding: 3.3rem 0;
+   
+    &.-section {
+     padding: 6.8rem 0;
+    }
+   
+    &.-maximum {
+     padding: 5rem 0;
+    }
+   
+    &.-minimum {
+     padding: .5rem 0;
+    }
+   
+    &.-medium {
+     padding: 2rem 0;
+    }
+   
+    &.-nobottom {
+     padding-bottom: 0;
+    }
+   
+    &.-notop {
+     padding-top: 0;
+    }
+   }

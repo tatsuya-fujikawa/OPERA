@@ -1,0 +1,38 @@
+.u-uppercase {
+    text-transform: uppercase;
+   }
+
+.u-visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(50%);
+}
+
+.u-centerposition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+.u-white {
+    color: #ffffff;
+}
+
+.u-yellowcrayon {
+    background: linear-gradient(transparent 60%, #F2DC16 0%);
+}
+
+.u-bold {
+    font-weight: bold;
+}
+
+.u-enfont {
+    font-family: $en-font;
+}

@@ -1,0 +1,27 @@
+.c-grid {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+    &__item {
+     width: 100%;
+   
+     &.-column2 {
+      width: calc(100% / 2);
+   
+     }
+
+     &.-column3 {
+      padding: 0 1em;
+      width: calc(100% / 3);
+   
+      &:nth-child(n+4) {
+       margin-top: 3rem;
+      }
+     }
+    }
+
+    &.-center {
+        justify-content: center;
+    }
+}
