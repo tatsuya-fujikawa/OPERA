@@ -1,2 +1,8 @@
 # node_modules内を無視
 /node_modules/
+
+package-lock.json
+
+package.json
+
+webpack.config.js
