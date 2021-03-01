@@ -88,7 +88,9 @@ module.exports = {
   // 実行時にブラウザが自動的に localhost を開く
   devServer: {
     contentBase: "dist",
-    open: true
+    open: true,
+    watchContentBase: true,
+    writeToDisk: true
   }
 };
 
