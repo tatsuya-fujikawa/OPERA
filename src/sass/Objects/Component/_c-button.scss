@@ -3,7 +3,7 @@
     font-size: 1.5em;
     font-weight: bold;
     border: 1px solid $button-color;
-    border-radius: 30px;
+    border-radius: 35px;
     padding: 10px 25px;
     position: relative;
     transition: 0.5s;
@@ -13,7 +13,6 @@
         background-color: $button-color;
         color: #fff;
         transition: 0.5s;
-        bottom: 10px;
         background-size: contain;
     }
 }

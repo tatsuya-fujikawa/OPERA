@@ -1,14 +1,14 @@
 .p-footer {
 
-    border-top: 2px solid $color-gold;
+    border-top: 4px solid $color-gold;
     position: relative;
 
     &:after {
         content:'';
         position: absolute;
         width: 100%;
-        border-top: 4px solid $color-gold;
-        top: -15px;
+        border-top: 2px solid $color-gold;
+        top: 7px;
     }
 
     &__nav {

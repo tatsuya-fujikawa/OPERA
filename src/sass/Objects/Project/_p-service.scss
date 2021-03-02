@@ -1,6 +1,6 @@
 .p-service {
-
   padding-top: 7.6em;
+  padding-bottom: 7.6em;
 
   &__inner {
     background-color: $color-white;
@@ -9,6 +9,11 @@
     &-narrow {
       width: 80%;
       margin: 0 auto;
+    }
+
+    &-narrow2 {
+      width: 83%;
+      margin: 5em auto 0;
     }
   }
 
@@ -62,6 +67,42 @@
         bottom: 2px;
       }
     }
+  }
+
+  &__description {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3em;
+  }
+
+  &__set {
+    padding-left: 3em;
+
+    &-middle {
+      padding-top: 1em;
+    }
+
+    &-title {
+      font-size: 1.75em;
+      font-weight: normal;
+    }
+
+    &-bottom {
+      padding-top: 0.5em;
+    }
+  }
+
+  &__list {
+
+    &-item {
+      font-size: 1.375em;
+      padding-top: 0.1em;
+    }
+  }
+
+  &__button {
+    margin-top: 1em;
+    padding: 12px 40px;
   }
 
 }
