@@ -1,0 +1,12 @@
+.p-flow {
+    border-top: 4px solid #b49e68;
+    position: relative;
+
+    &:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        border-top: 2px solid #b49e68;
+        top: 8px;
+    }
+}

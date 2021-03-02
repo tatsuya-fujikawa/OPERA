@@ -1,0 +1,95 @@
+.p-introduction {
+    &__flex {
+        display: flex;
+        justify-content: center;
+        margin: 5em auto;
+
+    }
+
+    &__right {
+        width: 47%;
+        margin-left: 5em;
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            display: inline-block;
+            background-color: rgba(255,243,246, 0.6);
+            width: 100%;
+            height: 60%;
+            z-index: -1;
+            top: 15%;
+            right: 20%;
+        }
+        &:after {
+            content: '';
+            position: absolute;
+            display: inline-block;
+            background-color: rgba(240,236,225, 1);
+            width: 100%;
+            height: 60%;
+            z-index: -2;
+            top: 20%;
+            right: 17%;
+        }
+    }
+
+    &__right.-rows {
+        margin-left: 0;
+        width: auto;
+        &:after {
+            background-color: #fff;
+        }
+        &:before {
+            background-color: #fff;
+        }
+    }
+
+    &__left.-rows {
+        width: auto;
+        margin-right: 5em;
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            display: inline-block;
+            background-color: rgba(255,243,246, 0.6);
+            width: 100%;
+            height: 60%;
+            z-index: -1;
+            top: 15%;
+            left: 20%;
+        }
+        &:after {
+            content: '';
+            position: absolute;
+            display: inline-block;
+            background-color: rgba(240,236,225, 1);
+            width: 100%;
+            height: 60%;
+            z-index: -2;
+            top: 20%;
+            left: 17%;
+        }
+    }
+
+    &__title {
+        font-size: 3.625em;
+        font-weight: normal;
+        padding-top: 1em;
+    }
+
+    &__middle {
+        padding-top: 4em;
+
+        &-text {
+            font-size: 1.125em;
+        }
+    }
+    &__bottom {
+        padding-top: 7em;
+    }
+
+}
