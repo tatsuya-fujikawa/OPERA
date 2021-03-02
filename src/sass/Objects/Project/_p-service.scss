@@ -1,0 +1,67 @@
+.p-service {
+
+  padding-top: 7.6em;
+
+  &__inner {
+    background-color: $color-white;
+    padding: 2em;
+
+    &-narrow {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+
+  &__title {
+    padding-top: 5em;
+  }
+
+  &__text {
+    text-align: center;
+    padding-top: 5em;
+    font-size: 1.125em;
+  }
+
+  &__flex {
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+
+    &-item {
+      background-image: url(./img/circle.svg);
+      width: 325px;
+      height: 325px;
+      text-align: center;
+      background-size: contain;
+      padding-top: 2em;
+
+      &:nth-of-type(2) {
+        margin-top: 4em;
+      }
+    }
+
+    &-lead {
+      padding-top: 2em;
+      text-align: center;
+    }
+
+    &-title {
+      padding-top: 1.5em;
+      font-size: 1.75em;
+      display: inline-block;
+      margin: 0 auto;
+      position: relative;
+      border-bottom: 1px solid $color-gold;
+
+
+      &::before {
+        content: '';
+        position: absolute;
+        border-bottom: 2px solid $color-gold;
+        width: 100%;
+        bottom: 2px;
+      }
+    }
+  }
+
+}
