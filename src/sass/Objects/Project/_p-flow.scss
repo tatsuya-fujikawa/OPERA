@@ -1,4 +1,6 @@
 .p-flow {
+    background-image: url(./img/bg_flow.png);
+    background-position: bottom;
     border-top: 4px solid #b49e68;
     position: relative;
 
@@ -8,5 +10,58 @@
         width: 100%;
         border-top: 2px solid #b49e68;
         top: 8px;
+    }
+
+    &__step {
+        padding-top: 7em;
+        display: flex;
+
+        &-item {
+            width: 20%;
+
+            &:nth-of-type(3) {
+                width: 40%;;
+            }
+        }
+
+        &-top {
+            text-align: center;
+            padding-bottom: 3em;
+        }
+
+        &-title {
+            font-size: 1.5em;
+            font-weight: normal;
+        }
+
+        &-middle {
+            padding-bottom: 2em;
+            text-align: center;
+        }
+
+        &-bottom {
+            text-align: center;
+            font-size: 1.5em;
+        }
+    }
+
+
+    &__flexInner {
+        display: flex;
+        justify-content:center;
+
+        &-item {
+            width: 50%;
+        }
+    }
+
+    &__button {
+        background-color: #fff;
+        padding: 12px 40px;
+    }
+
+    &__text {
+        padding-top: 5em;
+        padding-bottom:  1em;;
     }
 }
