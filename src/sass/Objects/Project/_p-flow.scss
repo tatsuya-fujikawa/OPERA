@@ -32,8 +32,27 @@
         &-title {
             font-size: 1.5em;
             font-weight: normal;
-        }
+            position: relative;
+            text-align: center;
 
+            &:after {
+                position:absolute;
+                content: '';
+                display: block;
+                margin: 0 auto;
+                background-image: url(./img/flow_line.png);
+                width: 100%;
+                height: 100px;
+                top: 0;
+                background-position: center;;
+            }
+
+            &.twocolumn {
+                &:after {
+                    background-image:url(./img/flow_line_l.png);
+                }
+            }
+        }
         &-middle {
             padding-bottom: 2em;
             text-align: center;
