@@ -2,4 +2,18 @@
     margin: 0 auto;
     max-width: 95%;
 
+    &.-forWide {
+        @include mq('sp') {
+            max-width: 100%;
+        }
+    }
+
+    @include mq('pc') {
+        max-width: 1440px;        
+    }
+
+    @include mq('sp') {
+        max-width: 95%;
+    }
+
 }

@@ -7,21 +7,50 @@
         height: 917px;
         margin: 0 auto;
 
+        @include mq('sp') {
+            background-image: url(./img/sp/bg_lead.png);
+            background-size: cover;
+            background-position: bottom;
+            height: 827px;
+        }
+
         &-item {
-            position: absolute;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translateY(-50%) translateX(-50%);
+
+            @include mq('sp') {
+                width: 80%;
+                top: 42%;
+            }
+        }
+    }
+    &__title {
+        text-align: center;
+
+        @include mq('sp') {
+            padding-top: 2em;
+            padding-bottom: 1.5em;
         }
     }
     &__sentence {
         padding-bottom: 3em;
         padding-top: 1em;
+
+        @include mq('sp') {
+            padding-bottom: 1.5em;
+            padding-top: 0.5em;
+        }
     } 
     &__button {
         padding: 25px 50px;
         border-radius: 45px;
         margin: 0.5em 2em;
+
+        @include mq('sp') {
+            padding: 15px 20px;
+            margin: 0.5em 1em;
+        }
     }
 }

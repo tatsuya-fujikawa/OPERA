@@ -6,14 +6,27 @@
     background-color: $color-white;
     padding: 2em;
 
+    @include mq('sp') {
+      padding: 0.5em;
+    }
+
     &-narrow {
       width: 80%;
       margin: 0 auto;
+
+      @include mq('sp') {
+        width: 100%;
+      }
     }
 
     &-narrow2 {
       width: 83%;
       margin: 5em auto 0;
+
+      @include mq('sp') {
+        width: 100%;
+        margin: 3em auto 0;
+      }
     }
   }
 
@@ -25,12 +38,23 @@
     text-align: center;
     padding-top: 5em;
     font-size: 1.125em;
+
+    @include mq('sp') {
+      font-size: 1em;
+      padding-top: 2.5em;
+    }
   }
 
   &__flex {
     padding-top: 1em;
     display: flex;
     justify-content: space-between;
+
+    &.-sp {
+      @include mq('sp') {
+        display: block;
+      }
+    }
 
     &-item {
       background-image: url(./img/circle.svg);
@@ -40,14 +64,42 @@
       background-size: contain;
       padding-top: 2em;
 
+      &.-sp {
+        margin: 0 auto;
+        width: 240px;
+        height: 240px;
+        background-position: center;
+        padding-top: 4em;
+
+        &:first-of-type {
+          @include mq('small') {
+            margin-bottom: -60px;
+          }
+        }
+
+        @include mq('small') {
+          width: 45%;
+        }
+      }
+
+
       &:nth-of-type(2) {
         margin-top: 4em;
+
+        @include mq('sp') {
+          margin-top: 0;
+        }
       }
     }
 
     &-lead {
       padding-top: 2em;
       text-align: center;
+
+      @include mq('sp') {
+        padding-top: 0.3em;
+        font-size: 0.875em;
+      }
     }
 
     &-title {
@@ -58,6 +110,15 @@
       position: relative;
       border-bottom: 1px solid $color-gold;
 
+      @include mq('sp') {
+        font-size: 1.5em;
+        padding-top: 0.5em;
+        font-weight: normal;
+      }
+
+      @include mq('small') {
+        font-size: 1.125em;
+      }
 
       &::before {
         content: '';
@@ -92,6 +153,16 @@
   &__set {
     padding-left: 3em;
 
+    @include mq('sp') {
+      padding-left: 0;
+    }
+
+    &-top {
+      @include mq('sp') {
+        padding-top: 1em;;
+      }
+    }
+
     &-middle {
       padding-top: 1em;
     }
@@ -99,10 +170,25 @@
     &-title {
       font-size: 1.75em;
       font-weight: normal;
+
+      @include mq('sp') {
+        font-size: 1.375em;
+      }
     }
 
     &-bottom {
       padding-top: 0.5em;
+
+      @include mq('sp') {
+        padding-top: 1em;
+      }
+    }
+
+    &-action {
+      @include mq('sp') {
+        text-align: center;
+        padding-top: 2em;
+      }
     }
   }
 
@@ -111,12 +197,30 @@
     &-item {
       font-size: 1.375em;
       padding-top: 0.1em;
+
+      @include mq('sp') {
+        font-size: 1em;
+      }
     }
   }
 
   &__button {
     margin-top: 1em;
     padding: 12px 40px;
+
+    @include mq('sp') {
+      text-align: center;
+      margin: 0 auto;
+      padding: 7px 30px;
+    }
+  }
+
+  &__sp {
+    &-flex {
+      @include mq('sp') {
+        display: flex;;
+      }
+    }
   }
 
 }

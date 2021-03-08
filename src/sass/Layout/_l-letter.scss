@@ -1,0 +1,5 @@
+.l-letter {
+    @include mq('sp'){
+        padding-top: 1em;
+    }
+}

@@ -3,6 +3,10 @@
 
     &.-title {
         padding: 10rem 0 3rem;
+
+        @include mq('sp') {
+            padding: 5rem 0 3rem;
+        }
     }
    
     &.-section {

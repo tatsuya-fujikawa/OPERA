@@ -6,7 +6,18 @@
 
         @include mq('sp') {
             display: block;
+            background: url(./img/sp/img_02.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            margin: 3em auto 1em;
         }
+
+    &.-rows {
+        @include mq('sp') {
+            background: url(./img/sp/img_03.png);
+        }
+    }
 
     }
 
@@ -44,6 +55,7 @@
 
             @include mq('sp') {
                 width: 0%;
+                display: none;
             }
         }
         &:after {
@@ -59,6 +71,7 @@
 
             @include mq('sp') {
                 width: 0%;
+                display: none;
             }
         }
     }
@@ -86,6 +99,10 @@
         padding-left: 10%;
         position: relative;
 
+        @include mq('sp') {
+            padding-left: 0;
+        }
+
         &:before {
             content: '';
             position: absolute;
@@ -99,6 +116,7 @@
 
             @include mq('sp') {
                 width: 0%;
+                display: none;
             }
         }
         &:after {
@@ -114,6 +132,7 @@
 
             @include mq('sp') {
                 width: 0%;
+                display: none;
             }
         }
     }
@@ -123,10 +142,21 @@
         font-weight: normal;
         padding-top: 1em;
 
+        @include mq('sp') {
+            font-size: 2em;
+            color: $color-white;
+            padding-left: 3%;
+        }
     }
 
     &__middle {
         padding-top: 4em;
+
+        @include mq('sp') {
+            padding-top: 0.5em;
+            color: $color-white;
+            padding-left: 3%;
+        }
 
         &-text {
             font-size: 1.125em;
@@ -136,6 +166,11 @@
     &__bottom {
         padding-top: 7em;
 
+        @include mq('sp') {
+            padding-top: 2em;
+            padding-bottom: 2em;
+            text-align: center;
+        }
     }
 
     &__button {

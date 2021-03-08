@@ -23,15 +23,29 @@
         &-item {
             width: 20%;
 
+            @include mq('sp') {
+                width: 100%;
+            }
+
             &:nth-of-type(3) {
-                width: 40%;;
+                width: 40%;
+
+                @include mq('sp') {
+                    width: 100%;
+                }
             }
         }
 
         &-top {
             text-align: center;
             padding-bottom: 3em;
+
+            @include mq('sp') {
+                order: 2;
+                width: 100%;
+            }
         }
+
 
         &-title {
             font-size: 1.5em;
@@ -60,11 +74,21 @@
         &-middle {
             padding-bottom: 2em;
             text-align: center;
+
+            @include mq('sp') {
+                order: 0;
+                width: 100%;
+                padding-bottom: 1em;
+            }
         }
 
         &-bottom {
             text-align: center;
             font-size: 1.5em;
+
+            @include mq('sp') {
+                font-size: 1em;
+            }
         }
     }
 
@@ -73,8 +97,16 @@
         display: flex;
         justify-content:center;
 
+        @include mq('sp') {
+            display: block;
+        }
+
         &-item {
             width: 50%;
+
+            @include mq('sp') {
+                width: 100%;
+            }
         }
     }
 
@@ -87,4 +119,15 @@
         padding-top: 5em;
         padding-bottom:  1em;;
     }
+
+    &__flex {
+        &-forSP {
+            @include mq('sp') {
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+    }
+
+
 }

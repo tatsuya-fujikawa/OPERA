@@ -1,0 +1,47 @@
+.p-topscroll {
+    position: relative;
+
+    &__wrapper {
+        position: absolute;
+        right: 3%;
+        background-color: $color-gold;
+        color: $color-white;
+        height: 70px;
+        padding: 2em 0.8em 0.2em;
+        top: -70px;
+    }
+    &__text {
+        position: relative;
+        transition: 0.3s;
+
+        &:hover {
+            transform: scale(1.05,1.05);
+            transition: 0.3s;
+        }
+
+        &:before {
+            content:'';
+            position: absolute;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-bottom: 1px solid $color-white;
+            bottom: 15px;
+            right: 10px;
+            border-left: 1px solid $color-white;
+            transform: rotate(135deg);
+        }
+        &:after {
+            content:'';
+            position: absolute;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-bottom: 1px solid $color-white;
+            bottom: 25px;
+            right: 10px;
+            border-left: 1px solid $color-white;
+            transform: rotate(135deg);
+        }
+    }
+}

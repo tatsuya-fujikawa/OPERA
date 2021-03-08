@@ -19,11 +19,11 @@
                         <img src="./img/header_logo.png" alt="オペラ青山ロゴ">
                     </div>
                 </div>
-                <div class="p-header__top-right pc">
-                    <div class="p-header__freedial">
+                <div class="p-header__top-right">
+                    <div class="p-header__freedial pc">
                         <a href="tel:0120711212"><img src="./img/header_freedial.png" alt="電話番号"></a>
                     </div>
-                    <div class="p-header__mail">
+                    <div class="p-header__mail pc">
                         <a href="#"><img src="./img/header_mailbtn.png" alt="お申し込み・ご相談メール"></a>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                     <p class="p-service__text">
                         ペット葬儀「<span class="u-uppercase">OPERA</span>」は、お通夜からご収骨までオールインワン。<br>お求め安い価格でご自宅にお届けします。
                     </p>
-                    <div class="p-service__inner-narrow">
+                    <div class="p-service__inner-narrow pc">
                         <div class="p-service__flex">
                             <div class="p-service__flex-item">
                                 <p class="p-service__flex-lead">分かりやすく安心</p>
@@ -103,10 +103,34 @@
                             </div>
                         </div>
                     </div>
+                    <div class="p-service__inner-narrow sp">
+                        <div class="p-service__flex -sp">
+                            <div class="p-service__flex-item -sp">
+                                <p class="p-service__flex-lead">清らかにお見送り</p>
+                                <h3 class="p-service__flex-title">牧師のお祈り</h3>
+                                <p class="p-service__flex-lead">動画での配信も</p>
+                            </div>
+                            <div class="p-service__sp-flex">
+                                <div class="p-service__flex-item -sp">
+                                    <p class="p-service__flex-lead">分かりやすく安心</p>
+                                    <h3 class="p-service__flex-title">定額料金</h3>
+                                    <p class="p-service__flex-lead">オンライン決済が可能</p>
+                                </div>
+                                <div class="p-service__flex-item -sp">
+                                    <p class="p-service__flex-lead">業界のプロが対応</p>
+                                    <h3 class="p-service__flex-title">美しいご祭壇</h3>
+                                    <p class="p-service__flex-lead">夢の祭壇を<br>オールインワンで</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="p-service__inner-narrow2">
                         <div class="p-service__description">
                             <div class="p-service__description-item">
-                                <img src="./img/img_01.png" alt="">
+                                <picture>
+                                    <source media="(max-width: 767px)" srcset="./img/sp/img_01.png">
+                                    <img class="p-mv__slide" src="./img/img_01.png" alt="">
+                                </picture>
                             </div>
                             <div class="p-service__description-item">
                                 <div class="p-service__set">
@@ -128,7 +152,9 @@
                                         <p>※写真はジュリエットコース/お届けお通夜セットの内容です</p>
                                         <p>※お花はピンク系、ブルー系から選択できます</p>
                                     </div>
-                                    <a href="#" class="p-service__button c-button">詳細はこちら</a>
+                                    <div class="p-service__set-action">
+                                        <a href="#" class="p-service__button c-button">詳細はこちら</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -144,26 +170,30 @@
                 </div>
                 <div class="p-flow__step">
                     <div class="p-flow__step-item">
-                        <div class="p-flow__step-top">
-                            <h3 class="p-flow__step-title">24時間受付</h3>
-                        </div>
-                        <div class="p-flow__step-middle">
-                            <img src="./img/circle_01.png" alt="" class="p-flow__step-img">
+                        <div class="p-flow__flex-forSP">
+                            <div class="p-flow__step-top">
+                                <h3 class="p-flow__step-title">24時間受付</h3>
+                            </div>
+                            <div class="p-flow__step-middle">
+                                <img src="./img/circle_01.png" alt="" class="p-flow__step-img">
+                            </div>
                         </div>
                         <div class="p-flow__step-bottom">
-                            <p>お電話・メールにて<br>お申し込み</p>
+                            <p>お電話・メールにて<br class="pc">お申し込み</p>
                         </div>
                     </div>
                     <!--p-flow__step-item-->                    
                     <div class="p-flow__step-item">
-                        <div class="p-flow__step-top">
-                            <h3 class="p-flow__step-title">最短当日お届け</h3>
-                        </div>
-                        <div class="p-flow__step-middle">
-                            <img src="./img/circle_02.png" alt="" class="p-flow__step-img">
+                        <div class="p-flow__flex-forSP">
+                            <div class="p-flow__step-top">
+                                <h3 class="p-flow__step-title">最短当日お届け</h3>
+                            </div>
+                            <div class="p-flow__step-middle">
+                                <img src="./img/circle_02.png" alt="" class="p-flow__step-img">
+                            </div>
                         </div>
                         <div class="p-flow__step-bottom">
-                            <p>フローリストが<br>お通夜セットをお届け</p>
+                            <p>フローリストが<br class="pc">お通夜セットをお届け</p>
                         </div>
                     </div>
                     <!--p-flow__step-item-->                    
@@ -177,7 +207,7 @@
                                     <img src="./img/circle_03.png" alt="" class="p-flow__step-img">
                                 </div>
                                 <div class="p-flow__step-bottom">
-                                    <p>牧師の<br>お祈り&カウンセリング</p>
+                                    <p>牧師の<br class="pc">お祈り&カウンセリング</p>
                                 </div>
                             </div>
                             <div class="p-flow__flexInner-item">
@@ -185,7 +215,7 @@
                                     <img src="./img/circle_04.png" alt="" class="p-flow__step-img">
                                 </div>
                                 <div class="p-flow__step-bottom">
-                                    <p>火葬車がお伺いし<br>ご遺体を火葬</p>
+                                    <p>火葬車がお伺いし<br class="pc">ご遺体を火葬</p>
                                 </div>
                             </div>
                         </div>
@@ -193,14 +223,16 @@
                     </div>
                     <!--p-flow__step-item-->
                     <div class="p-flow__step-item">
-                        <div class="p-flow__step-top">
-                            <h3 class="p-flow__step-title">一週間限定</h3>
-                        </div>
-                        <div class="p-flow__step-middle">
-                            <img src="./img/circle_05.png" alt="" class="p-flow__step-img">
+                        <div class="p-flow__flex-forSP">
+                            <div class="p-flow__step-top">
+                                <h3 class="p-flow__step-title">一週間限定</h3>
+                            </div>
+                            <div class="p-flow__step-middle">
+                                <img src="./img/circle_05.png" alt="" class="p-flow__step-img">
+                            </div>
                         </div>
                         <div class="p-flow__step-bottom">
-                            <p>牧師による<br>癒しの動画</p>
+                            <p>牧師による<br class="pc">癒しの動画</p>
                         </div>
                     </div>
                     <!--p-flow__step-item-->                      
@@ -209,18 +241,18 @@
                     <p>詳細は下記ページよりご確認ください。</p>
                 </div>
                 <div class="u-centerposition l-spacer -maximum -notop">
-                    <a href="#" class="c-button p-flow__button">自宅葬サービス</a>
+                    <a href="#" class="c-button p-flow__button">スタッフ紹介</a>
                 </div>
             </div>
         </section>
         <!-- l-flow-->
         <section class="l-introduction p-introduction">
-            <div class="l-container">
+            <div class="l-container -forWide">
                 <div class="l-spacer -title -nobottom">
                     <h2 class="c-title u-centerposition" title="Service">サービス紹介</h2>
                 </div>
                 <div class="p-introduction__flex">
-                    <div class="p-introduction__flex-item p-introduction__left">
+                    <div class="p-introduction__flex-item p-introduction__left pc">
                         <img src="./img/img_02.png" alt="">
                     </div>
                     <div class="p-introduction__flex-item p-introduction__right">
@@ -244,7 +276,7 @@
                         </div>
                         
                     </div>
-                    <div class="p-introduction__flex-item p-introduction__right -rows">
+                    <div class="p-introduction__flex-item p-introduction__right -rows pc">
                         <img src="./img/img_03.png" alt="">
                     </div>
                 </div>
@@ -253,9 +285,10 @@
         </section>
         <!-- l-introduction-->
         <section class="l-letter p-letter">
-            <div class="l-container">
+            <div class="l-container -forWide">
                 <div class="p-letter__container">
                     <div class="p-letter__container-item">
+                        <h2 class="p-letter__title"><span class="u-uppercase">opera</span>の思い</h2>
                         <p class="p-letter__sentence">～ペットは家族～<br>そうよばれるようになり、何年がたつでしょうか</p>
                         <p class="p-letter__sentence">新しい生活様式へと変化を続ける世の中で<br>ペットという名の小さな家族は、昔も今も変わらず<br>人間の心を癒やし、あたため続けてくれました</p>
                         <p class="p-letter__sentence">しかし、ペットの存在価値が高まる一方で<br>
@@ -387,7 +420,23 @@
                 </div>
             </div>
         </section>
+        <div class="p-floating pc">
+            <div class="p-floating__wrapper">
+                <p class="p-floating__text">24時間電話受付</p>
+                <div class="p-floating__middle">
+                    <img src="./img/freecallicon.png" alt="">
+                    <p class="p-floating__middle-phone">0120-71-1212</p>
+                </div>
+                <p class="p-floating__bottom">事前のご相談も承ります。</p>
+            </div>
+        </div>
     </main>
+    <!-- トップスクロールボタン-->
+    <div class="p-topscroll">
+        <button class="p-topscroll__wrapper">
+            <p class="p-topscroll__text u-uppercase">top</p>
+        </button>
+    </div>
     <footer class="l-footer p-footer">
         <div class="l-container">
             <div class="p-footer__top">
