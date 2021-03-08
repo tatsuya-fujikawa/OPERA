@@ -48,26 +48,34 @@
 
         &-item {
             margin-right: 4.5em;
+            position: relative;
 
             &:last-of-type {
                 margin-right: 0;
             }
-
-            a {
-                display: block;
-            }
         }
 
-        &-en {
-            display: block;
-            text-align: center;
-            font-size: 1.5em;
-            font-family: $en-font2;
-        }
         &-jp {
             display: block;
             text-align: center;
             font-size: 1.125em;
+            width: 100%;
+            position: relative;
+            z-index: 10;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            &:before {
+                position: relative;
+                content: attr(title);
+                display: block;
+                text-align: center;
+                font-size: 1.5em;
+                font-family: $en-font2;
+                width: 100%;
+            }
         }
     }
 

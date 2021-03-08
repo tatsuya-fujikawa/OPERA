@@ -43,8 +43,11 @@ p {
 a {
   text-decoration: none;
   color: $text-color;
+  transition: 0.5s;
   &:hover {
-    opacity: .7;
+    transition: 0.5s;
+    transform: scale(0.95, 0.95);
+    opacity: 0.8;
   }
 }
 

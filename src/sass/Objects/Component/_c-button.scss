@@ -4,7 +4,7 @@
     font-weight: bold;
     border: 1px solid $button-color;
     border-radius: 35px;
-    padding: 10px 25px;
+    padding: 15px 25px;
     position: relative;
     transition: 0.5s;
 
@@ -14,5 +14,10 @@
         color: #fff;
         transition: 0.5s;
         background-size: contain;
+    }
+
+    &.-pplus {
+        padding: 25px 50px;
+        border-radius: 45px;
     }
 }
