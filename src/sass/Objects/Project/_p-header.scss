@@ -6,6 +6,14 @@
 
         &-left {
             padding-top: 0.5em;
+
+            @include mq('sp') {
+                width: 50%;
+
+                img {
+                    width: 100%;
+                }
+            }
         }
 
         &-right {

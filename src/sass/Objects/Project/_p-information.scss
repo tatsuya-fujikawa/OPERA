@@ -6,7 +6,14 @@
         background-position: center;
         width: 1131px;
         height: 315px;
-        padding-top: 3em;;
+        padding-top: 3em;
+
+        @include mq('sp') {
+            background-image: none;
+            width: 95%;
+            height: auto;
+            padding-top: 0;
+        }
     }
 
     &__line {
@@ -16,6 +23,10 @@
         margin: 0 auto;
         padding-bottom: 0.8em;
 
+        @include mq('sp') {
+            display: block;
+        }
+
         &:last-of-type {
             padding-bottom: 0;
         }
@@ -23,6 +34,10 @@
 
     &__date {
         padding-right: 1em;
+
+        @include mq('sp') {
+            display: inline-block;
+        }
     }
 
     &__tag {
@@ -32,6 +47,10 @@
         padding: 5px 10px;
         border-radius: 30px;
         color: $color-white;
+
+        @include mq('sp') {
+            display: inline-block;
+        }
     }
 
     &__title{

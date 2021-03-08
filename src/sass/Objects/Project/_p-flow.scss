@@ -16,6 +16,10 @@
         padding-top: 7em;
         display: flex;
 
+        @include mq('sp') {
+            display: block;
+        }
+
         &-item {
             width: 20%;
 

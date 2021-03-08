@@ -4,6 +4,10 @@
         justify-content: center;
         margin: 5em auto;
 
+        @include mq('sp') {
+            display: block;
+        }
+
     }
 
     &__left {
@@ -11,6 +15,10 @@
         img {
             display: block;
             margin: 0 3.5em 0 auto;
+
+            @include mq('sp') {
+                width: 100%;
+            }
         }
     }
 
@@ -18,6 +26,10 @@
         width: 100%;
         margin-left: 3.5em;
         position: relative;
+
+        @include mq('sp') {
+            margin: 0;
+        }
 
         &:before {
             content: '';
@@ -29,6 +41,10 @@
             z-index: -1;
             top: 15%;
             right: 20%;
+
+            @include mq('sp') {
+                width: 0%;
+            }
         }
         &:after {
             content: '';
@@ -40,12 +56,23 @@
             z-index: -2;
             top: 20%;
             right: 17%;
+
+            @include mq('sp') {
+                width: 0%;
+            }
         }
     }
 
     &__right.-rows {
         margin-left: 0;
         width: 100%;
+
+        img {
+            @include mq('sp') {
+                width: 100%;
+            }
+        }
+
         &:after {
             display:none;
         }
@@ -69,6 +96,10 @@
             z-index: -1;
             top: 15%;
             left: 12%;
+
+            @include mq('sp') {
+                width: 0%;
+            }
         }
         &:after {
             content: '';
@@ -80,6 +111,10 @@
             z-index: -2;
             top: 20%;
             left: 9%;
+
+            @include mq('sp') {
+                width: 0%;
+            }
         }
     }
 

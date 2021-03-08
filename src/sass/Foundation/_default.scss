@@ -54,3 +54,29 @@ a {
 address {
   font-style: normal;
 }
+
+
+$layout-width-inner: 1200px;
+$breakpoints: (
+  "small": "screen and (max-width: 425px)",
+  "sp": "screen and (max-width: 767px)",
+  "tab": "screen and (max-width: #{$layout-width-inner - 1px})",
+  "pc": "screen and (min-width: #{$layout-width-inner})"
+);
+
+@mixin mq($breakpoint: sp) {
+
+  @media #{map-get($breakpoints, $breakpoint)} {
+
+    @content;
+  }
+}
+
+
+.pc { display: block !important; }
+.sp { display: none !important; }
+
+@include mq('sp') {
+    .pc { display: none !important; }
+    .sp { display: block !important; }
+}

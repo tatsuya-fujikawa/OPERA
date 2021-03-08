@@ -4,6 +4,10 @@
   display: block;
   position: relative;
 
+  @include mq('sp') {
+      font-size: 1.5em;
+  }
+
     &::before {
         content: attr(title);
         position:absolute;
@@ -12,6 +16,11 @@
         font-family: $en-font;
         opacity: 0.1;
         bottom: 90px;
+
+        @include mq('sp') {
+            font-size: 4.375rem;
+            bottom: 50px;
+        }
     }
 
     &::after {

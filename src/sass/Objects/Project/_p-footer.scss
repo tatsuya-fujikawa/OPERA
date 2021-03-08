@@ -32,6 +32,10 @@
         position: relative;
         z-index: 10;
 
+        @include mq('sp') {
+            display: block;
+        }
+
     }
 
     &__company {

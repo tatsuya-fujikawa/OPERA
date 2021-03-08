@@ -19,7 +19,7 @@
                         <img src="./img/header_logo.png" alt="オペラ青山ロゴ">
                     </div>
                 </div>
-                <div class="p-header__top-right">
+                <div class="p-header__top-right pc">
                     <div class="p-header__freedial">
                         <a href="tel:0120711212"><img src="./img/header_freedial.png" alt="電話番号"></a>
                     </div>
@@ -29,34 +29,28 @@
                 </div>
             </div>
         </div>
-        <nav class="p-header__nav">
+        <nav class="p-header__nav pc">
             <div class="l-container">
                 <div class="p-header__flex">
                     <ul class="p-header__list">
                         <li class="p-header__list-item">
-                            <!-- <span class="p-header__list-en">About</span> -->
                             <a href="#" class="p-header__list-jp" title="About"><span class="u-uppercase">opera</span>とは</a>
                         </li>
                         <li class="p-header__list-item">
-                            <!-- <span class="p-header__list-en">Home Funeral</span> -->
                             <a href="#" class="p-header__list-jp" title="Home Funeral">自宅葬サービス</a>
                         </li>
                         <li class="p-header__list-item">
-                            <!-- <span class="p-header__list-en">Otakiage</span> -->
                             <a href="#" class="p-header__list-jp" title="Otakiage">お焚き上げサービス</a>
                         </li>
                     </ul>
                     <ul class="p-header__list">
                         <li class="p-header__list-item">
-                            <!-- <span class="p-header__list-en">Staff</span> -->
                             <a href="#" class="p-header__list-jp" title="Staff">スタッフ紹介</a>
                         </li>
                         <li class="p-header__list-item">
-                            <!-- <span class="p-header__list-en">Support</span> -->
                             <a href="#" class="p-header__list-jp" title="Support">アフターサポート</a>
                         </li>
                         <li class="p-header__list-item">
-                            <!-- <span class="p-header__list-en">Information</span> -->
                             <a href="#" class="p-header__list-jp" title="Information">インフォメーション</a>
                         </li>
                     </ul>
@@ -66,7 +60,10 @@
     </header>
     <main>
         <section class="l-mv p-mv">
-            <img class="p-mv__slide" src="./img/MV.png" alt="">
+            <picture>
+                <source media="(max-width: 767px)" srcset="./img/sp/MV.png">
+                <img class="p-mv__slide" src="./img/MV.png" alt="">
+            </picture>
             <div class="p-mv__wrapper">
                 <h2 class="p-mv__lead">大切なペットの命に、祈りを</h2>
                 <div class="p-mv__text">
