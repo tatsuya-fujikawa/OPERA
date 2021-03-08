@@ -1,0 +1,50 @@
+.p-information {
+    &__wrapper {
+        margin-top: 5em;
+        margin: 5em auto;
+        background-image: url(./img/bg_information.svg);
+        background-position: center;
+        width: 1131px;
+        height: 315px;
+        padding-top: 3em;;
+    }
+
+    &__line {
+        display: flex;
+        align-items: center;
+        width: 83%;
+        margin: 0 auto;
+        padding-bottom: 0.8em;
+
+        &:last-of-type {
+            padding-bottom: 0;
+        }
+    }
+
+    &__date {
+        padding-right: 1em;
+    }
+
+    &__tag {
+        margin-right: 1em;
+        background-color: $color-gold;
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 30px;
+        color: $color-white;
+    }
+
+    &__title{
+        overflow: hidden;
+        white-space: nowrap;
+        
+        h3 {
+            font-size: 1.125em;
+            font-weight: normal;
+        }
+    }
+
+
+
+
+}

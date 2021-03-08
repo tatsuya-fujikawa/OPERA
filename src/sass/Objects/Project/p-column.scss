@@ -1,0 +1,75 @@
+.p-column {
+    background-color: rgb(255,238,242);
+    background: linear-gradient(180deg, rgba(255,238,242,1) 0%, rgba(255,255,255,1) 100%);
+    padding-top: 7.8em;
+    padding-bottom: 5em;
+    position: relative;
+    overflow: hidden;
+
+    &:before {
+        content: '';
+        position: absolute;
+        display: inline-block;
+        background-image: url(./img/bg_animals01.png);
+        background-position: bottom left;
+        width: 580px;
+        height: 580px;
+        background-repeat: no-repeat;
+        bottom: -10%;
+        left: -5%;
+        opacity: 0.5;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        display: inline-block;
+        background-image: url(./img/bg_animals02.png);
+        background-position: bottom right;
+        width: 580px;
+        height: 580px;
+        background-repeat: no-repeat;
+        bottom: -17%;
+        right: -5%;
+        opacity: 0.5;
+    }
+
+    &__container {
+        background-color: $color-white;
+    }
+
+    &__list {
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        margin: 5em auto 3em;
+
+        &-item {
+            width: 21%;  //21% * 4 = 84%
+            margin-left: calc(16% / 3);
+            position: relative;
+            z-index: 20;
+
+            img {
+                width: 100%;
+            }
+
+            &:first-of-type {
+                margin-left: 0;
+            }
+        }
+
+        &-date {
+            font-size: 1.75em;
+            text-align: center;
+            padding-top: 0.5em;
+            padding-bottom: 0.5rem;
+        }
+
+        &-title {
+            font-size: 1.125rem;
+            font-weight: normal;
+        }
+    }
+
+}
