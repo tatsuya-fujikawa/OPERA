@@ -1,18 +1,41 @@
 .p-information {
     &__wrapper {
-        margin-top: 5em;
         margin: 5em auto;
         background-image: url(./img/bg_information.svg);
         background-position: center;
         width: 1131px;
         height: 315px;
-        padding-top: 3em;
+        padding-top: 2.5em;
 
         @include mq('sp') {
+            position: relative;
             background-image: none;
-            width: 95%;
+            width: 100%;
             height: auto;
-            padding-top: 0;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            border-top: 1px solid #7c5e41;
+            border-bottom: 1px solid #7c5e41;
+            margin: 3em auto;
+        }
+
+        &:before {
+            @include mq('sp') {
+                position: absolute;
+                content: '';
+                width: 100%;
+                border-top: 4px solid #7c5e41;
+                top: -10px;
+            }
+        }
+        &:after {
+            @include mq('sp') {
+                position: absolute;
+                content: '';
+                width: 100%;
+                border-top: 4px solid #7c5e41;
+                bottom: -10px;
+            }
         }
     }
 
@@ -22,9 +45,12 @@
         width: 83%;
         margin: 0 auto;
         padding-bottom: 0.8em;
+        padding-top: 0.5em;
 
         @include mq('sp') {
             display: block;
+            width: 95%;
+            padding-top: 1.5em;
         }
 
         &:last-of-type {
@@ -56,6 +82,11 @@
     &__title{
         overflow: hidden;
         white-space: nowrap;
+
+        @include mq('sp') {
+            white-space: normal;
+            overflow: visible;
+        }
         
         h3 {
             font-size: 1.125em;
@@ -63,6 +94,10 @@
         }
     }
 
+    &__button {
+        margin-bottom: 2.5em;
+        padding: 15px 30px;
+    }
 
 
 

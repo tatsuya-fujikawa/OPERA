@@ -6,6 +6,7 @@
 
   @include mq('sp') {
       font-size: 1.5em;
+      font-weight: bold;
   }
 
     &::before {
@@ -20,11 +21,13 @@
         @include mq('sp') {
             font-size: 4.375rem;
             bottom: 50px;
+            font-weight: normal;
         }
 
         @include mq('small') {
             font-size: 2.1em;
             bottom: 30px;
+            font-weight: normal;
         }
     }
 

@@ -2,6 +2,11 @@
   padding-top: 7.6em;
   padding-bottom: 7.6em;
 
+  @include mq('sp') {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
   &__inner {
     background-color: $color-white;
     padding: 2em;

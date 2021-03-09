@@ -32,4 +32,10 @@
     &.-notop {
      padding-top: 0;
     }
+
+    &.-button {
+        @include mq('sp') {
+            padding: 2em 0;
+        }
+    }
    }

@@ -1,3 +1,7 @@
 .l-footer {
     padding-top: 6.5em;
+
+    @include mq('sp') {
+        padding-top: 2.7em;
+    }
 }
