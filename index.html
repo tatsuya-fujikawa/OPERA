@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 公開前に消す -->
+    <meta name="robots" content="noindex">
+    <!-- 公開前に消す -->
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Great+Vibes&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./slick/slick.min.js" defer></script>
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <scrip type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></scrip> -->
+    <link rel="stylesheet" href="./sass/style.css">
+    <script src="./js/slick.js" defer></script>
     <title>OPERA</title>
 </head>
 <body>
@@ -168,7 +179,7 @@
                 <div class="p-flow__title l-spacer -title -nobottom">
                     <h2 class="c-title u-centerposition" title="Flow">お申し込みからの流れ</h2>
                 </div>
-                <div class="p-flow__step">
+                <div class="p-flow__step js-slick">
                     <div class="p-flow__step-item">
                         <div class="p-flow__flex-forSP">
                             <div class="p-flow__step-top">
@@ -196,7 +207,7 @@
                             <p>フローリストが<br class="pc">お通夜セットをお届け</p>
                         </div>
                     </div>
-                    <!--p-flow__step-item-->                    
+                    <!--p-flow__step-item-->
                     <div class="p-flow__step-item">
                         <div class="p-flow__step-top">
                             <h3 class="p-flow__step-title twocolumn">お申し込みから3日後まで</h3>

@@ -6,7 +6,7 @@
 
         @include mq('sp') {
             display: block;
-            background: url(./img/sp/img_02.png);
+            background: url(../img/sp/img_02.png);
             background-size: cover;
             background-repeat: no-repeat;
             width: 100%;
@@ -15,7 +15,7 @@
 
     &.-rows {
         @include mq('sp') {
-            background: url(./img/sp/img_03.png);
+            background: url(../img/sp/img_03.png);
         }
     }
 

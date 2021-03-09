@@ -1,14 +1,14 @@
 .p-letter {
     &__container {
         position: relative;
-        background-image: url(./img/bg_lead.png);
+        background-image: url(../img/bg_lead.png);
         background-position: center;
         width: 100%;
         height: 917px;
         margin: 0 auto;
 
         @include mq('sp') {
-            background-image: url(./img/sp/bg_lead.png);
+            background-image: url(../img/sp/bg_lead.png);
             background-size: cover;
             background-position: bottom;
             height: 827px;
