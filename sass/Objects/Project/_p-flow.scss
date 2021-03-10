@@ -76,8 +76,13 @@
             text-align: center;
 
             img {
+                width: 100%;
+                @include mq('pc') {
+                    width: 80%;
+                }
                 @include mq('sp') {
                     margin: 0 auto;
+                    width: 232px;
                 }
             }
 

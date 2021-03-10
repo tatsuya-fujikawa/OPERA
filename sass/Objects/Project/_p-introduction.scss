@@ -63,11 +63,11 @@
             position: absolute;
             display: inline-block;
             background-color: rgba(240,236,225, 1);
-            width: 100%;
+            width: 97%;
             height: 70%;
             z-index: -2;
             top: 20%;
-            right: 17%;
+            right: 15%;
 
             @include mq('sp') {
                 width: 0%;
@@ -124,11 +124,11 @@
             position: absolute;
             display: inline-block;
             background-color: rgba(240,236,225, 1);
-            width: 100%;
+            width: 90%;
             height: 70%;
             z-index: -2;
             top: 20%;
-            left: 9%;
+            left: 7%;
 
             @include mq('sp') {
                 width: 0%;

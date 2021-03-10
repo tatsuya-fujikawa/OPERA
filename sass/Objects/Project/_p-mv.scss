@@ -73,7 +73,7 @@
   &__price {
     text-align: center;
     margin: 1em auto;
-    max-width: 35%;
+    max-width: 42%;
     background-color: rgba(255,255,255,0.8);
 
     @include mq('sp') {
@@ -88,8 +88,7 @@
 
     &-text {
       font-size: 1.375em;
-      padding-top: .5em;
-      padding-bottom: .5em;
+      padding: 1em 0.5em 1em;
       line-height: 38px;
 
       span {

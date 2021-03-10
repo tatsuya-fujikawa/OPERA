@@ -2,7 +2,7 @@
   "name": "OPERA",
   "version": "1.0.0",
   "description": "",
-  "main": "slick.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

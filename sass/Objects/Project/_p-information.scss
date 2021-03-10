@@ -1,11 +1,19 @@
 .p-information {
     &__wrapper {
         margin: 5em auto;
-        background-image: url(../img/bg_information.svg);
         background-position: center;
-        width: 1131px;
-        height: 315px;
+        // width: 1131px;
+        // height: 315px;
         padding-top: 2.5em;
+        border-top: 1px solid #7c5e41;
+        border-bottom: 1px solid #7c5e41;
+
+        @include mq('pc') {
+            background-image: url(../img/bg_information.svg);
+            width: 1131px;
+            height: 315px;
+            border: none;
+        }
 
         @include mq('sp') {
             position: relative;
@@ -14,8 +22,7 @@
             height: auto;
             padding-top: 15px;
             padding-bottom: 20px;
-            border-top: 1px solid #7c5e41;
-            border-bottom: 1px solid #7c5e41;
+
             margin: 3em auto;
         }
 
@@ -45,7 +52,7 @@
         width: 83%;
         margin: 0 auto;
         padding-bottom: 0.8em;
-        padding-top: 0.5em;
+        padding-top: 1em;
 
         @include mq('sp') {
             display: block;
@@ -70,7 +77,7 @@
         margin-right: 1em;
         background-color: $color-gold;
         display: inline-block;
-        padding: 5px 10px;
+        padding: 0 10px;
         border-radius: 30px;
         color: $color-white;
 

@@ -1,0 +1,144 @@
+.p-humberger {
+  &__menu {
+    position: absolute;
+    height: 20px;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    z-index: 99;
+    outline: none;
+
+    &-line {
+      background: $color-gold;
+      display: block;
+      height: 2px;
+      position: absolute;
+      transition: transform 0.3s;
+      width: 100%;
+
+      &.active {
+        background-color: $color-white;
+      }
+
+      &.-top {
+        top: 0;
+        &.active {
+          background-color: $color-white;
+        }
+      }
+  
+      &.-middle {
+        top: 9px;
+        &.active {
+          background-color: $color-white;
+        }
+      }
+  
+      &.-bottom{
+        bottom: 0;
+        &.active {
+          color: $color-white;
+        }
+      }
+  }
+
+  }
+
+  &__gnav {
+    background-color:rgba(180,158,104,0.9);
+    display: none;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 98;
+
+    &-wrap {
+      align-items: center;
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      width: 100%;
+    }
+
+    &-menu {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+
+      &-item {
+        margin: 40px 0 40px 10px;
+        transition-timing-function: ease-in;
+
+        a {
+          color: $color-white;
+          font-size: 1.375em;
+          padding: 0 0 0 0.3em;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+
+  &__line {
+    display: inline-block;
+    vertical-align: middle;
+    color: $color-white;
+    line-height: 1;
+    width: 1em;
+    height: 0.1em;
+    background: currentColor;
+    border-radius: 0.1em;
+    position: relative;
+    transform: rotate(45deg);
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: inherit;
+      border-radius: inherit;
+      transform: rotate(90deg);
+    }
+
+  }
+
+  &__close {
+    &-button {
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      outline: none;
+    }
+  }
+
+  &__circle {
+    display: inline-block;
+    border: 1px solid $color-white;
+    border-radius: 50%;
+    padding: 15px 20px;
+
+  }
+
+  &__en {
+    font-size: 0.75em;
+    padding-left: 0.5em;
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      height: 15px;
+      width: 1px;
+      background-color: $color-white;
+      top: 10%;
+      left: 3px;
+    }
+  }
+  
+
+}

@@ -18,10 +18,51 @@
     <scrip type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></scrip> -->
     <link rel="stylesheet" href="./sass/style.css">
     <script src="./js/slick.js" defer></script>
+    <script src="./js/humberger.js" defer></script>
+    <script src="./js/script.js" defer></script>
     <title>OPERA</title>
 </head>
 <body>
     <header class="l-header p-header">
+        <div class="p-humberger sp">
+            <div class="p-humberger__button">
+                <button class="p-humberger__menu">
+                    <span class="p-humberger__menu-line -top"></span>
+                    <span class="p-humberger__menu-line -middle"></span>
+                    <span class="p-humberger__menu-line -bottom"></span>
+                </button>
+            </div>
+            <nav class="p-humberger__gnav">
+                <div class="p-humberger__gnav-wrap">
+                    <ul class="p-humberger__gnav-menu">
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#"><span class="u-uppercase">opera</span>とは<span><span class="p-humberger__en">About</span></span></a>
+                        </li>
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#">自宅葬サービス<span class="p-humberger__en">Home Funeral</span></a>
+                        </li>
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#">お焚き上げサービス<span class="p-humberger__en">Otakiage</span></a>
+                        </li>
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#">スタッフ紹介<span class="p-humberger__en">Staff</span></a>
+                        </li>
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#">アフターサポート<span class="p-humberger__en">Support</span></a>
+                        </li>
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#">インフォメーション<span class="p-humberger__en">Information</span></a>
+                        </li>
+                            <button class="p-humberger__close-button">
+                                <span class="u-visually-hidden">閉じる</span>
+                                <div class="p-humberger__circle">
+                                    <span class="p-humberger__line"></span>
+                                </div>
+                            </button>
+                    </ul>
+                </div>
+            </nav>
+        </div>
         <div class="l-container">
             <div class="p-header__top">
                 <div class="p-header__top-left">
@@ -68,6 +109,7 @@
                 </div>
             </div>
         </nav>
+
     </header>
     <main>
         <section class="l-mv p-mv">
@@ -445,7 +487,7 @@
                 </div>
             </div>
         </section>
-        <div class="p-floating pc">
+        <div id="js-floating" class="p-floating pc">
             <div class="p-floating__wrapper">
                 <p class="p-floating__text">24時間電話受付</p>
                 <div class="p-floating__middle">
@@ -458,7 +500,7 @@
     </main>
     <!-- トップスクロールボタン-->
     <div class="p-topscroll">
-        <button class="p-topscroll__wrapper">
+        <button id="js-scroll" class="p-topscroll__wrapper">
             <p class="p-topscroll__text u-uppercase">top</p>
         </button>
     </div>
@@ -548,5 +590,33 @@
             <p class="p-footer__copyright-text">&copy;<span class="u-uppercase">2021 good luck &d</span></p>
         </div>
     </footer>
+    <div class="l-bottom p-bottom sp">
+        <div class="p-bottom__wrapper">
+            <div class="p-bottom__left">
+                <a href="">
+                    <div class="p-bottom__flex">
+                        <div class="p-bottom__icon">
+                            <img src="./img/sp/call.png" alt="">
+                        </div>
+                        <div class="p-bottom__text">
+                            <p>24時間<br><span class="p-bottom__text-strong">電話受付</span></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="p-bottom__right">
+                <a href="">
+                    <div class="p-bottom__flex">
+                        <div class="p-bottom__icon -mail">
+                            <img src="./img/sp/mail.png" alt="">
+                        </div>
+                        <div class="p-bottom__text">
+                            <p>ご相談・お申し込み<br><span class="p-bottom__text-strong">メール受付</span></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,6 +1,6 @@
 .p-column {
     background-color: rgb(255,238,242);
-    background: linear-gradient(180deg, rgba(255,238,242,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(255,238,242,1) 0%, rgba(255,255,255,1) 50%);
     padding-top: 7.8em;
     padding-bottom: 5em;
     position: relative;
@@ -101,11 +101,19 @@
             text-align: center;
             padding-top: 0.5em;
             padding-bottom: 0.5rem;
+
+            @include mq('sp') {
+                font-size: 1.25em;
+            }
         }
 
         &-title {
-            font-size: 1.125rem;
+            font-size: 1.125em;
             font-weight: normal;
+
+            @include mq('sp') {
+                font-size: 1em;
+            }
         }
     }
 
