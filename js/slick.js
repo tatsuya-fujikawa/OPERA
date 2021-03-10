@@ -7,6 +7,7 @@ $(function() {
                 dots: true,
                 arrows: true,
             });
+            
         } else {
             $('.js-slick.slick-initialized').slick('unslick');
         }
@@ -17,3 +18,4 @@ $(function() {
     });
 
 });
+

@@ -60,7 +60,7 @@ $layout-width-inner: 1300px;
 $breakpoints: (
   "small": "screen and (max-width: 425px)",
   "sp": "screen and (max-width: 767px)",
-  "tab": "screen and (max-width: 1200px})",
+  "tab": "screen and (max-width: 1200px)",
   "pc": "screen and (min-width: #{$layout-width-inner})"
 );
 
@@ -75,8 +75,12 @@ $breakpoints: (
 
 .pc { display: block !important; }
 .sp { display: none !important; }
+.pc_inline { display: inline-block !important; }
+.sp_inline { display: none !important; }
 
 @include mq('sp') {
     .pc { display: none !important; }
     .sp { display: block !important; }
+    .pc_inline { display: none !important; }
+    .sp_inline { display: inline-block !important; }
 }

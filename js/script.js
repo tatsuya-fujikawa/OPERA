@@ -13,7 +13,6 @@ window.addEventListener('scroll', function() {
 });
 }
 
-
 {
   //トップへスクロール
 const pagetopBtn = document.getElementById('js-scroll');
@@ -24,4 +23,12 @@ pagetopBtn.addEventListener('click', () => {
   });
 });
 
+}
+
+{
+  const w = window.innerWidth;
+  const target = document.getElementById('js-deleteTarget');
+  if(w < 767) {
+    target.remove();
+  }
 }

@@ -25,8 +25,12 @@
     }
 
     &-narrow2 {
-      width: 83%;
-      margin: 5em auto 0;
+      width: 100%;
+      
+      @include mq('pc') {
+        width: 83%;
+        margin: 5em auto 0;
+      }
 
       @include mq('sp') {
         width: 100%;
@@ -76,9 +80,13 @@
         background-position: center;
         padding-top: 4em;
 
+        @include mq('small') {
+          padding-top: 4.5em;
+        }
+
         &:first-of-type {
           @include mq('small') {
-            margin-bottom: -60px;
+            margin-bottom: -80px;
           }
         }
 
@@ -105,6 +113,12 @@
         padding-top: 0.3em;
         font-size: 0.875em;
       }
+      @include mq('small') {
+        font-size: 0.75em;
+      }
+      @include mq('tab') {
+        padding-top: 1em;
+      }
     }
 
     &-title {
@@ -122,7 +136,12 @@
       }
 
       @include mq('small') {
-        font-size: 1.125em;
+        font-size: 1em;
+      }
+
+      @include mq('tab') {
+        font-size: 1.5em;
+        padding-top: 0.5em;
       }
 
       &::before {
@@ -145,7 +164,9 @@
     }
 
     &-item {
-      padding: 0 2em;
+      @include mq('pc') {
+        padding: 0 2em;
+      }
 
       img {
         @include mq('sp') {

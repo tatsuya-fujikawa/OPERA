@@ -19,23 +19,31 @@
 
   &__slide {
     width: 100%;
+
+    @include mq('tab') {
+      min-height: 400px;
+      object-fit: cover;
+    }
   }
 
   &__wrapper {
     position: absolute;
     content: "";
-    width: 50%;
+    width: 80%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
+    @include mq('pc') {
+      width: 50%;
+    }
 
     @include mq('sp') {
       width: 90%;
       transform: none;
       top: 10%;
       left: 0;
-      padding-left: 5%;
+      padding-left: 3%;
     }
 
     @include mq('small') {
@@ -44,11 +52,15 @@
   }
 
   &__lead {
-    font-size: 3.125em;
+    font-size: 2.5em;
     text-align: center;
 
+    @include mq('pc') {
+      font-size: 3.125em;
+    }
+
     @include mq('sp') {
-      font-size: 2.5em;
+      font-size: 2em;
       text-align: left;
     }
 
@@ -58,7 +70,7 @@
   }
 
   &__text {
-    font-size: 1.75em;
+    font-size: 1.5em;
     text-align: center;
 
     @include mq('sp') {
@@ -96,7 +108,10 @@
       }
 
       @include mq('small') {
+        margin-top: 1em;
         font-size: 1em;
+        line-height: 30px;
+        padding: 0.5em 0.2em;
       }
     }
   }

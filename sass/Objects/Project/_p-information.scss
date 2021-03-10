@@ -2,57 +2,60 @@
     &__wrapper {
         margin: 5em auto;
         background-position: center;
-        // width: 1131px;
-        // height: 315px;
         padding-top: 2.5em;
+        padding-bottom: 2.5em;
         border-top: 1px solid #7c5e41;
         border-bottom: 1px solid #7c5e41;
+        position: relative;
+        background-image: none;
+        width: 100%;
+        height: auto;
+        margin: 3em auto;
 
         @include mq('pc') {
             background-image: url(../img/bg_information.svg);
             width: 1131px;
             height: 315px;
+            padding-top: 2.5em;
             border: none;
+            padding-bottom: 0;
+            
         }
-
-        @include mq('sp') {
-            position: relative;
-            background-image: none;
-            width: 100%;
-            height: auto;
-            padding-top: 15px;
-            padding-bottom: 20px;
-
-            margin: 3em auto;
-        }
-
         &:before {
-            @include mq('sp') {
                 position: absolute;
                 content: '';
                 width: 100%;
                 border-top: 4px solid #7c5e41;
                 top: -10px;
-            }
+
+                @include mq('pc') {
+                    border: none;
+                }
         }
         &:after {
-            @include mq('sp') {
                 position: absolute;
                 content: '';
                 width: 100%;
                 border-top: 4px solid #7c5e41;
                 bottom: -10px;
-            }
+
+                @include mq('pc') {
+                    border: none;
+                }
         }
     }
 
     &__line {
         display: flex;
         align-items: center;
-        width: 83%;
+        width: 90%;
         margin: 0 auto;
         padding-bottom: 0.8em;
         padding-top: 1em;
+
+        @include mq('pc') {
+            width: 83%;
+        }
 
         @include mq('sp') {
             display: block;
@@ -80,6 +83,10 @@
         padding: 0 10px;
         border-radius: 30px;
         color: $color-white;
+
+        p {
+            min-width: 68px;
+        }
 
         @include mq('sp') {
             display: inline-block;

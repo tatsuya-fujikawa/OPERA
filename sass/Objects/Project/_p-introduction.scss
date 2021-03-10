@@ -16,6 +16,7 @@
     &.-rows {
         @include mq('sp') {
             background: url(../img/sp/img_03.png);
+            background-repeat: no-repeat;
         }
     }
 
@@ -31,6 +32,14 @@
                 width: 100%;
             }
         }
+
+        @include mq('tab') {
+            width: 50%;
+
+            img {
+                width: 100%;
+            }
+        }
     }
 
     &__right {
@@ -38,8 +47,16 @@
         margin-left: 3.5em;
         position: relative;
 
+        @include mq('tab') {
+            width: 50%;
+
+            img {
+                width: 100%;
+            }
+        }
         @include mq('sp') {
             margin: 0;
+            width: 100%;
         }
 
         &:before {
@@ -147,17 +164,23 @@
             color: $color-white;
             padding-left: 3%;
         }
+
+        @include mq('tab') {
+            font-size: 2.5em;
+        }
     }
 
     &__middle {
         padding-top: 4em;
 
+        @include mq('tab') {
+            padding-top: 2.5em;
+        }
         @include mq('sp') {
             padding-top: 0.5em;
             color: $color-white;
             padding-left: 3%;
         }
-
         &-text {
             font-size: 1.125em;
         }
@@ -170,6 +193,14 @@
             padding-top: 2em;
             padding-bottom: 2em;
             text-align: center;
+        }
+
+        @include mq('tab') {
+            padding-top: 5em;
+        }
+
+        @include mq('sp') {
+            padding-top: 3em;
         }
     }
 

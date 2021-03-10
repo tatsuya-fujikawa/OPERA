@@ -23,12 +23,19 @@
         left: -5%;
         opacity: 0.5;
 
+        @include mq('tab') {
+            width: 350px;
+            height: 350px;
+            background-size: contain;
+            bottom: -8%;
+        }
         @include mq('sp') {
             width: 180px;
             height: 180px;
             background-size: cover;
             bottom: -4%;
         }
+
     }
 
     &:after {
@@ -44,6 +51,12 @@
         right: -5%;
         opacity: 0.5;
 
+        @include mq('tab') {
+            width: 350px;
+            height: 350px;
+            background-size: contain;
+            bottom: -8%;
+        }
         @include mq('sp') {
             width: 180px;
             height: 180px;

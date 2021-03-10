@@ -25,7 +25,6 @@
 
     &__freedial {
        padding-right: 2em;
-
        img {
            width: 100%;
        }
@@ -59,8 +58,12 @@
         padding-bottom: 1em;
 
         &-item {
-            margin-right: 4.5em;
+            margin-right: 2em;
             position: relative;
+
+            @include mq('pc') {
+                margin-right: 4.5em;
+            }
 
             &:last-of-type {
                 margin-right: 0;
@@ -84,9 +87,17 @@
                 content: attr(title);
                 display: block;
                 text-align: center;
-                font-size: 1.5em;
+                font-size: 1.25em;
                 font-family: $en-font2;
                 width: 100%;
+
+                @include mq('pc') {
+                    font-size: 1.5em;
+                }
+                @include mq('tab') {
+                    font-size: 1.125em;
+                }
+    
             }
         }
     }
