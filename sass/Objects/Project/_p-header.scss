@@ -61,6 +61,15 @@
             margin-right: 2em;
             position: relative;
 
+            a {
+                &:hover {
+                    transition: 0.5s;
+                    transform: scale(0.95, 0.95);
+                    opacity: 0.8;
+
+                }
+            }
+
             @include mq('pc') {
                 margin-right: 4.5em;
             }
