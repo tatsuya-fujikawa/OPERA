@@ -11,16 +11,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Great+Vibes&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="./slick/slick.min.js" defer></script>
-    <link rel="stylesheet" href="./slick/slick.css">
-    <link rel="stylesheet" href="./slick/slick-theme.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/slick/slick.min.js" defer></script>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/slick/slick.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/slick/slick-theme.css">
     <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <scrip type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></scrip> -->
-    <link rel="stylesheet" href="./sass/style.css">
-    <script src="./js/slick.js" defer></script>
-    <script src="./js/humberger.js" defer></script>
-    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/sass/style.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/js/slick.js" defer></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/humberger.js" defer></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/script.js" defer></script>
     <title>OPERA</title>
+    <?php wp_head(); ?>
 </head>
 <body>
     <header class="l-header p-header">
@@ -68,21 +69,21 @@
                 <div class="p-header__top-left">
                     <div class="p-header__logo">
                         <h1 class="u-visually-hidden">オペラ青山</h1>
-                        <img src="./img/header_logo.png" alt="オペラ青山ロゴ">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/header_logo.png" alt="オペラ青山ロゴ">
                     </div>
                 </div>
                 <div class="p-header__top-right">
                     <div class="p-header__freedial pc">
-                        <a href="tel:0120711212"><img src="./img/header_freedial.png" alt="電話番号"></a>
+                        <a href="tel:0120711212"><img src="<?php echo get_template_directory_uri(); ?>/img/header_freedial.png" alt="電話番号"></a>
                     </div>
                     <div class="p-header__mail pc">
-                        <a href="#"><img src="./img/header_mailbtn.png" alt="お申し込み・ご相談メール"></a>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/header_mailbtn.png" alt="お申し込み・ご相談メール"></a>
                     </div>
                 </div>
             </div>
         </div>
         <nav class="p-header__nav pc">
-            <div class="l-container -narrow">
+            <div class="l-container">
                 <div class="p-header__flex">
                     <ul class="p-header__list">
                         <li class="p-header__list-item">
@@ -114,8 +115,8 @@
     <main>
         <section class="l-mv p-mv">
             <picture>
-                <source media="(max-width: 767px)" srcset="./img/sp/MV.png">
-                <img class="p-mv__slide" src="./img/MV.png" alt="">
+                <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/sp/MV.png">
+                <img class="p-mv__slide" src="<?php echo get_template_directory_uri(); ?>/img/MV.png" alt="">
             </picture>
             <div class="p-mv__wrapper">
                 <h2 class="p-mv__lead">大切なペットの命に、祈りを</h2>
@@ -181,8 +182,8 @@
                         <div class="p-service__description">
                             <div class="p-service__description-item">
                                 <picture>
-                                    <source media="(max-width: 767px)" srcset="./img/sp/img_01.png">
-                                    <img class="p-mv__slide" src="./img/img_01.png" alt="">
+                                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/sp/img_01.png">
+                                    <img class="p-mv__slide" src="<?php echo get_template_directory_uri(); ?>/img/img_01.png" alt="">
                                 </picture>
                             </div>
                             <div class="p-service__description-item">
@@ -228,7 +229,7 @@
                                 <h3 class="p-flow__step-title"><span class="sp_inline p-flow__step-number">1.&thinsp;</span>24時間受付</h3>
                             </div>
                             <div class="p-flow__step-middle">
-                                <img src="./img/circle_01.png" alt="" class="p-flow__step-img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/circle_01.png" alt="" class="p-flow__step-img">
                             </div>
                         </div>
                         <div class="p-flow__step-bottom">
@@ -242,7 +243,7 @@
                                 <h3 class="p-flow__step-title"><span class="sp_inline p-flow__step-number">2.&thinsp;</span>最短当日お届け</h3>
                             </div>
                             <div class="p-flow__step-middle">
-                                <img src="./img/circle_02.png" alt="" class="p-flow__step-img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/circle_02.png" alt="" class="p-flow__step-img">
                             </div>
                         </div>
                         <div class="p-flow__step-bottom">
@@ -257,7 +258,7 @@
                         <div class="p-flow__flexInner">
                             <div class="p-flow__flexInner-item">
                                 <div class="p-flow__step-middle">
-                                    <img src="./img/circle_03.png" alt="" class="p-flow__step-img">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/circle_03.png" alt="" class="p-flow__step-img">
                                 </div>
                                 <div class="p-flow__step-bottom">
                                     <p>牧師の<br class="pc">お祈り&カウンセリング</p>
@@ -265,7 +266,7 @@
                             </div>
                             <div class="p-flow__flexInner-item">
                                 <div class="p-flow__step-middle">
-                                    <img src="./img/circle_04.png" alt="" class="p-flow__step-img">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/circle_04.png" alt="" class="p-flow__step-img">
                                 </div>
                                 <div class="p-flow__step-bottom">
                                     <p>火葬車がお伺いし<br class="pc">ご遺体を火葬</p>
@@ -281,7 +282,7 @@
                                 <h3 class="p-flow__step-title"><span class="sp_inline p-flow__step-number">3.&thinsp;</span>お申し込みから3日後まで</h3>
                             </div>
                             <div class="p-flow__step-middle">
-                                <img src="./img/circle_03.png" alt="" class="p-flow__step-img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/circle_03.png" alt="" class="p-flow__step-img">
                             </div>
                         </div>
                         <div class="p-flow__step-bottom">
@@ -295,7 +296,7 @@
                                 <h3 class="p-flow__step-title"><span class="sp_inline p-flow__step-number">4.&thinsp;</span>お申し込みから3日後まで</h3>
                             </div>
                             <div class="p-flow__step-middle">
-                                <img src="./img/circle_04.png" alt="" class="p-flow__step-img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/circle_04.png" alt="" class="p-flow__step-img">
                             </div>
                         </div>
                         <div class="p-flow__step-bottom">
@@ -309,7 +310,7 @@
                                 <h3 class="p-flow__step-title"><span class="sp_inline p-flow__step-number">5.&thinsp;</span>一週間限定</h3>
                             </div>
                             <div class="p-flow__step-middle">
-                                <img src="./img/circle_05.png" alt="" class="p-flow__step-img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/circle_05.png" alt="" class="p-flow__step-img">
                             </div>
                         </div>
                         <div class="p-flow__step-bottom">
@@ -334,7 +335,7 @@
                 </div>
                 <div class="p-introduction__flex">
                     <div class="p-introduction__flex-item p-introduction__left pc">
-                        <img src="./img/img_02.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/img_02.png" alt="">
                     </div>
                     <div class="p-introduction__flex-item p-introduction__right">
                         <h3 class="p-introduction__title">お焚き上げサービス</h3>
@@ -358,7 +359,7 @@
                         
                     </div>
                     <div class="p-introduction__flex-item p-introduction__right -rows pc">
-                        <img src="./img/img_03.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/img_03.png" alt="">
                     </div>
                 </div>
 
@@ -527,7 +528,7 @@
             <div class="p-floating__wrapper">
                 <p class="p-floating__text">24時間電話受付</p>
                 <div class="p-floating__middle">
-                    <img src="./img/freecallicon.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/freecallicon.png" alt="">
                     <p class="p-floating__middle-phone">0120-71-1212</p>
                 </div>
                 <p class="p-floating__bottom">事前のご相談も承ります。</p>
@@ -541,7 +542,7 @@
         </button>
     </div>
     <footer class="l-footer p-footer">
-        <div class="l-container pc">
+        <div class="l-container -narrow pc">
             <div class="p-footer__top">
                 <nav class="p-footer__nav">
                     <ul class="p-footer__list">
@@ -566,16 +567,16 @@
                         <p class="p-footer__company-address">東京都港区南青山2丁目2番15号<br>ウィン青山834</p>
                     </div>
                     <div class="p-footer__sns">
-                        <a href="#"><img class="p-footer__sns-instagram" src="./img/instagram.svg" alt="インスタグラムロゴ" width="40px"></a>
-                        <a href="#"><img class="p-footer__sns-line" src="./img/line.svg" alt="ラインロゴ" width="40px"></a>
+                        <a href="#"><img class="p-footer__sns-instagram" src="<?php echo get_template_directory_uri(); ?>/img/instagram.svg" alt="インスタグラムロゴ" width="40px"></a>
+                        <a href="#"><img class="p-footer__sns-line" src="<?php echo get_template_directory_uri(); ?>/img/line.svg" alt="ラインロゴ" width="40px"></a>
                     </div>
                 </div>
                 <div class="p-footer__right">
                     <div class="p-footer__right-top">
-                        <a href="#"><img src="./img/mail_btn.png" alt=""></a>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/mail_btn.png" alt=""></a>
                     </div>
                     <div class="p-footer__right-bottom">
-                        <a href="#"><img src="./img/freedial.png" alt=""></a>
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/freedial.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -589,15 +590,15 @@
         <div class="p-footer__sp sp">
             <div class="p-footer__sp">
                 <div class="p-footer__sp-tel">
-                    <a href="#"><img src="./img/sp/footer_freedial.png" alt=""></a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/sp/footer_freedial.png" alt=""></a>
                 </div>
                 <div class="p-footer__sp-mail">
-                    <a href="#"><img src="./img/sp/footer_mail.png" alt=""></a>
+                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/sp/footer_mail.png" alt=""></a>
                     <p class="p-footer__sp-text">※生前のご相談も承っております</p>
                 </div>
                 <div class="p-footer__sns">
-                    <a href="#"><img class="p-footer__sns-instagram" src="./img/instagram.svg" alt="インスタグラムロゴ" width="60px"></a>
-                    <a href="#"><img class="p-footer__sns-line" src="./img/line.svg" alt="ラインロゴ" width="60px"></a>
+                    <a href="#"><img class="p-footer__sns-instagram" src="<?php echo get_template_directory_uri(); ?>/img/instagram.svg" alt="インスタグラムロゴ" width="60px"></a>
+                    <a href="#"><img class="p-footer__sns-line" src="<?php echo get_template_directory_uri(); ?>/img/line.svg" alt="ラインロゴ" width="60px"></a>
                 </div>
                 <div class="p-footer__company-sp">
                     <p class="p-footer__company-name-sp">株式会社<span class="u-uppercase">good luck &d</span></p>
@@ -632,7 +633,7 @@
                 <a href="">
                     <div class="p-bottom__flex">
                         <div class="p-bottom__icon">
-                            <img src="./img/sp/call.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/sp/call.png" alt="">
                         </div>
                         <div class="p-bottom__text">
                             <p>24時間<br><span class="p-bottom__text-strong">電話受付</span></p>
@@ -644,7 +645,7 @@
                 <a href="">
                     <div class="p-bottom__flex">
                         <div class="p-bottom__icon -mail">
-                            <img src="./img/sp/mail.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/sp/mail.png" alt="">
                         </div>
                         <div class="p-bottom__text">
                             <p>ご相談・お申し込み<br><span class="p-bottom__text-strong">メール受付</span></p>
@@ -654,5 +655,6 @@
             </div>
         </div>
     </div>
+    <?php wp_footer(); ?>
 </body>
 </html>

@@ -9,11 +9,15 @@
     }
 
     @include mq('pc') {
-        max-width: 1440px;        
+        max-width: 1300px;        
     }
 
     @include mq('sp') {
         max-width: 93%;
+    }
+
+    &.-narrow {
+        width: 90%;
     }
 
 }

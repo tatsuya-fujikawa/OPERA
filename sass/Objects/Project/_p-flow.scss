@@ -123,6 +123,13 @@
                 font-size: 1em;
             }
         }
+
+        &-number {
+            color: $color-gold;
+            font-weight: bold;
+            font-size: 1.125em;
+            padding-right: 0.2em;
+        }
     }
 
 

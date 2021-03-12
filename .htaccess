@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "opera"
-AuthUserFile "/html/OPERA/.htpasswd"
-require valid-user

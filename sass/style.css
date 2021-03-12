@@ -358,6 +358,10 @@ a {
   transition: 0.5s;
 }
 
+a:hover {
+  opacity: 0.8;
+}
+
 address {
   font-style: normal;
 }
@@ -406,7 +410,7 @@ address {
 
 @media screen and (min-width: 1300px) {
   .l-container {
-    max-width: 1440px;
+    max-width: 1300px;
   }
 }
 
@@ -414,6 +418,10 @@ address {
   .l-container {
     max-width: 93%;
   }
+}
+
+.l-container.-narrow {
+  width: 90%;
 }
 
 .l-spacer {
@@ -1082,8 +1090,14 @@ address {
 
 @media screen and (max-width: 1200px) {
   .p-mv__slide {
-    min-height: 400px;
+    height: 420px;
     object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .p-mv__slide {
+    height: auto;
   }
 }
 
@@ -1357,6 +1371,13 @@ address {
   .p-flow__step-bottom {
     font-size: 1em;
   }
+}
+
+.p-flow__step-number {
+  color: #b49e68;
+  font-weight: bold;
+  font-size: 1.125em;
+  padding-right: 0.2em;
 }
 
 .p-flow__flexInner {
@@ -2265,6 +2286,7 @@ address {
   margin-left: calc(16% / 3);
   position: relative;
   z-index: 20;
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 767px) {
@@ -2274,6 +2296,10 @@ address {
     margin-right: calc(8% / 2);
     padding-bottom: 2em;
   }
+}
+
+.p-column__list-item:hover {
+  transform: translateY(-5px);
 }
 
 .p-column__list-item img {
