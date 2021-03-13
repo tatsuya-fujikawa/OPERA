@@ -83,7 +83,7 @@
             </div>
         </div>
         <nav class="p-header__nav pc">
-            <div class="l-container">
+            <div class="l-container -narrow">
                 <div class="p-header__flex">
                     <ul class="p-header__list">
                         <li class="p-header__list-item">
