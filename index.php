@@ -535,13 +535,13 @@
             </div>
         </div>
     </main>
-    <!-- トップスクロールボタン-->
-    <div class="p-topscroll">
-        <button id="js-scroll" class="p-topscroll__wrapper">
-            <p class="p-topscroll__text u-uppercase">top</p>
-        </button>
-    </div>
     <footer class="l-footer p-footer">
+        <!-- トップスクロールボタン-->
+        <div class="p-topscroll">
+            <button id="js-scroll" class="p-topscroll__wrapper">
+                <p class="p-topscroll__text u-uppercase">top</p>
+            </button>
+        </div>
         <div class="l-container -narrow pc">
             <div class="p-footer__top">
                 <nav class="p-footer__nav">

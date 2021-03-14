@@ -1,0 +1,25 @@
+.p-description {
+    background-image: url('../img/staff/staff_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 751px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__title {
+        font-size: 2.375em;
+        text-align: center;
+        padding-top: 1em;
+    }
+
+    &__wrap {
+        &-text {
+            text-align: center;
+            font-size: 1.125em;
+            margin-top: 1.9em;
+        }
+        
+    }
+}

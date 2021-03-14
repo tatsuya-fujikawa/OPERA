@@ -1,0 +1,61 @@
+.p-more {
+
+    &__box {
+        background-color: $color-gold;
+    }
+
+    &__top {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    &__title {
+        font-size: 2.375em;
+        text-align: center;
+        padding-top: 1.5em;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3em;
+        padding-top: 3em;
+    }
+
+    &__button {
+        font-size: 1.5em;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        background-color: $color-white;
+        min-width: 380px;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-right: 3em;
+        margin: 0 1em;
+
+
+        &:after {
+            position: absolute;
+            content:'';
+            background-image: url(../img/about/about_arrow.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 48px;
+            height: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 20px;
+            transition: 0.5s;
+        }
+
+        &:hover {
+            &:after {
+                right: 13px;
+                transition: 0.5s;
+            }
+        }
+    }
+
+
+}

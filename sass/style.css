@@ -320,6 +320,7 @@ svg:not([fill]) {
 html, body {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -397,15 +398,20 @@ address {
   }
 }
 
-.l-container {
-  margin: 0 auto;
-  max-width: 95%;
+.l-footer {
+  padding-top: 6.5em;
 }
 
 @media screen and (max-width: 767px) {
-  .l-container.-forWide {
-    max-width: 100%;
+  .l-footer {
+    padding-top: 2.7em;
+    padding-bottom: 60px;
   }
+}
+
+.l-container {
+  margin: 0 auto;
+  max-width: 95%;
 }
 
 @media screen and (min-width: 1300px) {
@@ -420,8 +426,18 @@ address {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .l-container.-forWide {
+    max-width: 100%;
+  }
+}
+
 .l-container.-narrow {
   width: 90%;
+}
+
+.l-container.-forSub {
+  max-width: 1185px;
 }
 
 .l-spacer {
@@ -480,15 +496,17 @@ address {
   }
 }
 
-.l-footer {
-  padding-top: 6.5em;
+.l-commitment {
+  padding-top: 15em;
 }
 
-@media screen and (max-width: 767px) {
-  .l-footer {
-    padding-top: 2.7em;
-    padding-bottom: 60px;
-  }
+.l-more {
+  margin-top: 4em;
+  margin-bottom: 8em;
+}
+
+.l-staff {
+  padding-top: 4.5em;
 }
 
 .c-grid {
@@ -518,10 +536,8 @@ address {
   justify-content: center;
 }
 
-.c-text {
-  font-size: 1em;
-  letter-spacing: .1em;
-  line-height: 1.8em;
+.c-grid.-reverce {
+  flex-direction: row-reverse;
 }
 
 .c-button {
@@ -553,6 +569,50 @@ address {
 .c-button.-pplus {
   padding: 25px 50px;
   border-radius: 45px;
+}
+
+.c-button.-staff {
+  min-width: 330px;
+  text-align: center;
+  padding-right: 2.5em;
+  position: relative;
+}
+
+.c-button.-staff:before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  top: 40%;
+  right: 30px;
+  border-style: solid;
+  border-width: 15px 10px 0 10px;
+  border-color: #b49e68 transparent transparent transparent;
+  transition: 0.5s;
+}
+
+.c-button.-staff:after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  top: 40%;
+  right: 30px;
+  border-style: solid;
+  border-width: 4px 10px 0 10px;
+  border-color: #fff transparent transparent transparent;
+  z-index: 3;
+  transition: 0.5s;
+}
+
+.c-button.-staff:hover:after {
+  border-color: #b49e68 transparent transparent transparent;
+  transition: 0.5s;
+}
+
+.c-button.-staff:hover:before {
+  border-color: #fff transparent transparent transparent;
+  transition: 0.5s;
 }
 
 .c-title {
@@ -606,6 +666,90 @@ address {
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.c-subtitle {
+  position: relative;
+  overflow: hidden;
+}
+
+.c-subtitle:before {
+  content: '';
+  position: absolute;
+  background: url(../img/about/title_before01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  left: 0%;
+  top: 52%;
+  display: block;
+  width: 42vw;
+  height: 43px;
+}
+
+.c-subtitle:after {
+  content: '';
+  position: absolute;
+  background: url(../img/about/title_after01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  right: 0%;
+  top: 52%;
+  display: block;
+  width: 42vw;
+  height: 43px;
+}
+
+.c-title02 {
+  font-size: 2.375em;
+  font-weight: bold;
+  display: block;
+  margin-top: 3em;
+  position: relative;
+}
+
+.c-title02::before {
+  content: attr(title);
+  position: absolute;
+  height: 100%;
+  font-size: 6.875rem;
+  font-weight: normal;
+  font-family: "Great Vibes", cursive;
+  opacity: 0.7;
+  bottom: 120px;
+}
+
+.c-title02::after {
+  content: '';
+  position: absolute;
+  height: 120px;
+  background-color: #ffeef2;
+  width: 100%;
+  z-index: -1;
+  bottom: -10px;
+}
+
+.c-title02.-staff {
+  margin-top: 3.3em;
+}
+
+.c-title02.-staff::before {
+  bottom: 140px;
+}
+
+.c-text {
+  font-size: 1.125em;
+  line-height: 1.5em;
+  padding-bottom: 0.7em;
+}
+
+.c-border {
+  border: none;
+  width: 50vw;
+  height: 2px;
+  background-color: #e1d8c3;
+  margin: 0.5em auto;
 }
 
 .p-header__top {
@@ -2383,7 +2527,7 @@ address {
   color: #fff;
   height: 70px;
   padding: 2em 0.8em 0.2em;
-  top: -70px;
+  top: -177px;
 }
 
 .p-topscroll__text {
@@ -2478,6 +2622,145 @@ address {
 
 .p-bottom__icon img {
   width: 100%;
+}
+
+.p-about__flex {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 2em;
+}
+
+.p-about__flex-item {
+  padding-right: 3em;
+}
+
+.p-about__flex-item:last-of-type {
+  padding-right: 0;
+  padding-left: 3em;
+}
+
+.p-about__title {
+  font-size: 2.375em;
+}
+
+.p-about__lead-top {
+  padding-bottom: 3.5em;
+}
+
+.p-about__lead-text {
+  font-size: 1.125em;
+  line-height: 32px;
+  padding-bottom: 1.25em;
+}
+
+.p-about__lead-name {
+  font-size: 1.5em;
+  text-align: right;
+}
+
+.p-more__box {
+  background-color: #b49e68;
+}
+
+.p-more__top {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.p-more__title {
+  font-size: 2.375em;
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+.p-more__bottom {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3em;
+  padding-top: 3em;
+}
+
+.p-more__button {
+  font-size: 1.5em;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  min-width: 380px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 3em;
+  margin: 0 1em;
+}
+
+.p-more__button:after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/about/about_arrow.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48px;
+  height: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  transition: 0.5s;
+}
+
+.p-more__button:hover:after {
+  right: 13px;
+  transition: 0.5s;
+}
+
+.p-commitment__title {
+  padding-bottom: 4em;
+}
+
+.p-commitment__box {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.p-commitment__wrap-img {
+  width: 100%;
+}
+
+.p-commitment__wrap.-secound {
+  padding-left: 3em;
+}
+
+.p-commitment__lead {
+  padding-top: 1.5em;
+  padding-bottom: 0.8em;
+  font-size: 2.375em;
+}
+
+.p-description {
+  background-image: url("../img/staff/staff_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 751px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-description__title {
+  font-size: 2.375em;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.p-description__wrap-text {
+  text-align: center;
+  font-size: 1.125em;
+  margin-top: 1.9em;
+}
+
+.p-staff__nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 .u-uppercase {

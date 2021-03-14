@@ -24,4 +24,8 @@
     &.-center {
         justify-content: center;
     }
+
+    &.-reverce {
+        flex-direction: row-reverse;
+    }
 }
