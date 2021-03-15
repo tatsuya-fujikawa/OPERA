@@ -76,6 +76,17 @@
         width: 42vw;
         height: 43px;
     }
+
+    &.-privacy {
+        &:before {
+            width: 35vw;
+            top: 57%;
+        }
+        &:after {
+            width: 35vw;
+            top: 57%;
+        }
+    }
 }
 
 .c-title02 {
@@ -109,6 +120,13 @@
         margin-top: 3.3em;
         &::before {
             bottom: 140px;
+        }
+    }
+
+    &.-privacy {
+        margin-top: 3.3em;
+        &::before {
+            bottom: 142px;
         }
     }
 }

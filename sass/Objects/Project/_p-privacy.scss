@@ -1,0 +1,49 @@
+.p-privacy {
+    &__container {
+        margin: 2em auto 2em;
+    }
+
+    &__title {
+        font-size: 1.5em;
+        position: relative;
+
+        &:before {
+            content:'◆';
+            position: absolute;
+            color: $color-gold;
+            font-size: 1rem;
+            top: 15%;
+            left: -2.5%;
+        }
+    }
+
+    &__text {
+        font-size: 1.125em;
+        padding-top: 0.3em;
+
+        &-inline {
+            position: relative;
+            padding-left: 2em;
+            padding-bottom: 0.3em;
+
+            &:before {
+                content: '';
+                width: 30px;
+                height: 1px;
+                position: absolute;
+                background-color: $color-gold;
+                background-position: center;
+                top: 15px;
+                left: -10px;
+                margin-right: 1em;
+            }
+
+            &.-noborder {
+                padding-top: 1em;
+                &:before {
+                    height: 0;
+                }
+            }
+        }
+    }
+}

@@ -507,6 +507,12 @@ address {
 
 .l-staff {
   padding-top: 4.5em;
+  padding-bottom: 4.5em;
+}
+
+.l-privacy {
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .c-grid {
@@ -701,6 +707,16 @@ address {
   height: 43px;
 }
 
+.c-subtitle.-privacy:before {
+  width: 35vw;
+  top: 57%;
+}
+
+.c-subtitle.-privacy:after {
+  width: 35vw;
+  top: 57%;
+}
+
 .c-title02 {
   font-size: 2.375em;
   font-weight: bold;
@@ -738,6 +754,40 @@ address {
   bottom: 140px;
 }
 
+.c-title02.-privacy {
+  margin-top: 3.3em;
+}
+
+.c-title02.-privacy::before {
+  bottom: 142px;
+}
+
+.c-staff {
+  font-size: 2.375em;
+  position: relative;
+  line-height: 38px;
+  margin-left: 3em;
+}
+
+.c-staff:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 88px;
+  height: 2px;
+  background-color: #b49e68;
+  top: 25%;
+  left: -10%;
+}
+
+.c-staff:after {
+  position: relative;
+  content: attr(title);
+  display: block;
+  font-family: "Bodoni Moda", serif;
+  font-size: 1.5rem;
+}
+
 .c-text {
   font-size: 1.125em;
   line-height: 1.5em;
@@ -750,6 +800,10 @@ address {
   height: 2px;
   background-color: #e1d8c3;
   margin: 0.5em auto;
+}
+
+.c-border.-long {
+  width: 60vw;
 }
 
 .p-header__top {
@@ -2761,6 +2815,79 @@ address {
 .p-staff__nav {
   display: flex;
   justify-content: space-between;
+}
+
+.p-staff__wrapper {
+  margin-top: 5em;
+}
+
+.p-staff__flex {
+  display: flex;
+  align-items: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.p-staff__flex-item:first-of-type {
+  padding-right: 3.5em;
+}
+
+.p-staff__right {
+  margin-top: -2em;
+}
+
+.p-staff__text {
+  font-size: 1.125em;
+  padding-top: 1em;
+}
+
+.p-privacy__container {
+  margin: 2em auto 2em;
+}
+
+.p-privacy__title {
+  font-size: 1.5em;
+  position: relative;
+}
+
+.p-privacy__title:before {
+  content: '◆';
+  position: absolute;
+  color: #b49e68;
+  font-size: 1rem;
+  top: 15%;
+  left: -2.5%;
+}
+
+.p-privacy__text {
+  font-size: 1.125em;
+  padding-top: 0.3em;
+}
+
+.p-privacy__text-inline {
+  position: relative;
+  padding-left: 2em;
+  padding-bottom: 0.3em;
+}
+
+.p-privacy__text-inline:before {
+  content: '';
+  width: 30px;
+  height: 1px;
+  position: absolute;
+  background-color: #b49e68;
+  background-position: center;
+  top: 15px;
+  left: -10px;
+  margin-right: 1em;
+}
+
+.p-privacy__text-inline.-noborder {
+  padding-top: 1em;
+}
+
+.p-privacy__text-inline.-noborder:before {
+  height: 0;
 }
 
 .u-uppercase {

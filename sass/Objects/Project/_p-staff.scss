@@ -3,4 +3,31 @@
         display: flex;
         justify-content: space-between;
     }
+
+    &__wrapper {
+        margin-top: 5em;
+    }
+
+    &__flex {
+        display: flex;
+        align-items: center;
+        margin-top: 3em;
+        margin-bottom: 3em;
+
+        &-item {
+            &:first-of-type{
+                padding-right: 3.5em;
+            }
+        }
+    }
+
+    &__right {
+        margin-top: -2em;
+    }
+
+    &__text {
+        font-size: 1.125em;
+        padding-top: 1em;
+    }
+
 }
