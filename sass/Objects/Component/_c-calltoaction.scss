@@ -1,0 +1,76 @@
+.c-calltoaction {
+    background-color: #ffeef2;
+    width: 60%;
+    max-width: 900px;
+    margin: 0 auto 2em;
+    padding-bottom: 2em;
+
+    &__text {
+        font-size: 1.5em;
+        text-align: center;
+        padding-top: 0.5em;
+    }
+
+    &__middle {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    &__tel {
+        font-size: 1.5em;
+        line-height: 45px;
+        position: relative;
+        span {
+            margin-left: 1.4em;
+            font-size: 4rem;
+        }
+
+        &:before {
+            content: '';
+            position: relative;
+            background-image: url(../img/freecallicon.png);
+            display: inline-block;
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 80px;
+            height: 45px;
+            margin-right: 1em;
+            top: 60px;
+        }
+    }
+
+    &__form {
+        background-color: $color-white;
+        width: 65%;
+        margin: 0 auto;
+        text-align: center;
+        border: 1px solid $color-gold;
+        margin-top: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        
+        a {
+            color: $color-gold;
+            font-size: 1.75em;
+            display: block;
+            position: relative;
+
+            &:before {
+                position: absolute;
+                content: '';
+                display: block;
+                background-image: url(../img/mailicon.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                width: 60px;
+                height: 50px;
+                left: 15%;
+                top: -5%;
+            }
+        }
+    }
+
+
+}

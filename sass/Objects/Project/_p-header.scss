@@ -71,7 +71,7 @@
             }
 
             @include mq('pc') {
-                margin-right: 4.5em;
+                margin-right: 4em;
             }
 
             &:last-of-type {
@@ -82,10 +82,14 @@
         &-jp {
             display: block;
             text-align: center;
-            font-size: 1.125em;
+            font-size: 1em;
             width: 100%;
             position: relative;
             z-index: 10;
+
+            @include mq('pc') {
+                font-size: 1.125em;
+            }
 
             &:hover {
                 opacity: 1;

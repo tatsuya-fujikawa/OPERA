@@ -1,6 +1,10 @@
 .p-privacy {
     &__container {
+            @include mq('pc') {
+                width: 90%;
+            }
         margin: 2em auto 2em;
+        width: 85%;
     }
 
     &__title {

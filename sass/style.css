@@ -437,7 +437,13 @@ address {
 }
 
 .l-container.-forSub {
-  max-width: 1185px;
+  width: 90%;
+}
+
+@media screen and (min-width: 1300px) {
+  .l-container.-forSub {
+    max-width: 1185px;
+  }
 }
 
 .l-spacer {
@@ -762,14 +768,14 @@ address {
   bottom: 142px;
 }
 
-.c-staff {
+.c-heading {
   font-size: 2.375em;
   position: relative;
   line-height: 38px;
   margin-left: 3em;
 }
 
-.c-staff:before {
+.c-heading:before {
   content: '';
   position: absolute;
   display: inline-block;
@@ -780,7 +786,7 @@ address {
   left: -10%;
 }
 
-.c-staff:after {
+.c-heading:after {
   position: relative;
   content: attr(title);
   display: block;
@@ -804,6 +810,82 @@ address {
 
 .c-border.-long {
   width: 60vw;
+}
+
+.c-calltoaction {
+  background-color: #ffeef2;
+  width: 60%;
+  max-width: 900px;
+  margin: 0 auto 2em;
+  padding-bottom: 2em;
+}
+
+.c-calltoaction__text {
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.c-calltoaction__middle {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.c-calltoaction__tel {
+  font-size: 1.5em;
+  line-height: 45px;
+  position: relative;
+}
+
+.c-calltoaction__tel span {
+  margin-left: 1.4em;
+  font-size: 4rem;
+}
+
+.c-calltoaction__tel:before {
+  content: '';
+  position: relative;
+  background-image: url(../img/freecallicon.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 80px;
+  height: 45px;
+  margin-right: 1em;
+  top: 60px;
+}
+
+.c-calltoaction__form {
+  background-color: #fff;
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #b49e68;
+  margin-top: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+
+.c-calltoaction__form a {
+  color: #b49e68;
+  font-size: 1.75em;
+  display: block;
+  position: relative;
+}
+
+.c-calltoaction__form a:before {
+  position: absolute;
+  content: '';
+  display: block;
+  background-image: url(../img/mailicon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 60px;
+  height: 50px;
+  left: 15%;
+  top: -5%;
 }
 
 .p-header__top {
@@ -878,7 +960,7 @@ address {
 
 @media screen and (min-width: 1300px) {
   .p-header__list-item {
-    margin-right: 4.5em;
+    margin-right: 4em;
   }
 }
 
@@ -889,10 +971,16 @@ address {
 .p-header__list-jp {
   display: block;
   text-align: center;
-  font-size: 1.125em;
+  font-size: 1em;
   width: 100%;
   position: relative;
   z-index: 10;
+}
+
+@media screen and (min-width: 1300px) {
+  .p-header__list-jp {
+    font-size: 1.125em;
+  }
 }
 
 .p-header__list-jp:hover {
@@ -1625,6 +1713,10 @@ address {
   padding-bottom: 7.6em;
 }
 
+.p-service.-sub {
+  padding-top: 2em;
+}
+
 @media screen and (max-width: 767px) {
   .p-service {
     padding-top: 3em;
@@ -1908,6 +2000,72 @@ address {
   .p-service__sp-flex {
     display: flex;
   }
+}
+
+.p-service__tab {
+  display: flex;
+  justify-content: center;
+}
+
+.p-service__tab-left {
+  padding-right: 2em;
+}
+
+.p-service__tab-right {
+  padding-left: 2em;
+}
+
+.p-service__button {
+  font-size: 1.5em;
+  min-width: 380px;
+  display: inline-block;
+  text-align: center;
+  padding: 1em 1.5em;
+  border: 1px solid #b49e68;
+  position: relative;
+}
+
+.p-service__button:before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  top: 40%;
+  right: 30px;
+  border-style: solid;
+  border-width: 15px 10px 0 10px;
+  border-color: #b49e68 transparent transparent transparent;
+  transition: 0.5s;
+}
+
+.p-service__button:after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  top: 40%;
+  right: 30px;
+  border-style: solid;
+  border-width: 4px 10px 0 10px;
+  border-color: #fff transparent transparent transparent;
+  z-index: 3;
+  transition: 0.5s;
+}
+
+.p-service__button:hover {
+  background-color: #b9a472;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.p-service__button:hover:after {
+  border-color: #b49e68 transparent transparent transparent;
+  transition: 0.5s;
+}
+
+.p-service__button:hover:before {
+  border-color: #fff transparent transparent transparent;
+  transition: 0.5s;
 }
 
 .p-introduction__flex {
@@ -2843,6 +3001,13 @@ address {
 
 .p-privacy__container {
   margin: 2em auto 2em;
+  width: 85%;
+}
+
+@media screen and (min-width: 1300px) {
+  .p-privacy__container {
+    width: 90%;
+  }
 }
 
 .p-privacy__title {
@@ -2888,6 +3053,13 @@ address {
 
 .p-privacy__text-inline.-noborder:before {
   height: 0;
+}
+
+.p-table__text {
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .u-uppercase {

@@ -17,7 +17,10 @@
     }
 
     &.-forSub {
-        max-width: 1185px;
+        width: 90%;
+        @include mq('pc') {
+            max-width: 1185px;
+        }
     }
 
 }
