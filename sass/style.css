@@ -827,7 +827,7 @@ address {
 }
 
 .c-calltoaction__middle {
-  width: 60%;
+  width: 55%;
   margin: 0 auto;
 }
 
@@ -3060,6 +3060,52 @@ address {
   text-align: center;
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+.p-table__text-small {
+  font-size: 0.75em;
+}
+
+.p-table__table {
+  width: 100%;
+  margin: 0 auto 3em;
+  border-collapse: collapse;
+}
+
+.p-table__table th {
+  border-top: 1px solid #b49e68;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  vertical-align: top;
+  font-size: 1.5em;
+  height: 150px;
+  width: 33.333%;
+}
+
+.p-table__table th:first-child {
+  border-top: 4px solid #b49e68;
+}
+
+.p-table__table th.noborder {
+  border-top: none;
+}
+
+.p-table__table th.p-table__table-text {
+  font-size: 1.125rem;
+}
+
+.p-table__table-list {
+  width: 75%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.p-table__table-list li {
+  font-size: 1.125rem;
+}
+
+.p-table__table img {
+  padding-top: 0.5em;
 }
 
 .u-uppercase {
