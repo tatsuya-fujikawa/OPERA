@@ -1,0 +1,49 @@
+.p-course {
+    &__flex {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__box {
+        background-color: $color-pink;
+        border: 1px solid $color-gold;
+        width: 47%;
+    }
+
+    &__left {
+        margin-right: 1em;
+    }
+
+    &__right {
+        margin-left: 1em;
+    }
+
+    &__title {
+        text-align: center;
+        position: relative;
+        background-color: $color-white;
+        width: 45%;
+        margin: 0 auto;
+        border: 1px solid $color-gold;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+        top: -1em;
+    }
+
+    &__center {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__picture{
+        width: 45%;
+        padding: 1em 0.8em 1em;
+        img {
+            width: 100%;
+        }
+        figcaption {
+            text-align: center;
+            padding-bottom: 0.5em;
+        }
+    }
+}

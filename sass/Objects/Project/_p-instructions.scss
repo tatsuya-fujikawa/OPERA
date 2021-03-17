@@ -1,0 +1,47 @@
+.p-instrunctions {
+    &__wrap {
+        padding-bottom: 2em;
+        padding-left: 1em;
+    }
+
+    &__text {
+        font-size: 1.125em;
+
+        &-inline {
+            font-size: 1.5em;
+            position: relative;
+            margin-top: 2em;
+            padding-left: 2em;
+
+            &:before {
+                content: '';
+                width: 40px;
+                height: 1px;
+                position: absolute;
+                background-color: #b49e68;
+                background-position: center;
+                top: 19px;
+                left: -10px;
+                margin-right: 1em;
+            }
+        }
+
+        &.-list {
+            position: relative;
+            &:before {
+                content:'※';
+                position: relative;
+            }
+        }
+
+        &-small {
+            font-size: 0.875rem;
+        }
+    }
+
+    &__bg {
+        background-color: $color-pink;
+        margin-top: 1em;
+        padding: 2em;
+    }
+}
