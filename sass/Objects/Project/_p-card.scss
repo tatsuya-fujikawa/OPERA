@@ -1,0 +1,80 @@
+.p-card {
+    &__item {
+        background-color: $color-pink;
+        width: 30%;
+        padding: 0.5em;
+        border-radius: 6px;
+
+        &-bg {
+            position: relative;
+
+            &:before {
+                position: absolute;
+                content: '';
+                display: block;
+                width: 100%;
+                height: 55px;
+                top: 0px;
+                z-index: 1;
+                background-image: -webkit-linear-gradient(left, transparent, #fff 25%, #fff 75%, transparent);
+                background-image: linear-gradient(to right, transparent, #fff 25%, #fff 75%, transparent);
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+
+        &-title {
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            position: relative;
+            line-height: 38px;
+            z-index: 10;
+
+            &:before {
+                content: '';
+                position: absolute;
+                text-align: center;
+                width: 70%;
+                display: block;
+                margin: 0 auto;
+                border-top: 1px solid $color-gold;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            &:after {
+                content: '';
+                position: absolute;
+                text-align: center;
+                width: 70%;
+                display: block;
+                margin: 0 auto;
+                border-top: 1px solid $color-gold;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        &-top {
+            text-align: center;
+        }
+
+        &-bottom {
+            padding-top: 0.3em;
+        }
+
+        &-text {
+            padding-left: 2em;
+            padding-top: 1.5em;
+            padding-bottom: 2em;
+        }
+
+        &-price {
+            padding-left: 2em;
+            font-size: 1.125em;
+            padding-bottom: 2em;
+        }
+    }
+}

@@ -183,7 +183,7 @@
                             <div class="p-service__description-item">
                                 <picture>
                                     <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/img_01.png">
-                                    <img class="p-mv__slide" src="<?php echo get_template_directory_uri(); ?>/img/img_01.png" alt="">
+                                    <img class="p-service__slide" src="<?php echo get_template_directory_uri(); ?>/img/img_01.png" alt="">
                                 </picture>
                             </div>
                             <div class="p-service__description-item">
