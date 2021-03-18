@@ -8,3 +8,50 @@
   visibility: hidden; //topscrollボタン押下出来ないため opacity + visibility 追加
   transition: 0.5s;
 }
+
+.slide-dots {
+  text-align: center;
+  li {
+    display: inline-block;
+    margin: 10px 15px;
+    button {
+      position: relative;
+      text-indent: -9999px;
+
+      &:before {
+        content: '';
+        background-color: $color-gold;
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+      }
+
+
+    }
+
+  }
+}
+
+.slide-dots .slick-active {
+  transform: scale(1.15,1.15);
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.prev-arrow {
+  left: 0;
+  z-index: 10;
+}
+
+.next-arrow {
+  right: 0;
+}

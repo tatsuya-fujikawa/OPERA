@@ -7,7 +7,7 @@
     <!-- 公開前に消す -->
     <meta name="robots" content="noindex">
     <!-- 公開前に消す -->
-
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Great+Vibes&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -182,7 +182,7 @@
                         <div class="p-service__description">
                             <div class="p-service__description-item">
                                 <picture>
-                                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/sp/img_01.png">
+                                    <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/img_01.png">
                                     <img class="p-mv__slide" src="<?php echo get_template_directory_uri(); ?>/img/img_01.png" alt="">
                                 </picture>
                             </div>

@@ -9,6 +9,10 @@
         height: 70px;
         padding: 2em 0.8em 0.2em;
         top: -177px;
+
+        @include mq('sp') {
+            top: -116px;
+        }
     }
     &__text {
         position: relative;

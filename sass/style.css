@@ -398,6 +398,12 @@ address {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .l-header {
+    padding-bottom: 0.4em;
+  }
+}
+
 .l-footer {
   padding-top: 6.5em;
 }
@@ -918,7 +924,7 @@ address {
 
 @media screen and (max-width: 767px) {
   .p-header__top-left {
-    width: 50%;
+    width: 64%;
   }
   .p-header__top-left img {
     width: 100%;
@@ -1030,6 +1036,13 @@ address {
 
 .p-header__mail img {
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .p-header__logo {
+    position: relative;
+    top: 5px;
+  }
 }
 
 .p-humberger__menu {
@@ -2034,59 +2047,6 @@ address {
   padding-left: 2em;
 }
 
-.p-service__button {
-  font-size: 1.5em;
-  min-width: 380px;
-  display: inline-block;
-  text-align: center;
-  padding: 1em 1.5em;
-  border: 1px solid #b49e68;
-  position: relative;
-}
-
-.p-service__button:before {
-  position: absolute;
-  content: '';
-  width: 0;
-  height: 0;
-  top: 40%;
-  right: 30px;
-  border-style: solid;
-  border-width: 15px 10px 0 10px;
-  border-color: #b49e68 transparent transparent transparent;
-  transition: 0.5s;
-}
-
-.p-service__button:after {
-  position: absolute;
-  content: '';
-  width: 0;
-  height: 0;
-  top: 40%;
-  right: 30px;
-  border-style: solid;
-  border-width: 4px 10px 0 10px;
-  border-color: #fff transparent transparent transparent;
-  z-index: 3;
-  transition: 0.5s;
-}
-
-.p-service__button:hover {
-  background-color: #b9a472;
-  color: #fff;
-  transition: 0.5s;
-}
-
-.p-service__button:hover:after {
-  border-color: #b49e68 transparent transparent transparent;
-  transition: 0.5s;
-}
-
-.p-service__button:hover:before {
-  border-color: #fff transparent transparent transparent;
-  transition: 0.5s;
-}
-
 .p-introduction__flex {
   display: flex;
   justify-content: center;
@@ -2761,6 +2721,12 @@ address {
   top: -177px;
 }
 
+@media screen and (max-width: 767px) {
+  .p-topscroll__wrapper {
+    top: -116px;
+  }
+}
+
 .p-topscroll__text {
   position: relative;
   transition: 0.3s;
@@ -3276,4 +3242,50 @@ address {
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
+}
+
+.slide-dots {
+  text-align: center;
+}
+
+.slide-dots li {
+  display: inline-block;
+  margin: 10px 15px;
+}
+
+.slide-dots li button {
+  position: relative;
+  text-indent: -9999px;
+}
+
+.slide-dots li button:before {
+  content: '';
+  background-color: #b49e68;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+}
+
+.slide-dots .slick-active {
+  transform: scale(1.15, 1.15);
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.prev-arrow {
+  left: 0;
+  z-index: 10;
+}
+
+.next-arrow {
+  right: 0;
 }
