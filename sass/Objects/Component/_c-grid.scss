@@ -3,12 +3,19 @@
     width: 100%;
     flex-wrap: wrap;
 
+    @include mq('sp') {
+        display: block;
+    }
+
     &__item {
      width: 100%;
    
      &.-column2 {
       width: calc(100% / 2);
-   
+        
+      @include mq('sp') {
+          width: 100%;
+      }
      }
 
      &.-column3 {

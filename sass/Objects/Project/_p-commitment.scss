@@ -6,6 +6,11 @@
     &__box {
         padding-top: 4em;
         padding-bottom: 4em;
+
+        @include mq('sp') {
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
     }
 
     &__wrap {
@@ -16,6 +21,10 @@
 
         &.-secound {
             padding-left: 3em;
+
+            @include mq('sp') {
+                padding-left: 0;
+            }
         }
     }
 
@@ -23,5 +32,11 @@
         padding-top: 1.5em;
         padding-bottom: 0.8em;
         font-size: 2.375em;
+
+        @include mq('sp') {
+            font-size: 1.375em;
+            padding-top: 0;
+            text-align: center;
+        }
     }
 }

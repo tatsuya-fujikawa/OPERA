@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Great+Vibes&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/slick/slick.min.js" defer></script>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/slick/slick.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/slick/slick-theme.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/sass/style.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/js/slick.js" defer></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/humberger.js" defer></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/script.js" defer></script>
+    <?php if(is_front_page()): ?>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/bannar.js" defer></script>
+    <?php endif; ?>
+    <title><?php echo the_title(); ?>|ペット自宅葬儀・火葬のOPERA（オペラ青山）</title>
+    <?php wp_head(); ?>
+</head>
+<body>
+    <header class="l-header p-header">
+        <div class="p-humberger sp">
+            <div class="p-humberger__button">
+                <button class="p-humberger__menu">
+                    <span class="p-humberger__menu-line -top"></span>
+                    <span class="p-humberger__menu-line -middle"></span>
+                    <span class="p-humberger__menu-line -bottom"></span>
+                </button>
+            </div>
+            <nav class="p-humberger__gnav">
+                <div class="p-humberger__gnav-wrap">
+                    <ul class="p-humberger__gnav-menu">
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#"><span class="u-uppercase">opera</span>とは<span><span class="p-humberger__en">About</span></span></a>
+                        </li>
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#">自宅葬サービス<span class="p-humberger__en">Home Funeral</span></a>
+                        </li>
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#">お焚き上げサービス<span class="p-humberger__en">Otakiage</span></a>
+                        </li>
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#">スタッフ紹介<span class="p-humberger__en">Staff</span></a>
+                        </li>
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#">アフターサポート<span class="p-humberger__en">Support</span></a>
+                        </li>
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#">インフォメーション<span class="p-humberger__en">Information</span></a>
+                        </li>
+                            <button class="p-humberger__close-button">
+                                <span class="u-visually-hidden">閉じる</span>
+                                <div class="p-humberger__circle">
+                                    <span class="p-humberger__line"></span>
+                                </div>
+                            </button>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="l-container -narrow">
+            <div class="p-header__top">
+                <div class="p-header__top-left">
+                    <div class="p-header__logo">
+                        <h1 class="u-visually-hidden">オペラ青山</h1>
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/header_logo.png" alt="オペラ青山ロゴ">
+                    </div>
+                </div>
+                <div class="p-header__top-right">
+                    <div class="p-header__freedial pc">
+                        <a href="tel:0120711212"><img src="<?php echo get_template_directory_uri(); ?>/img/header_freedial.png" alt="電話番号"></a>
+                    </div>
+                    <div class="p-header__mail pc">
+                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/header_mailbtn.png" alt="お申し込み・ご相談メール"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="p-header__nav pc">
+            <div class="l-container -narrow">
+                <div class="p-header__flex">
+                    <ul class="p-header__list">
+                        <li class="p-header__list-item">
+                            <a href="#" class="p-header__list-jp" title="About"><span class="u-uppercase">opera</span>とは</a>
+                        </li>
+                        <li class="p-header__list-item">
+                            <a href="#" class="p-header__list-jp" title="Home Funeral">自宅葬サービス</a>
+                        </li>
+                        <li class="p-header__list-item">
+                            <a href="#" class="p-header__list-jp" title="Otakiage">お焚き上げサービス</a>
+                        </li>
+                    </ul>
+                    <ul class="p-header__list">
+                        <li class="p-header__list-item">
+                            <a href="#" class="p-header__list-jp" title="Staff">スタッフ紹介</a>
+                        </li>
+                        <li class="p-header__list-item">
+                            <a href="#" class="p-header__list-jp" title="Support">アフターサポート</a>
+                        </li>
+                        <li class="p-header__list-item">
+                            <a href="#" class="p-header__list-jp" title="Information">インフォメーション</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
