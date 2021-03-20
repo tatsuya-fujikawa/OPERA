@@ -885,6 +885,7 @@ address {
 .c-subheading {
   font-size: 1.5em;
   position: relative;
+  padding-left: 1em;
 }
 
 .c-subheading:before {
@@ -893,7 +894,7 @@ address {
   color: #b49e68;
   font-size: 1rem;
   top: 15%;
-  left: -2.5%;
+  left: 0%;
 }
 
 .c-text {
@@ -917,7 +918,7 @@ address {
 .c-calltoaction {
   background-color: #ffeef2;
   width: 70%;
-  max-width: 900px;
+  max-width: 750px;
   margin: 0 auto 2em;
   padding-bottom: 2em;
 }
@@ -929,7 +930,7 @@ address {
 }
 
 .c-calltoaction__middle {
-  width: 60%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -959,7 +960,7 @@ address {
 
 .c-calltoaction__form {
   background-color: #fff;
-  width: 65%;
+  width: 75%;
   margin: 0 auto;
   text-align: center;
   border: 1px solid #b49e68;
@@ -1993,13 +1994,6 @@ address {
   margin: 0 auto;
   position: relative;
   border-bottom: 1px solid #b49e68;
-}
-
-@media screen and (max-width: 1200px) {
-  .p-service__flex-title {
-    font-size: 1.5em;
-    padding-top: 0.5em;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3360,7 +3354,7 @@ address {
 }
 
 .p-table__table-list {
-  width: 75%;
+  width: 85%;
   text-align: left;
   margin: 0 auto;
 }
@@ -3376,12 +3370,17 @@ address {
 .p-course__flex {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .p-course__box {
   background-color: #ffeef2;
   border: 1px solid #b49e68;
-  width: 47%;
+  width: 40%;
+}
+
+.p-course__box-text {
+  font-size: 0.85em;
 }
 
 .p-course__left {
@@ -3404,23 +3403,24 @@ address {
   top: -1em;
 }
 
-.p-course__center {
-  display: flex;
-  justify-content: center;
-}
-
 .p-course__picture {
-  width: 45%;
   padding: 1em 0.8em 1em;
-}
-
-.p-course__picture img {
-  width: 100%;
+  text-align: center;
 }
 
 .p-course__picture figcaption {
   text-align: center;
   padding-bottom: 0.5em;
+}
+
+.p-course__picture figcaption.p-course__picture-text {
+  text-align: left;
+  padding-left: 2em;
+  font-size: 0.85em;
+}
+
+.p-course__picture.-first {
+  padding-bottom: 2.8em;
 }
 
 .p-instrunctions__wrap {
@@ -3436,7 +3436,7 @@ address {
   font-size: 1.5em;
   position: relative;
   margin-top: 2em;
-  padding-left: 2em;
+  padding-left: 2.3em;
 }
 
 .p-instrunctions__text-inline:before {
@@ -3447,8 +3447,12 @@ address {
   background-color: #b49e68;
   background-position: center;
   top: 19px;
-  left: -10px;
+  left: 0;
   margin-right: 1em;
+}
+
+.p-instrunctions__text-inline.-smt {
+  margin-top: 0.5em;
 }
 
 .p-instrunctions__text.-list {
@@ -3470,11 +3474,41 @@ address {
   padding: 2em;
 }
 
+.p-instrunctions__bg-box {
+  padding-bottom: 1.5em;
+}
+
+.p-instrunctions__bg-text {
+  font-size: 1.125em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.p-instrunctions__box {
+  padding-bottom: 2.5em;
+}
+
+.p-card__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 2em auto 5em;
+}
+
 .p-card__item {
   background-color: #ffeef2;
-  width: 30%;
-  padding: 0.5em;
+  width: 29%;
+  padding: 0.5em 0;
   border-radius: 6px;
+  margin-right: calc(13% / 2);
+}
+
+.p-card__item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.p-card__item:nth-of-type(n + 4) {
+  margin-top: 2.25em;
 }
 
 .p-card__item-bg {
@@ -3534,20 +3568,125 @@ address {
   text-align: center;
 }
 
+.p-card__item-top img {
+  width: 95%;
+}
+
 .p-card__item-bottom {
   padding-top: 0.3em;
 }
 
 .p-card__item-text {
-  padding-left: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
   padding-top: 1.5em;
   padding-bottom: 2em;
 }
 
 .p-card__item-price {
-  padding-left: 2em;
   font-size: 1.125em;
   padding-bottom: 2em;
+  text-align: center;
+}
+
+.p-faq__wrap {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.p-faq__box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.p-faq__border {
+  position: relative;
+  height: 100%;
+}
+
+.p-faq__border:after {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 90%;
+  background-color: #b49e68;
+  right: -10%;
+  bottom: 10%;
+}
+
+.p-faq__question {
+  width: 35%;
+  font-size: 1.25em;
+  padding-right: 1em;
+  text-align: right;
+  position: relative;
+}
+
+.p-faq__question:before {
+  position: absolute;
+  content: 'Q';
+  font-size: 4em;
+  color: #b49e68;
+  opacity: 0.5;
+  left: 0;
+  bottom: 50%;
+}
+
+.p-faq__question:after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 90%;
+  height: 2px;
+  background-color: #b49e68;
+  background-position: center;
+  text-align: center;
+  bottom: -1em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.p-faq__question-text {
+  padding-top: 2em;
+}
+
+.p-faq__answer {
+  width: 55%;
+  font-size: 1.125em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  position: relative;
+}
+
+.p-faq__answer:before {
+  position: absolute;
+  content: 'A';
+  font-size: 4em;
+  color: #b49e68;
+  opacity: 0.5;
+  left: -8%;
+  bottom: 50%;
+}
+
+.p-faq__answer:after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 90%;
+  height: 2px;
+  background-color: #b49e68;
+  background-position: center;
+  text-align: center;
+  bottom: -1em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.p-faq__answer-text {
+  padding-top: 2em;
 }
 
 .u-uppercase {

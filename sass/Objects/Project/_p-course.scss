@@ -2,12 +2,16 @@
     &__flex {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     &__box {
         background-color: $color-pink;
         border: 1px solid $color-gold;
-        width: 47%;
+        width: 40%;
+        &-text {
+            font-size: 0.85em;
+        }
     }
 
     &__left {
@@ -30,20 +34,21 @@
         top: -1em;
     }
 
-    &__center {
-        display: flex;
-        justify-content: center;
-    }
-
     &__picture{
-        width: 45%;
         padding: 1em 0.8em 1em;
-        img {
-            width: 100%;
-        }
+        text-align: center;
         figcaption {
             text-align: center;
             padding-bottom: 0.5em;
+            &.p-course__picture-text {
+                text-align:left;
+                padding-left: 2em;
+                font-size: 0.85em;
+            }
+        }
+
+        &.-first {
+            padding-bottom: 2.8em;
         }
     }
 }
