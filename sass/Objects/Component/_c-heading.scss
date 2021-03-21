@@ -4,6 +4,11 @@
     line-height: 38px;
     margin-left: 3em;
 
+    @include mq('sp') {
+        font-size: 1.5em;
+        margin-left: 1.5em;
+    }
+
     &:before {
         content: '';
         position: absolute;
@@ -13,6 +18,10 @@
         background-color: $color-gold;
         top: 25%;
         left: -10%;
+
+        @include mq('sp') {
+            width: 25px;
+        }
     }
 
     &:after {
@@ -21,6 +30,10 @@
         display: block;
         font-family: $en-font2;
         font-size: 1.5rem;
+
+        @include mq('sp') {
+            font-size: 1.125rem;
+        }
     }
 }
 
@@ -28,6 +41,10 @@
     font-size: 1.5em;
     position: relative;
     padding-left: 1em;
+
+    @include mq('sp') {
+        font-size: 1.25em;
+    }
 
     &:before {
         content: '◆';

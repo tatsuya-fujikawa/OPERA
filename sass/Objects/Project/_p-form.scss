@@ -1,0 +1,96 @@
+.p-form {
+    &__bg {
+        background-color: $color-pink;
+        padding: 1em;
+        min-width: 100%;
+    }
+
+    &__top {
+        padding-top: 1.5em;
+
+        &-text {
+            font-size: 1.125em;
+            text-align: center;
+        }
+    }
+
+    &__middle {
+        padding-top: 1.5em;
+
+        &-text {
+            font-size: 1.5em;
+            text-align: center;
+        }
+    }
+
+    &__bottom {
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+
+        &-bg {
+            background-color: $color-white;
+            width: 70%;
+            margin: 0 auto;
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+
+        &-time {
+            font-size: 1.75em;
+            padding-left: 8rem;
+        }
+        &-tel {
+            font-size: 5em;
+            line-height: 75px;
+            padding-left: 8rem;
+            position: relative;
+
+            &:before {
+                content: '';
+                position: absolute;
+                background-image: url(../img/freecallicon.png);
+                display: inline-block;
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 80px;
+                height: 55px;
+                top: 25%;
+                left: 5%;
+            }
+        }
+    }
+    &__attention {
+        padding-bottom: 2.5em;
+
+        &-text {
+            font-size:  1.125em;
+            text-align: center;
+        }
+    }
+
+    &__title {
+        font-size: 1.5em;
+        position: relative;
+
+        &:before {
+            content: '◆';
+            position: relative;
+            font-size: 0.8em;
+            padding-right: 1em;
+            color: $color-gold;
+        }
+    }
+
+    &__must {
+        position: relative;
+
+        &:after {
+            content:'必須';
+            position: absolute;
+            width: 100%;
+            padding-left: 0.25em;
+            font-size: 12px;
+            color: #ff0101;
+        }
+    }
+}

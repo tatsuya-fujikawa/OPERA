@@ -5,38 +5,79 @@
     margin: 0 auto 2em;
     padding-bottom: 2em;
 
+    @include mq('sp') {
+        width: 100%;
+    }
+
     &__text {
         font-size: 1.5em;
         text-align: center;
         padding-top: 0.5em;
+
+        @include mq('sp') {
+            font-size: 1.125em;
+        }
     }
 
     &__middle {
         width: 75%;
         margin: 0 auto;
+
+        @include mq('sp') {
+            width: 95%;
+        }
     }
 
     &__tel {
-        font-size: 1.5em;
-        line-height: 45px;
-        position: relative;
-        span {
-            margin-left: 1.4em;
-            font-size: 4rem;
+
+        &-time {
+            font-size: 1.5em;
+            line-height: 40px;
+            position: relative;
+            padding-top: 0.5em;
+            padding-left: 2.8em;
+    
+            @include mq('sp') {
+                font-size: 1.125em;
+                padding-left: 0.8em;
+            }
+
+            @include mq('small') {
+                font-size: 1em;
+            }
+
+
         }
 
-        &:before {
-            content: '';
-            position: relative;
-            background-image: url(../img/freecallicon.png);
-            display: inline-block;
-            background-repeat: no-repeat;
-            background-size: contain;
-            width: 80px;
-            height: 45px;
-            margin-right: 1em;
-            top: 60px;
+        &-number {
+            margin-left: 1.4em;
+            font-size: 3rem;
+            @include mq('sp') {
+                font-size: 2.5rem;
+                margin-left: 0.4em;
+            }
+
+            @include mq('small') {
+                font-size: 2rem;
+            }
+            &:before {
+                content: '';
+                position: relative;
+                background-image: url(../img/freecallicon.png);
+                display: inline-block;
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 80px;
+                height: 45px;
+                top: 5px;
+    
+                @include mq('sp') {
+                    width: 60px;
+                    top: 13px;
+                }
+            }
         }
+
     }
 
     &__form {
@@ -49,12 +90,23 @@
         padding-top: 1em;
         padding-bottom: 1em;
         padding-left: 1em;
+
+        @include mq('sp') {
+            width: 90%;
+        }
         
         a {
             color: $color-gold;
             font-size: 1.75em;
             display: block;
             position: relative;
+
+            @include mq('sp') {
+                font-size: 1.25em;
+            }
+            @include mq('small') {
+                font-size: 1em;
+            }
 
             &:before {
                 position: absolute;
@@ -68,6 +120,18 @@
                 height: 50px;
                 left: 12%;
                 top: -5%;
+
+                @include mq('sp') {
+                    width: 35px;
+                    height: 37px;
+                    left: 9%;
+                    top: -2%;
+                }
+                @include mq('small') {
+                    top: 0;
+                    height: 24px;
+                    width: 30px;
+                }
             }
         }
     }

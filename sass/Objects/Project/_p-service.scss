@@ -254,12 +254,27 @@
     display: flex;
     justify-content: center;
 
+    @include mq('sp') {
+      display: block;
+    }
+
     &-left {
       padding-right: 2em;
+
+      @include mq('sp') {
+        padding-right: 0;
+        padding-bottom: 1em;
+        text-align: center;
+      }
     }
 
     &-right {
       padding-left: 2em;
+
+      @include mq('sp') {
+        padding-left: 0;
+        text-align: center;
+      }
     }
   }
 
@@ -271,6 +286,12 @@
     padding: 1em 1.5em;
     border: 1px solid $color-gold;
     position: relative;
+
+    @include mq('sp') {
+      min-width: 90%;
+      font-size: 1.25em;
+      padding: 0.5em 1.5em;
+    }
 
     &:before {
       position: absolute;

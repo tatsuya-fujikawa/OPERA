@@ -5,6 +5,10 @@
         padding-top: 2em;
         padding-bottom: 2em;
 
+        @include mq('sp') {
+            font-size: 0.85em;
+        }
+
         &-small {
             font-size: 0.75em;
         }
@@ -15,6 +19,10 @@
         margin: 0 auto 3em;
         border-collapse: collapse;
 
+        @include mq('sp') {
+            border-collapse: separate;
+        }
+
         th {
             border-top: 1px solid $color-gold;
             padding-top: 1em;
@@ -23,6 +31,11 @@
             font-size: 1.5em;
             height: 150px;
             width: 33.333%;
+
+            @include mq('sp') {
+                font-size: 0.85em;
+                height: auto;
+            }
 
             &:first-child {
                 border-top: 4px solid $color-gold;
@@ -34,6 +47,10 @@
 
             &.p-table__table-text {
                 font-size: 1.125rem;
+
+                @include mq('sp') {
+                    font-size: 0.85rem;
+                }
             }
         }
 
@@ -43,13 +60,26 @@
             margin: 0 auto;
             li {
                 font-size: 1.125rem;
+
+                @include mq('sp') {
+                    font-size: 0.85rem;
+                }
             }
         }
 
 
         img {
             padding-top: 0.5em;
+
+            @include mq('sp') {
+                width: 90%;
+            }
         }
 
+    }
+
+    &__scroll {
+        overflow: auto;
+        white-space: nowrap;
     }
 }

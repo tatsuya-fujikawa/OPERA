@@ -113,6 +113,15 @@
             }
         }
     }
+
+    &.-contact {
+        &:before {
+            width: 40vw;
+        }
+        &:after {
+            width: 40vw;
+        }
+    }
 }
 
 .c-title02 {

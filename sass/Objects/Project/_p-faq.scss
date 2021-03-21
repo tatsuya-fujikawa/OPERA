@@ -2,12 +2,20 @@
     &__wrap {
         padding-top: 2em;
         padding-bottom: 2em;
+        @include mq('sp') {
+            padding:0;
+        }
     }
     &__box {
         display: flex;
         justify-content: space-between;
         margin-top: 5em;
         margin-bottom: 5em;
+
+        @include mq('sp') {
+            display: block;
+            margin-top: 3em;
+        }
     }
 
     &__border {
@@ -22,6 +30,11 @@
             background-color: $color-gold;
             right: -10%;
             bottom: 10%;
+
+            @include mq('sp') {
+                width: 0px;
+                
+            }
         }
     }
 
@@ -31,6 +44,10 @@
         padding-right: 1em;
         text-align: right;
         position: relative;
+
+        @include mq('sp') {
+            width: 100%;
+        }
         
 
         &:before {
@@ -41,6 +58,10 @@
             opacity: 0.5;
             left: 0;
             bottom: 50%;
+
+            @include mq('sp') {
+                font-size: 2em;
+            }
         }
 
         &:after {
@@ -70,6 +91,12 @@
         padding-left: 1em;
         position: relative;
 
+        @include mq('sp') {
+            width: 100%;
+            padding-bottom: 0;
+            padding-top: 2em;
+        }
+
         &:before {
             position: absolute;
             content: 'A';
@@ -78,6 +105,12 @@
             opacity: 0.5;
             left: -8%;
             bottom: 50%;
+
+            @include mq('sp') {
+                font-size: 2em;
+                left: 0;
+                top: 20px;
+            }
         }
 
         &:after {
