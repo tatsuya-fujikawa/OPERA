@@ -1869,7 +1869,7 @@ address {
 }
 
 .p-flow__step-middle img {
-  width: 100%;
+  width: 95%;
 }
 
 @media screen and (min-width: 1300px) {
@@ -2393,7 +2393,7 @@ address {
 
 @media screen and (min-width: 1300px) {
   .p-introduction__left img {
-    width: 100%;
+    width: 85%;
   }
 }
 
@@ -3803,6 +3803,12 @@ address {
   margin-top: 2.25em;
 }
 
+@media screen and (max-width: 767px) {
+  .p-card__item:nth-of-type(n + 4) {
+    margin-top: 0;
+  }
+}
+
 .p-card__item-bg {
   position: relative;
 }
@@ -4047,6 +4053,15 @@ address {
   min-width: 100%;
 }
 
+.p-form__bg-title {
+  font-size: 1.5em;
+  padding: 0 1rem 1rem;
+}
+
+.p-form__bg-text {
+  padding: 0 1em;
+}
+
 .p-form__top {
   padding-top: 1.5em;
 }
@@ -4133,9 +4148,117 @@ address {
   content: '必須';
   position: absolute;
   width: 100%;
+  font-weight: bold;
   padding-left: 0.25em;
   font-size: 12px;
   color: #ff0101;
+}
+
+.p-form__flex {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.p-form__left {
+  width: 50%;
+}
+
+.p-form__right {
+  width: 50%;
+}
+
+.p-form__wrap {
+  padding-top: 0.2em;
+  padding-bottom: 1.5em;
+}
+
+.p-form__title {
+  padding-bottom: 0.5em;
+}
+
+.p-form__annotation {
+  font-size: 0.875em;
+}
+
+.p-form__poscalmark {
+  padding-right: 0.5em;
+}
+
+.p-form__text {
+  padding-left: 2em;
+}
+
+.p-form__select {
+  padding-left: 2em;
+}
+
+.p-form__bottom {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.p-form__checkbox {
+  text-align: center;
+}
+
+.p-form__button {
+  padding-top: 2em;
+}
+
+.p-form select {
+  background-color: #ddd3bb;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  display: block;
+  margin-top: 0.5em;
+  width: 100%;
+}
+
+.p-form input {
+  background-color: #ddd3bb;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  display: block;
+  margin-top: 0.5em;
+  width: 100%;
+}
+
+.p-form input[type="radio"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 0.25em;
+}
+
+.p-form input[name="poscal-code"] {
+  width: 40%;
+  display: inline-block;
+}
+
+.p-form input[name="checkbox"] {
+  display: inline-block;
+  width: 5%;
+}
+
+.p-form input[name="submit"] {
+  background-color: #b49e68;
+  color: #fff;
+  font-size: 1.5em;
+  width: auto;
+  padding: 0.5em;
+  margin: 0 auto;
+}
+
+.p-form textarea {
+  background-color: #ddd3bb;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  display: block;
+  width: 100%;
+  height: 23vh;
 }
 
 .p-privacypolicy__text {

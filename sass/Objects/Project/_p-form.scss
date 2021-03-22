@@ -3,6 +3,14 @@
         background-color: $color-pink;
         padding: 1em;
         min-width: 100%;
+
+        &-title {
+            font-size: 1.5em;
+            padding: 0 1rem 1rem;
+        }
+        &-text {
+            padding: 0 1em
+        }
     }
 
     &__top {
@@ -88,9 +96,116 @@
             content:'必須';
             position: absolute;
             width: 100%;
+            font-weight: bold;
             padding-left: 0.25em;
             font-size: 12px;
             color: #ff0101;
         }
+    }
+
+    &__flex {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    &__left {
+        width: 50%;
+    }
+
+    &__right {
+        width: 50%;
+    }
+
+    &__wrap {
+        padding-top: 0.2em;
+        padding-bottom: 1.5em;
+    }
+
+    &__title {
+        padding-bottom: 0.5em;
+    }
+
+    &__annotation {
+        font-size: 0.875em;
+    }
+
+    &__poscalmark {
+        padding-right: 0.5em;
+    }
+
+    &__text {
+        padding-left: 2em;
+    }
+
+    &__select {
+        padding-left: 2em;
+    }
+
+    &__bottom {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    &__checkbox {
+        text-align: center;
+    }
+
+    &__button {
+        padding-top: 2em;
+    }
+
+    select {
+        background-color: #ddd3bb;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 1em;
+        display: block;
+        margin-top: 0.5em;
+        width: 100%;
+    }
+
+    input {
+        background-color: #ddd3bb;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 1em;
+        display: block;
+        margin-top: 0.5em;
+        width: 100%;
+    }
+
+    input[type="radio"] {
+        display: inline-block;
+        width: auto;
+        margin-right: 0.25em;
+    }
+
+    input[name="poscal-code"] {
+        width: 40%;
+        display: inline-block;
+    }
+    input[name="checkbox"] {
+        display: inline-block;
+        width: 5%;
+    }
+
+    input[name="submit"] {
+        background-color: $color-gold;
+        color: $color-white;
+        font-size: 1.5em;
+        width: auto;
+        padding: 0.5em;
+        margin: 0 auto;
+    }
+
+    textarea {
+        background-color: #ddd3bb;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 1em;
+        display: block;
+        width: 100%;
+        height: 23vh;
     }
 }
