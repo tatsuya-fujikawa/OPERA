@@ -102,6 +102,19 @@
             color: #ff0101;
         }
     }
+    &__any {
+        position: relative;
+
+        &:after {
+            content:'任意';
+            position: absolute;
+            width: 100%;
+            font-weight: bold;
+            padding-left: 0.25em;
+            font-size: 12px;
+            color: #e3e3e3;
+        }
+    }
 
     &__flex {
         display: flex;

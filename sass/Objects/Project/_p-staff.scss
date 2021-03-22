@@ -28,6 +28,11 @@
     &__text {
         font-size: 1.125em;
         padding-top: 1em;
+
+        &-right {
+            text-align: right;
+            padding-top: 1.5em;
+        }
     }
 
 }

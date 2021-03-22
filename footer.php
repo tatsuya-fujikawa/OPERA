@@ -15,10 +15,10 @@
                         <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/service/")); ?>"> &emsp;他サービス &emsp;/</a></li>
                         <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/omoide/")); ?>"> &emsp;思い出トランク &emsp;/</a></li>
                         <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/staff/")); ?>"> &emsp;スタッフ紹介 &emsp;/</a></li>
-                        <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/information/")); ?>"> &emsp;お知らせ &emsp;/</a></li>
+                        <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/information/")); ?>"> &emsp;インフォメーション &emsp;/</a></li>
                         <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/information#column/")); ?>"> &emsp;コラム &emsp;/</a></li>
                         <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/contact#privacy/")); ?>"> &emsp;プライバシーポリシー &emsp;/</a></li>
-                        <li class="p-footer__nav-item"><a href="#"> &emsp;特定商取引法に基づく表記 &emsp;/</a></li>
+                        <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/law/")); ?>"> &emsp;特定商取引法に基づく表記 &emsp;/</a></li>
                     </ul>
                 </nav>
             </div>
@@ -72,16 +72,15 @@
                 <nav class="p-footer__sp-nav">
                     <ul class="p-footer__sp-list">
                         <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/")); ?>"><span class="uppercase">Home</span></a></li>
-                        <li class="p-footer__sp-list-item"><a href=<?php echo esc_url( home_url("/home-funeral/")); ?>">自宅葬サービス</a></li>
-                        <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/information/")); ?>">お知らせ</a></li>
-                        <li class="p-footer__sp-list-item"><a href="#">火葬サービス</a></li>
-                        <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/information#column/")); ?>">コラム</a></li>
-                        <li class="p-footer__sp-list-item"><a href="#">メモリアルサービス</a></li>
-                        <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/contact/")); ?>">お問い合わせ</a></li>
+                        <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/about/")); ?>">OPERAとは</a></li>
+                        <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/home-funeral/")); ?>">自宅葬サービス</a></li>
+                        <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/service/")); ?>">他サービス</a></li>
+                        <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/omoide/")); ?>">思い出トランク</a></li>
                         <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/staff/")); ?>">スタッフ紹介</a></li>
+                        <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/information/")); ?>">インフォメーション</a></li>
+                        <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/information#column/")); ?>">コラム</a></li>
                         <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/contact#privacy/")); ?>">プライバシーポリシー</a></li>
-                        <li class="p-footer__sp-list-item"><a href="#">ペットロスサポート</a></li>
-                        <li class="p-footer__sp-list-item"><a href="#">特定商取引法に基づく表記</a></li>
+                        <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/law/")); ?>">特定商取引法に基づく表記</a></li>
                     </ul>
                 </nav>
             </div>

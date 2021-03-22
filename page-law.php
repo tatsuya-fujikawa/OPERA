@@ -3,7 +3,7 @@
 Template Name: 特定商取引法に基づく表記
 */
 ?>
-<?php get_header(); ?>
+<?php get_header("2"); ?>
     <main>
         <section class="l-spacer -nobottom">
             <div class="c-subtitle -privacy">

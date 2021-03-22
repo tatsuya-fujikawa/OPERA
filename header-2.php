@@ -67,7 +67,9 @@
                 <div class="p-header__top-left">
                     <div class="p-header__logo">
                         <h1 class="u-visually-hidden">オペラ青山</h1>
+                        <a href="<?php echo esc_url( home_url("/")); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/header_logo.png" alt="オペラ青山ロゴ">
+                        </a>
                     </div>
                 </div>
                 <div class="p-header__top-right">

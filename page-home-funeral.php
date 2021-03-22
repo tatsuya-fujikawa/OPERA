@@ -3,7 +3,7 @@
 Template Name: 自宅葬サービス
 */
 ?>
-<?php get_header(); ?>
+<?php get_header("2"); ?>
     <main>
         <section class="l-spacer -nobottom">
             <div class="c-subtitle">
@@ -232,16 +232,7 @@ Template Name: 自宅葬サービス
                         <p class="p-instrunctions__text-small">※売上の⼀部をペット保護ボランティア団体に寄付します。</p>
                     </div>
                 </div>
-                <div class="c-calltoaction">
-                    <p class="c-calltoaction__text">まずはお電話か<br class="sp">メールにてご連絡ください。</p>
-                    <div class="c-calltoaction__middle">
-                        <p class="c-calltoaction__tel-time">24時間受付</p>
-                        <p class="c-calltoaction__tel-number">0120-71-1212</p>
-                    </div>
-                    <div class="c-calltoaction__form">
-                        <a href="#">お申し込みフォーム</a>
-                    </div>
-                </div>
+                <?php get_template_part('inc/cta'); ?>
             </div>
         </section>
         <section class="l-card p-card l-spacer -section">
@@ -345,16 +336,7 @@ Template Name: 自宅葬サービス
                     </div>
                     <!--p-card__item-->
                 </div>
-                <div class="c-calltoaction">
-                    <p class="c-calltoaction__text">まずはお電話か<br class="sp">メールにてご連絡ください。</p>
-                    <div class="c-calltoaction__middle">
-                        <p class="c-calltoaction__tel-time">24時間受付</p>
-                        <p class="c-calltoaction__tel-number">0120-71-1212</p>
-                    </div>
-                    <div class="c-calltoaction__form">
-                        <a href="#">お申し込みフォーム</a>
-                    </div>
-                </div>
+                <?php get_template_part('inc/cta'); ?>
             </div>
         </section>
         <section class="l-faq p-faq">
@@ -543,16 +525,7 @@ Template Name: 自宅葬サービス
         </section>
         <div class="l-spacer -section">
             <div class="l-container -forSub">
-                <div class="c-calltoaction">
-                    <p class="c-calltoaction__text">まずはお電話か<br class="sp">メールにてご連絡ください。</p>
-                    <div class="c-calltoaction__middle">
-                        <p class="c-calltoaction__tel-time">24時間受付</p>
-                        <p class="c-calltoaction__tel-number">0120-71-1212</p>
-                    </div>
-                    <div class="c-calltoaction__form">
-                        <a href="#">お申し込みフォーム</a>
-                    </div>
-                </div>
+                <?php get_template_part('inc/cta'); ?>
             </div>
         </div>
 

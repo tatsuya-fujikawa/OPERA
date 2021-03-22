@@ -1,9 +1,9 @@
-<input type="number"><?php
+<?php
 /*
 Template Name: OPERAとは
 */
 ?>
-<?php get_header(); ?>
+<?php get_header("2"); ?>
     <main>
         <section class="l-spacer">
             <div class="c-subtitle">
