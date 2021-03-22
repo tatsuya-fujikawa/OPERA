@@ -3,7 +3,7 @@
         <section class="l-mv p-mv">
             <picture>
                 <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/sp/MV.png">
-                <img class="p-mv__slide" src="<?php echo get_template_directory_uri(); ?>/img/MV.png" alt="">
+                <img class="p-mv__slide" src="<?php echo get_template_directory_uri(); ?>/img/MV.png" alt="" loading="eager">
             </picture>
             <div class="p-mv__wrapper">
                 <h2 class="p-mv__lead">大切なペットの命に、祈りを</h2>
@@ -30,7 +30,7 @@
                             <div class="p-service__flex-item">
                                 <p class="p-service__flex-lead">分かりやすく安心</p>
                                 <h3 class="p-service__flex-title">定額料金</h3>
-                                <p class="p-service__flex-lead">オンライン決済が可能</p>
+                                <p class="p-service__flex-lead">現金・銀行振込・カード決済<br>から選択可能</p>
                             </div>
                             <div class="p-service__flex-item">
                                 <p class="p-service__flex-lead">清らかにお見送り</p>
@@ -55,7 +55,7 @@
                                 <div class="p-service__flex-item -sp">
                                     <p class="p-service__flex-lead">分かりやすく安心</p>
                                     <h3 class="p-service__flex-title">定額料金</h3>
-                                    <p class="p-service__flex-lead">オンライン決済が可能</p>
+                                    <p class="p-service__flex-lead">現金・銀行振込・カード決済<br>から選択可能</p>
                                 </div>
                                 <div class="p-service__flex-item -sp">
                                     <p class="p-service__flex-lead">業界のプロが対応</p>
@@ -82,11 +82,10 @@
                                     </div>
                                     <div class="p-service__set-middle">
                                         <ul class="p-service__list">
-                                            <li class="p-service__list-item">1．お届けお通夜セット(AorB)</li>
+                                            <li class="p-service__list-item">1．お届けお通夜セット(2コースあり)</li>
                                             <li class="p-service__list-item">2．牧師のお祈り＆カウンセリング</li>
                                             <li class="p-service__list-item">3．訪問火葬車(個別火葬)</li>
                                             <li class="p-service__list-item">4．牧師による祈りの動画</li>
-                                            <li class="p-service__list-item">5．ハートバルーンリリース</li>
                                         </ul>
                                     </div>
                                     <div class="p-service__set-bottom">
@@ -94,7 +93,7 @@
                                         <p>※お花はピンク系、ブルー系から選択できます</p>
                                     </div>
                                     <div class="p-service__set-action">
-                                        <a href="#" class="p-service__button c-button">詳細はこちら</a>
+                                        <a href="<?php echo esc_url( home_url("/home-funeral/")); ?>" class="p-service__button c-button">詳細はこちら</a>
                                     </div>
                                 </div>
                             </div>
@@ -123,7 +122,7 @@
                             <p>お電話・メールにて<br class="pc">お申し込み</p>
                         </div>
                     </div>
-                    <!--p-flow__step-item-->                    
+                    <!--p-flow__step-item-->
                     <div class="p-flow__step-item">
                         <div class="p-flow__flex-forSP">
                             <div class="p-flow__step-top">
@@ -176,7 +175,7 @@
                             <p>牧師の<br class="pc">お祈り&カウンセリング</p>
                         </div>
                     </div>
-                    <!--p-flow__step-item-->                      
+                    <!--p-flow__step-item-->
                     <div class="p-flow__step-item sp">
                         <div class="p-flow__flex-forSP">
                             <div class="p-flow__step-top">
@@ -190,7 +189,7 @@
                             <p>火葬車がお伺いし<br class="pc">ご遺体を火葬</p>
                         </div>
                     </div>
-                    <!--p-flow__step-item-->                      
+                    <!--p-flow__step-item-->
                     <div class="p-flow__step-item">
                         <div class="p-flow__flex-forSP">
                             <div class="p-flow__step-top">
@@ -204,13 +203,13 @@
                             <p>牧師による<br class="pc">癒しの動画</p>
                         </div>
                     </div>
-                    <!--p-flow__step-item-->                      
+                    <!--p-flow__step-item-->
                 </div>
                 <div class="u-centerposition p-flow__text">
                     <p>詳細は下記ページよりご確認ください。</p>
                 </div>
                 <div class="u-centerposition l-spacer -maximum -notop">
-                    <a href="#" class="c-button p-flow__button">自宅葬サービス</a>
+                    <a href="<?php echo esc_url( home_url("/home-funeral/")); ?>" class="c-button p-flow__button">自宅葬サービス</a>
                 </div>
             </div>
         </section>
@@ -225,25 +224,26 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/img/img_02.png" alt="">
                     </div>
                     <div class="p-introduction__flex-item p-introduction__right">
-                        <h3 class="p-introduction__title">お焚き上げサービス</h3>
+                        <h3 class="p-introduction__title">他サービス</h3>
                         <div class="p-introduction__middle">
-                            <p class="p-introduction__middle-text">⼤切なペットの⼩物や洋服、思い出のお品などを、<br>感謝を込めて供養いたします。</p>
+                            <p class="p-introduction__middle-text">生前のご相談から、自宅葬サービスへのオプションとして<br>アロマグルーミング、パウダー加工などもお受けしています。
+</p>
                         </div>
                         <div class="p-introduction__bottom">
-                            <a href="#" class="c-button p-introduction__button">お焚き上げサービス</a>
+                            <a href="<?php echo esc_url( home_url("/service/")); ?>" class="c-button p-introduction__button">お焚き上げサービス</a>
                         </div>
                     </div>
                 </div>
                 <div class="p-introduction__flex -rows">
                     <div class="p-introduction__flex-item p-introduction__left -rows">
-                        <h3 class="p-introduction__title -rows">アフターサポート</h3>
+                        <h3 class="p-introduction__title -rows">思い出トランク</h3>
                         <div class="p-introduction__middle -rows">
-                            <p class="p-introduction__middle-text -rows">動物医療に精通したプロによるカウンセリング、<br>パウダー加⼯(粉⾻)、四⼗九⽇や⼀周忌などの⾏事に合わせた<br>メモリアルサービスを提供しています。</p>
+                            <p class="p-introduction__middle-text -rows">お別れの直後に遺品整理の決⼼がつかないのは、<br>ごく当たり前のことです。お迷いになる期間、<br>気持ちと遺品をトランクにつめ、オペラにお預けください。</p>
                         </div>
                         <div class="p-introduction__bottom -rows">
-                            <a href="#" class="c-button p-introduction__button">アフターサポート</a>
+                            <a href="<?php echo esc_url( home_url("/omoide/")); ?>" class="c-button p-introduction__button">思い出トランク</a>
                         </div>
-                        
+
                     </div>
                     <div class="p-introduction__flex-item p-introduction__right -rows pc">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/img_03.png" alt="">
@@ -268,8 +268,8 @@
                 </div>
             </div>
             <div class="u-centerposition l-spacer -button">
-                <a href="#" class="c-button p-letter__button"><span class="u-uppercase">opera</span>とは</a>
-                <a href="#" class="c-button p-letter__button">スタッフ紹介</a>
+                <a href="<?php echo esc_url( home_url("/about/")); ?>" class="c-button p-letter__button"><span class="u-uppercase">opera</span>とは</a>
+                <a href="<?php echo esc_url( home_url("/staff/")); ?>" class="c-button p-letter__button">スタッフ紹介</a>
             </div>
         </section>
         <!-- l-letter-->
