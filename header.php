@@ -35,22 +35,22 @@
                 <div class="p-humberger__gnav-wrap">
                     <ul class="p-humberger__gnav-menu">
                         <li class="p-humberger__gnav-menu-item">
-                            <a href="#"><span class="u-uppercase">opera</span>とは<span><span class="p-humberger__en">About</span></span></a>
+                            <a href="<?php echo esc_url( home_url("/about/")); ?>"><span class="u-uppercase">opera</span>とは<span><span class="p-humberger__en">About</span></span></a>
                         </li>
                         <li class="p-humberger__gnav-menu-item">
-                            <a href="#">自宅葬サービス<span class="p-humberger__en">Home Funeral</span></a>
+                            <a href="<?php echo esc_url( home_url("/home-funeral/")); ?>">自宅葬サービス<span class="p-humberger__en">Home Funeral</span></a>
                         </li>
                         <li class="p-humberger__gnav-menu-item">
-                            <a href="#">お焚き上げサービス<span class="p-humberger__en">Otakiage</span></a>
+                            <a href="<?php echo esc_url( home_url("/service/")); ?>">他サービス<span class="p-humberger__en">Service</span></a>
                         </li>
                         <li class="p-humberger__gnav-menu-item">
-                            <a href="#">スタッフ紹介<span class="p-humberger__en">Staff</span></a>
+                            <a href="<?php echo esc_url( home_url("/omoide/")); ?>">思い出トランク<span class="p-humberger__en">Omoide</span></a>
                         </li>
                         <li class="p-humberger__gnav-menu-item">
-                            <a href="#">アフターサポート<span class="p-humberger__en">Support</span></a>
+                            <a href="<?php echo esc_url( home_url("/staff/")); ?>">スタッフ紹介<span class="p-humberger__en">Staff</span></a>
                         </li>
                         <li class="p-humberger__gnav-menu-item">
-                            <a href="#">インフォメーション<span class="p-humberger__en">Information</span></a>
+                            <a href="<?php echo esc_url( home_url("/information/")); ?>">インフォメーション<span class="p-humberger__en">Information</span></a>
                         </li>
                             <button class="p-humberger__close-button">
                                 <span class="u-visually-hidden">閉じる</span>
@@ -67,7 +67,9 @@
                 <div class="p-header__top-left">
                     <div class="p-header__logo">
                         <h1 class="u-visually-hidden">オペラ青山</h1>
+                        <a href="<?php echo esc_url( home_url("/")); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/header_logo.png" alt="オペラ青山ロゴ">
+                        </a>
                     </div>
                 </div>
                 <div class="p-header__top-right">
@@ -75,7 +77,7 @@
                         <a href="tel:0120711212"><img src="<?php echo get_template_directory_uri(); ?>/img/header_freedial.png" alt="電話番号"></a>
                     </div>
                     <div class="p-header__mail pc">
-                        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/header_mailbtn.png" alt="お申し込み・ご相談メール"></a>
+                        <a href="<?php echo esc_url( home_url("/contact/")); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/header_mailbtn.png" alt="お申し込み・ご相談メール"></a>
                     </div>
                 </div>
             </div>
@@ -85,24 +87,24 @@
                 <div class="p-header__flex">
                     <ul class="p-header__list">
                         <li class="p-header__list-item">
-                            <a href="#" class="p-header__list-jp" title="About"><span class="u-uppercase">opera</span>とは</a>
+                            <a href="<?php echo esc_url( home_url("/about/")); ?>" class="p-header__list-jp" title="About"><span class="u-uppercase">opera</span>とは</a>
                         </li>
                         <li class="p-header__list-item">
-                            <a href="#" class="p-header__list-jp" title="Home Funeral">自宅葬サービス</a>
+                            <a href="<?php echo esc_url( home_url("/home-funeral/")); ?>" class="p-header__list-jp" title="Home Funeral">自宅葬サービス</a>
                         </li>
                         <li class="p-header__list-item">
-                            <a href="#" class="p-header__list-jp" title="Otakiage">お焚き上げサービス</a>
+                            <a href="<?php echo esc_url( home_url("/service/")); ?>" class="p-header__list-jp" title="Other">他サービス</a>
                         </li>
                     </ul>
                     <ul class="p-header__list">
                         <li class="p-header__list-item">
-                            <a href="#" class="p-header__list-jp" title="Staff">スタッフ紹介</a>
+                            <a href="<?php echo esc_url( home_url("/omoide/")); ?>" class="p-header__list-jp" title="Omoide">思い出トランク</a>
                         </li>
                         <li class="p-header__list-item">
-                            <a href="#" class="p-header__list-jp" title="Support">アフターサポート</a>
+                            <a href="<?php echo esc_url( home_url("/staff/")); ?>" class="p-header__list-jp" title="Staff">スタッフ紹介</a>
                         </li>
                         <li class="p-header__list-item">
-                            <a href="#" class="p-header__list-jp" title="Information">インフォメーション</a>
+                            <a href="<?php echo esc_url( home_url("/information/")); ?>" class="p-header__list-jp" title="Information">インフォメーション</a>
                         </li>
                     </ul>
                 </div>
