@@ -1,4 +1,4 @@
-<?php
+<input type="number"><?php
 /*
 Template Name: OPERAとは
 */
@@ -93,8 +93,10 @@ Template Name: OPERAとは
                         <h2 class="p-more__title"><span class="u-uppercase">opera</span>のサービスをみる</h2>
                     </div>
                     <div class="p-more__bottom">
-                        <a href="#" class="p-more__button">自宅葬サービス</a>
-                        <a href="#" class="p-more__button">思い出トランク</a>
+                        <a href="https://opera-pet.com/home-funeral/
+
+" class="p-more__button">自宅葬サービス</a>
+                        <a href="https://opera-pet.com/omoide/" class="p-more__button">思い出トランク</a>
                     </div>
                 </div>
             </div>

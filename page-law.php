@@ -57,7 +57,14 @@ Template Name: 特定商取引法に基づく表記
                 <div class="p-privacy__container">
                     <h3 class="p-privacy__title">代⾦⽀払い⽅法及び期限</h3>
                     <div class="p-privacy__text">
-                        <p>銀⾏振込(事前⽀払い)、クレジットカード決済(配送員訪問時：⽀払⼿数料無料)、代⾦⼿渡し(配送員への⼿渡し)をご利⽤いただけます。<br>※銀⾏振込の⼿数料はお客様ご負担となります。</p>
+                        <p>銀⾏振込(事前⽀払い)、クレジットカード決済(配送員訪問時：⽀払⼿数料無料)、代⾦⼿渡し(配送員への⼿渡し)、事前カード決済(オンライン上で決済：手数料無料)をご利⽤いただけます。
+							<br>※サービスにより決裁方法は異なります。
+							<br>※銀⾏振込の⼿数料はお客様ご負担となります。</p><br>
+						<p>銀行振込・お振込先
+							<br>⾦融機関名：みずほ銀⾏（0001）
+							<br>⽀店名：⻘⼭⽀店（211）
+							<br>科⽬：普通 ⼝座番号：2621515
+							<br>受取⼈名：カ）グツドラツクアンドデイー</p>
                     </div>
                 </div>
                 <hr class="c-border -long">
@@ -71,14 +78,7 @@ Template Name: 特定商取引法に基づく表記
                 <div class="p-privacy__container">
                     <h3 class="p-privacy__title">申込の有効期限</h3>
                     <div class="p-privacy__text">
-                        <p>銀⾏振込の場合：ご注⽂後●⽇以内に代⾦をお振り込みください。</p>
-                    </div>
-                </div>
-                <hr class="c-border -long">
-                <div class="p-privacy__container">
-                    <h3 class="p-privacy__title">申込の有効期限</h3>
-                    <div class="p-privacy__text">
-                        <p>銀⾏振込の場合：ご注⽂後●⽇以内に代⾦をお振り込みください。</p>
+                        <p>銀⾏振込の場合：ご注⽂日かその翌日中に代⾦をお振り込みください。</p>
                     </div>
                 </div>
                 <hr class="c-border -long">
