@@ -226,11 +226,10 @@
                     <div class="p-introduction__flex-item p-introduction__right">
                         <h3 class="p-introduction__title">他サービス</h3>
                         <div class="p-introduction__middle">
-                            <p class="p-introduction__middle-text">生前のご相談から、自宅葬サービスへのオプションとして<br>アロマグルーミング、パウダー加工などもお受けしています。
-</p>
+                            <p class="p-introduction__middle-text">生前のご相談から、自宅葬サービスへのオプションとして<br>アロマグルーミング、パウダー加工などもお受けしています。</p>
                         </div>
                         <div class="p-introduction__bottom">
-                            <a href="<?php echo esc_url( home_url("/service/")); ?>" class="c-button p-introduction__button">お焚き上げサービス</a>
+                            <a href="<?php echo esc_url( home_url("/service/")); ?>" class="c-button p-introduction__button">他サービス</a>
                         </div>
                     </div>
                 </div>
@@ -347,7 +346,7 @@
                 </div>
                 <!-- p-information__wrapper -->
                 <div class="u-centerposition">
-                    <a class="c-button p-information__button" href="#">インフォメーション一覧</a>
+                    <a class="c-button p-information__button" href="<?php echo esc_url( home_url("/information/")); ?>">インフォメーション一覧</a>
                 </div>
             </div>
         </section>
@@ -407,7 +406,7 @@
                     <!--p-column__list-->
                 </div>
                 <div class="l-spacer u-centerposition">
-                    <a class="c-button -pplus u-bgwhite" href="#">コラム一覧</a>
+                    <a class="c-button -pplus u-bgwhite" href="<?php echo esc_url( home_url("/column/")); ?>">コラム一覧</a>
                 </div>
             </div>
         </section>

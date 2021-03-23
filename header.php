@@ -91,7 +91,7 @@
                             <a href="<?php echo esc_url( home_url("/home-funeral/")); ?>" class="p-header__list-jp" title="Home Funeral">自宅葬サービス</a>
                         </li>
                         <li class="p-header__list-item">
-                            <a href="<?php echo esc_url( home_url("/service/")); ?>" class="p-header__list-jp" title="Other">他サービス</a>
+                            <a href="<?php echo esc_url( home_url("/service/")); ?>" class="p-header__list-jp" title="Service">他サービス</a>
                         </li>
                     </ul>
                     <ul class="p-header__list">

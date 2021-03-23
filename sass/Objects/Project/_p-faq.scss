@@ -47,6 +47,8 @@
 
         @include mq('sp') {
             width: 100%;
+            font-size: 1.125em;
+            font-weight: bold;
         }
         
 
@@ -95,6 +97,7 @@
             width: 100%;
             padding-bottom: 0;
             padding-top: 2em;
+            font-size: 1em;
         }
 
         &:before {

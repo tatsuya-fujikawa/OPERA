@@ -17,7 +17,7 @@
                         <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/staff/")); ?>"> &emsp;スタッフ紹介 &emsp;/</a></li>
                         <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/information/")); ?>"> &emsp;インフォメーション &emsp;/</a></li>
                         <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/information#column/")); ?>"> &emsp;コラム &emsp;/</a></li>
-                        <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/contact#privacy/")); ?>"> &emsp;プライバシーポリシー &emsp;/</a></li>
+                        <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/contact#privacy")); ?>"> &emsp;プライバシーポリシー &emsp;/</a></li>
                         <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/law/")); ?>"> &emsp;特定商取引法に基づく表記 &emsp;/</a></li>
                     </ul>
                 </nav>
@@ -47,6 +47,13 @@
         </div>
         <!-- l-container-->
         <div class="p-footer__logo">
+            <?php if(!is_front_page()): ?>
+            <a href="<?php echo esc_url( home_url()); ?>">
+                <img class="p-footer__logo-img" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="">
+            </a>
+            <?php else: ?>
+            <img class="p-footer__logo-img" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="">
+            <?php endif; ?>
             <span class="u-visually-hidden">オペラ青山</span>
         </div>
         <!-- spレイアウト -->
@@ -79,7 +86,7 @@
                         <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/staff/")); ?>">スタッフ紹介</a></li>
                         <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/information/")); ?>">インフォメーション</a></li>
                         <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/information#column/")); ?>">コラム</a></li>
-                        <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/contact#privacy/")); ?>">プライバシーポリシー</a></li>
+                        <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/contact#privacy")); ?>">プライバシーポリシー</a></li>
                         <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/law/")); ?>">特定商取引法に基づく表記</a></li>
                     </ul>
                 </nav>

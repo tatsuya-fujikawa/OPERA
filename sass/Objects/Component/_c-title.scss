@@ -117,9 +117,15 @@
     &.-contact {
         &:before {
             width: 40vw;
+            @include mq('sp') {
+                width: 24vw;
+            }
         }
         &:after {
             width: 40vw;
+            @include mq('sp') {
+                width: 24vw;
+            }
         }
     }
 }
@@ -162,8 +168,16 @@
 
     &.-staff {
         margin-top: 3.3em;
+
+        @include mq('sp') {
+            margin-top: 3.6em;
+        }
         &::before {
             bottom: 140px;
+
+            @include mq('sp') {
+                bottom: 100px;
+            }
         }
     }
 

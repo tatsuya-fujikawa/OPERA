@@ -12,6 +12,11 @@
         font-size: 2.375em;
         text-align: center;
         padding-top: 1em;
+
+        @include mq('sp') {
+            font-size: 1.5em;
+            padding-bottom: 1em;
+        }
     }
 
     &__wrap {
@@ -19,6 +24,12 @@
             text-align: center;
             font-size: 1.125em;
             margin-top: 1.9em;
+
+            @include mq('sp') {
+                margin-top: 0.5em;
+                width: 90%;
+                margin: 0 auto;
+            }
         }
         
     }

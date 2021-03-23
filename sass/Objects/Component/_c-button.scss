@@ -32,6 +32,10 @@
         padding-right: 2.5em;
         position: relative;
 
+        @include mq('sp') {
+            margin-bottom: 1em;
+        }
+
         &:before {
             position: absolute;
             content: '';
