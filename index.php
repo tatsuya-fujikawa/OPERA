@@ -30,7 +30,7 @@
                             <div class="p-service__flex-item">
                                 <p class="p-service__flex-lead">分かりやすく安心</p>
                                 <h3 class="p-service__flex-title">定額料金</h3>
-                                <p class="p-service__flex-lead">現金・銀行振込・カード決済<br>から選択可能</p>
+                                <p class="p-service__flex-lead">現金・銀行振込・カード決済</p>
                             </div>
                             <div class="p-service__flex-item">
                                 <p class="p-service__flex-lead">清らかにお見送り</p>
@@ -55,7 +55,7 @@
                                 <div class="p-service__flex-item -sp">
                                     <p class="p-service__flex-lead">分かりやすく安心</p>
                                     <h3 class="p-service__flex-title">定額料金</h3>
-                                    <p class="p-service__flex-lead">現金・銀行振込・カード決済<br>から選択可能</p>
+                                    <p class="p-service__flex-lead">現金・銀行振込・カード決済</p>
                                 </div>
                                 <div class="p-service__flex-item -sp">
                                     <p class="p-service__flex-lead">業界のプロが対応</p>
@@ -77,7 +77,7 @@
                                 <div class="p-service__set">
                                     <div class="p-service__set-top">
                                         <h3 class="p-service__set-title">
-                                            <span class="u-uppercase">opera</span>の自宅葬セット<br><span class="p-service__set-strong">¥68,000</span>(税込)〜
+                                            <span class="u-uppercase">opera</span>の自宅葬セット<br><span class="p-service__set-strong u-pink u-bold">¥68,000</span>(税込)〜
                                         </h3>
                                     </div>
                                     <div class="p-service__set-middle">

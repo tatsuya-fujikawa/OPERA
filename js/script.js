@@ -1,6 +1,6 @@
 'use strict';
 
-{
+
   $(function(){
     var ua = navigator.userAgent;
     if((ua.indexOf('iPhone') > 0) || ua.indexOf('iPod') > 0 || (ua.indexOf('Android') > 0 && ua.indexOf('Mobile') > 0)){
@@ -9,8 +9,7 @@
     $('head').prepend('<meta name="viewport" content="width=1050">');
     }
     });
-}
-{
+
   //トップへスクロール
 const pagetopBtn = document.getElementById('js-scroll');
 pagetopBtn.addEventListener('click', () => {
@@ -20,5 +19,12 @@ pagetopBtn.addEventListener('click', () => {
   });
 });
 
-}
 
+$(function(){
+  $(document).on('focus', 'input',function(){
+    $('.p-bottom').hide();
+  });
+  $(document).on('blur', 'input', function(){
+    $('.p-bottom').show();
+  });
+});

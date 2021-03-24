@@ -28,7 +28,13 @@ Template Name: お申し込み・ご相談
                         <div class="p-form__bottom">
                             <div class="p-form__bottom-bg">
                                 <p class="p-form__bottom-time">24時間受付</p>
-                                <p class="p-form__bottom-tel">0120-71-1212</p>
+                                <p class="p-form__bottom-tel">
+                                    <?php if(is_mobile()): ?>
+                                    <a href="tel:0120-71-1212">0120-71-1212</a>
+                                    <?php else: ?>
+                                        0120-71-1212
+                                    <?php endif; ?>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -37,153 +43,13 @@ Template Name: お申し込み・ご相談
                     <p class="p-form__attention-text">お問い合わせフォームをご利⽤の際は、必ず「<a href="#privacy" class="u-gold">プライバシーポリシー</a>」をご⼀読いただき、<br>その内容に同意していただけましたら<br>下記フォームに必要事項をご⼊⼒の上、「⼊⼒内容確認画⾯」ボタンを押してください。</p>
                 </div>
                 <div class="l-spacer">
-                    <form action="">
-                        <div class="p-form__flex">
-                            <div class="p-form__left">
-                                <p class="p-form__title p-form__must" for="koumoku">お問い合わせ項目</p>
-                                <div class="p-form__select">
-                                    <input type="radio" name="lists" id="gojitaku" value="gojitakucourse"><label for="gojitaku">ご⾃宅葬(コース)お申し込み</label>
-                                </div>
-                                <div class="p-form__select">
-                                    <input type="radio" name="lists" id="gojitakutanpin" value="gojitakucourse_tanpin"><label for="gojitakutanpin">ご⾃宅葬(単品)お申し込み</label>
-                                </div>
-                                <div class="p-form__select">
-                                    <input type="radio" name="lists" id="trunk"><label for="trunk" value="trunk">思い出トランクお申し込み</label>
-                                </div>
-                                <div class="p-form__select">
-                                    <input type="radio" name="lists" id="otherservice" value="otherservice"><label for="otherservice">他サービスについて</label>
-                                </div>
-                                <div class="p-form__select">
-                                    <input type="radio" name="lists" id="another" value="anotherquestion"><label for="another">その他ご相談やお問い合わせ</label>
-                                </div>
-                            </div>
-                            <div class="p-form__right">
-                                <div class="p-form__wrap">
-                                    <label for="yourcourse" class="p-form__title p-form__must">コース商品</label>
-                                    <select name="yourcourse" id="yourcourse" praceholder="選択してください">
-                                        <option disabled selected value="">選択してください</option>
-                                        <option value="">自宅葬ロミオコース(お花：ピンク系)</option>
-                                        <option value="">自宅葬ロミオコース(お花：ブルー系)</option>
-                                        <option value="">自宅葬ジュリエットコース(お花：ピンク系)</option>
-                                        <option value="">自宅葬ジュリエットコース(お花：ブルー系)</option>
-                                    </select>
-                                </div>
-                                <div class="p-form__wrap">
-                                    <label for="yourcourse" class="p-form__title p-form__must">牧師訪問希望⽇時</label>
-                                    <p class="p-form__text">第一希望</p>
-                                    <div class="p-form__dateselect">
-                                        <select name="yourdate" id="yourdate" praceholder="選択してください">
-                                            <option disabled selected value="">日付選択</option>
-                                        </select>
-                                        <select name="yourtime" id="yourtime" praceholder="選択してください">
-                                            <option disabled selected value="">時間選択</option>
-                                        </select>
-                                    </div>
-                                    <p class="p-form__text">第二希望</p>
-                                    <div class="p-form__dateselect">
-                                        <select name="yourdate2" id="yourdate2" praceholder="選択してください">
-                                            <option disabled selected value="">日付選択</option>
-                                        </select>
-                                        <select name="yourtime2" id="yourtime2" praceholder="選択してください">
-                                            <option disabled selected value="">時間選択</option>
-                                        </select>
-                                    </div>
-                                    <p class="p-form__annotation">※お申込みから3⽇後までの⽇程でご選択ください。所要時間は30分程度です。</p>
-                                </div>
-                                <div class="p-form__wrap">
-                                    <label for="yourcourse" class="p-form__title p-form__must">火葬車希望⽇時</label>
-                                    <p class="p-form__text">第一希望</p>
-                                    <div class="p-form__dateselect">
-                                        <select name="yourdate3" id="yourdate3" praceholder="選択してください">
-                                            <option disabled selected value="">日付選択</option>
-                                        </select>
-                                        <select name="yourtime4" id="yourtime4" praceholder="選択してください">
-                                            <option disabled selected value="">時間選択</option>
-                                        </select>
-                                    </div>
-                                    <p class="p-form__text">第二希望</p>
-                                    <div class="p-form__dateselect">
-                                        <select name="yourdate2" id="yourdate2" praceholder="選択してください">
-                                            <option disabled selected value="">日付選択</option>
-                                        </select>
-                                        <select name="yourtime2" id="yourtime2" praceholder="選択してください">
-                                            <option disabled selected value="">時間選択</option>
-                                        </select>
-                                    </div>
-                                    <p class="p-form__annotation">※お申込みから3⽇後までの⽇程でご選択ください。所要時間は30分程度です。</p>
-                                    <p class="p-form__annotation">※牧師訪問と同じ⽇付も選択可能です。所要時間は2時間程度です。</p>
-                                </div>
-                                <div class="p-form__wrap">
-                                    <label for="yourpayment" class="p-form__title p-form__must">お支払い方法</label>
-                                    <select name="yourpayment" id="yourpayment" praceholder="選択してください">
-                                        <option disabled selected value="">選択してください</option>
-                                        <option value="">クレジット決済</option>
-                                        <option value="">代⾦⼿渡し</option>
-                                        <option value="">銀⾏振込</option>
-                                        <option value="">Squareカード決済入金</option>
-                                    </select>
-                                    <ul class="p-form__annotation">
-                                        <li>※クレジット決済→商品お届け時にお⽀払い</li>
-                                        <li>※代⾦⼿渡し→商品お届け時にお⽀払い</li>
-                                        <li>※Squareカード決済⼊⾦→「思い出トランク」のみで利用可能です</li>
-                                    </ul>
-                                </div>
-                                <div class="p-form__wrap">
-                                    <label for="yourname" class="p-form__title p-form__must">お名前</label>
-                                    <input type="text" id="yourname" name="yourname" placeholder="例）鈴木　花子" autocomplete="name" />
-                                </div>
-                                <div class="p-form__wrap">
-                                    <label for="tel" class="p-form__title p-form__must">電話番号</label>
-                                    <input type="text" id="tel" name="tel" placeholder="例)09023456789">
-                                </div>
-                                <div class="p-form__wrap">
-                                    <label for="mail" class="p-form__title p-form__must">メールアドレス</label>
-                                    <input type="text" id="mail" name="mail" placeholder="例)info@opera-pet.com">
-                                </div>
-                                <div class="p-form__wrap">
-                                    <p>確認のため、もう一度ご入力ください。</p>
-                                    <input type="text" name="mail" placeholder="例)info@opera-pet.com">
-                                </div>
-                                <div class="p-form__wrap">
-                                    <label class="p-form__title p-form__must">住所</label>
-                                    <p class="p-form__annotation">ご⾃宅葬をお申し込みの⽅は必ずご⼊⼒ください。対応エリアは東京23区・横浜市と川崎区です。＞<a href="#" class="u-gold">詳しくはこちら</a></p>
-                                    <label class="p-form__poscalmark">〒</label><input type="text" name="poscal-code" placeholder="1000000">
-                                </div>
-                                <div class="p-form__wrap">
-                                    <p class="p-form__text">都道府県</p>
-                                    <select name="address-level1" id="address-level1" praceholder="選択してください">
-                                        <option disabled selected value="">都道府県を選択してください</option>
-                                        <option value="">東京都</option>
-                                        <option value="">神奈川県</option>
-                                    </select>
-                                </div>
-                                <div class="p-form__wrap">
-                                    <p class="p-form__text">市区町村・番地</p>
-                                    <input type="text" name="address-level1" placeholder="例）都港区南⻘⼭2-2-15">
-                                </div>
-                                <div class="p-form__wrap">
-                                    <p class="p-form__text">マンション・ビル名（任意）</p>
-                                    <input type="text" name="address-level1" placeholder="例）ウィン⻘⼭834">
-                                </div>
-                            </div>
-                        </div><!-- p-form__flex-->
-                        <div class="p-form__bottom">
-                            <div class="p-form__wrap">
-                                <label for="comment" class="p-form__title p-form__any">お問い合わせ内容</label>
-                                <textarea id="comment" name="comment" placeholder="お問い合わせ詳細をご⼊⼒ください"></textarea>
-                            </div>
-                            <div class="p-form__bg">
-                                <p class="p-form__bg-title">メール受信に関するご注意事項</p>
-                                <p class="p-form__bg-text">当社からのメールが受け取れるよう必ずドメイン受信設定をお願いします（info@opera-pet.com）。<br>hotmail、yahooメール等のフリーメールをご利⽤の場合、当社からのメールが誤って迷惑メール扱いになってしまっている場合もございます。<br>メールが届かない場合は迷惑メールフォルダ等も⼀度ご確認下さいませ。</p>
-                            </div>
-                        </div>
-                        <div class="p-form__checkbox">
-                            <input type="checkbox" name="checkbox"><label>「<a href="#privacy" class="u-gold">プライバシーポリシー</a>」の内容に同意する<br>※ご同意いただけない場合は送信ができません。</label>
-                        </div>
-                        <div class="p-form__button">
-                            <input type="submit" value="入力内容の確認へ" name="submit">
-                        </div>
-                    </form>
+                    <?php if(have_posts()): 
+                        while(have_posts()): the_post();
+                        ?>
+                            <?php the_content(); ?>
+                        <?php endwhile; 
+                        endif;
+                        ?>
                 </div>
             </div>
         </section>

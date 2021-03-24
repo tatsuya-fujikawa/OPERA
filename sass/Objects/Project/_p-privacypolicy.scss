@@ -1,6 +1,10 @@
 .p-privacypolicy {
     &__text {
         font-size: 1.125em;
+
+        @include mq('sp') {
+            font-size: 1em;
+        }
     }
     &__wrap {
         padding-bottom: 1.5em;
@@ -10,6 +14,10 @@
         font-size: 1.5em;
         padding-left: 1.5em;
         position: relative;
+
+        @include mq('sp') {
+            padding-left: 0;
+        }
 
         &:before {
             content: '◆';
@@ -24,6 +32,11 @@
         padding-top: 1em;
         padding-bottom: 1em;
 
+        @include mq('sp') {
+            padding-left: 1.5em;
+            padding-bottom: 0;
+        }
+
         &-title {
             font-size: 1.5em;
             position: relative;
@@ -36,6 +49,10 @@
                 background-color: $color-gold;
                 top: 50%;
                 left: -7%;
+
+                @include mq('sp') {
+                    width: 20px;
+                }
             }
         }
     }
@@ -44,10 +61,18 @@
         padding-left: 4em;
         padding-bottom: 3em;
 
+        @include mq('sp') {
+            padding-left: 0;
+        }
+
         &-item {
             font-size: 1.125em;
             position: relative;
             line-height: 30px;
+
+            @include mq('sp') {
+                font-size: 1em;
+            }
 
             &:before {
                 content: '●';
@@ -61,8 +86,15 @@
     &__address {
         padding-left: 8em;
         padding-top: 0.5em;
+        @include mq('sp') {
+            padding-left: 0;
+            padding-bottom: 4em;
+        }
         &-text {
             font-size: 1.5em;
+            @include mq('sp') {
+                font-size: 1.125em;
+            }
         }
     }
 }

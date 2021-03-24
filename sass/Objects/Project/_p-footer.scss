@@ -108,12 +108,12 @@
 
 
     &__logo {
-        height: 272px;
+        height: 400px;
         background-image: url(../img/footer_logo.png);
         width: 100%;
         background-position: center;
-        padding-bottom: 3em;
         text-align: center;
+        margin-bottom: -2em;
 
         @include mq('sp') {
             margin-bottom: 0;
@@ -125,7 +125,6 @@
         &-img {
             margin: 0 auto;
             position: relative;
-            top: -75px;
         }
     }
 
