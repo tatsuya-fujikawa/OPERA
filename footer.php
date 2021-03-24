@@ -30,8 +30,8 @@
                         <p class="p-footer__company-address">東京都港区南青山2丁目2番15号<br>ウィン青山834</p>
                     </div>
                     <div class="p-footer__sns">
-                        <a href="https://www.instagram.com/operaaoyama1122/" traget="_blank" rel="noreferrer noopener"><img class="p-footer__sns-instagram" src="<?php echo get_template_directory_uri(); ?>/img/instagram.svg" alt="インスタグラムロゴ" width="40px"></a>
-                        <a href="#" traget="_blank" rel="noreferrer noopener"><img class="p-footer__sns-line" src="<?php echo get_template_directory_uri(); ?>/img/line.svg" alt="ラインロゴ" width="40px"></a>
+                        <a href="https://www.instagram.com/operaaoyama1122/" target="_blank" rel="noreferrer noopener"><img class="p-footer__sns-instagram" src="<?php echo get_template_directory_uri(); ?>/img/instagram.svg" alt="インスタグラムロゴ" width="40px"></a>
+                        <a href="#" target="_blank" rel="noreferrer noopener"><img class="p-footer__sns-line" src="<?php echo get_template_directory_uri(); ?>/img/line.svg" alt="ラインロゴ" width="40px"></a>
                     </div>
                 </div>
                 <div class="p-footer__right">
@@ -67,7 +67,7 @@
                     <p class="p-footer__sp-text">※生前のご相談も承っております</p>
                 </div>
                 <div class="p-footer__sns">
-                    <a href="https://www.instagram.com/operaaoyama1122/"><img class="p-footer__sns-instagram" src="<?php echo get_template_directory_uri(); ?>/img/instagram.svg" alt="インスタグラムロゴ" width="60px" traget="_blank" rel="noreferrer noopener"></a>
+                    <a href="https://www.instagram.com/operaaoyama1122/"><img class="p-footer__sns-instagram" src="<?php echo get_template_directory_uri(); ?>/img/instagram.svg" alt="インスタグラムロゴ" width="60px" target="_blank" rel="noreferrer noopener"></a>
                     <a href="#"><img class="p-footer__sns-line" src="<?php echo get_template_directory_uri(); ?>/img/line.svg" alt="ラインロゴ" width="60px"></a>
                 </div>
                 <div class="p-footer__company-sp">
@@ -96,6 +96,7 @@
             <p class="p-footer__copyright-text">&copy;<span class="u-uppercase">2021 good luck &d</span></p>
         </div>
     </footer>
+    <?php if(!is_page('contact')): ?>
     <div class="l-bottom p-bottom sp">
         <div class="p-bottom__wrapper">
             <div class="p-bottom__left">
@@ -124,6 +125,7 @@
             </div>
         </div>
     </div>
+    <?php endif; ?>
     <?php wp_footer(); ?>
 </body>
 </html>

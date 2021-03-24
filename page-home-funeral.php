@@ -24,7 +24,7 @@ Template Name: 自宅葬サービス
                             <div class="p-service__flex-item">
                                 <p class="p-service__flex-lead">分かりやすく安心</p>
                                 <h3 class="p-service__flex-title">定額料金</h3>
-                                <p class="p-service__flex-lead">オンライン決済が可能</p>
+                                <p class="p-service__flex-lead">現金・銀行振込・カード決済</p>
                             </div>
                             <div class="p-service__flex-item">
                                 <p class="p-service__flex-lead">清らかにお見送り</p>
@@ -49,7 +49,7 @@ Template Name: 自宅葬サービス
                                 <div class="p-service__flex-item -sp">
                                     <p class="p-service__flex-lead">分かりやすく安心</p>
                                     <h3 class="p-service__flex-title">定額料金</h3>
-                                    <p class="p-service__flex-lead">オンライン決済が可能</p>
+                                    <p class="p-service__flex-lead">現金・銀行振込・カード決済</p>
                                 </div>
                                 <div class="p-service__flex-item -sp">
                                     <p class="p-service__flex-lead">業界のプロが対応</p>
@@ -86,8 +86,8 @@ Template Name: 自宅葬サービス
                         <tbody>
                             <tr>
                                 <th>価格</th>
-                                <th>￥68,800(税込)<br><span class="p-table__text-small">※お届け⽇が⼟⽇祝となる場合は<br>￥3,300(税込)の追加料⾦がかかります。</span></th>
-                                <th>￥98,800(税込)<br><span class="p-table__text-small">※お届け⽇が⼟⽇祝となる場合は<br>￥3,300(税込)の追加料⾦がかかります。</span></th>
+                                <th><span class="u-pink u-bold">￥68,800</span>(税込)<br><span class="p-table__text-small">※お届け⽇が⼟⽇祝となる場合は<br>￥3,300(税込)の追加料⾦がかかります。</span></th>
+                                <th><span class="u-pink u-bold">￥98,800</span>(税込)<br><span class="p-table__text-small">※お届け⽇が⼟⽇祝となる場合は<br>￥3,300(税込)の追加料⾦がかかります。</span></th>
                             </tr>
                             <tr>
                                 <th>お届けお通夜セット<br><span class="p-table__text-small">※お花はピンク系かブルー系<br>どちらか1つを選択してください</span></th>

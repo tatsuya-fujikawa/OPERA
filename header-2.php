@@ -15,9 +15,7 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/slick.js" defer></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/humberger.js" defer></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/script.js" defer></script>
-    <?php if(is_front_page()): ?>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/bannar.js" defer></script>
-    <?php endif; ?>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/checkbox.js" defer></script>
     <title><?php echo the_title(); ?>|ペット自宅葬儀・火葬のOPERA（オペラ青山）</title>
     <?php wp_head(); ?>
 </head>
@@ -93,7 +91,7 @@
                             <a href="<?php echo esc_url( home_url("/home-funeral/")); ?>" class="p-header__list-jp" title="Home Funeral">自宅葬サービス</a>
                         </li>
                         <li class="p-header__list-item">
-                            <a href="<?php echo esc_url( home_url("/service/")); ?>" class="p-header__list-jp" title="Other">他サービス</a>
+                            <a href="<?php echo esc_url( home_url("/service/")); ?>" class="p-header__list-jp" title="Service">他サービス</a>
                         </li>
                     </ul>
                     <ul class="p-header__list">

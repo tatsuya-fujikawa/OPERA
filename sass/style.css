@@ -652,6 +652,7 @@ address {
 @media screen and (max-width: 767px) {
   .c-button.-staff {
     margin-bottom: 1em;
+    min-width: 280px;
   }
 }
 
@@ -1571,12 +1572,12 @@ address {
 }
 
 .p-footer__logo {
-  height: 272px;
+  height: 400px;
   background-image: url(../img/footer_logo.png);
   width: 100%;
   background-position: center;
-  padding-bottom: 3em;
   text-align: center;
+  margin-bottom: -2em;
 }
 
 @media screen and (max-width: 767px) {
@@ -1593,7 +1594,6 @@ address {
 .p-footer__logo-img {
   margin: 0 auto;
   position: relative;
-  top: -75px;
 }
 
 .p-footer__copyright {
@@ -3432,6 +3432,7 @@ address {
     margin-top: 0.5em;
     width: 90%;
     margin: 0 auto;
+    text-align: left;
   }
 }
 
@@ -4169,6 +4170,12 @@ address {
   min-width: 100%;
 }
 
+@media screen and (max-width: 767px) {
+  .p-form__bg {
+    padding: 0.5em;
+  }
+}
+
 .p-form__bg-title {
   font-size: 1.5em;
   padding: 0 1rem 1rem;
@@ -4202,9 +4209,21 @@ address {
   text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+  .p-form__middle-text {
+    font-size: 1.125em;
+  }
+}
+
 .p-form__bottom {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
+}
+
+@media screen and (max-width: 767px) {
+  .p-form__bottom {
+    padding-top: 0;
+  }
 }
 
 .p-form__bottom-bg {
@@ -4228,8 +4247,9 @@ address {
 
 @media screen and (max-width: 767px) {
   .p-form__bottom-time {
-    padding-left: 4rem;
+    padding-left: 0;
     font-size: 1.25em;
+    text-align: center;
   }
 }
 
@@ -4242,8 +4262,9 @@ address {
 
 @media screen and (max-width: 767px) {
   .p-form__bottom-tel {
-    font-size: 2.5em;
-    padding-left: 4rem;
+    font-size: 2em;
+    padding-left: 0;
+    text-align: center;
   }
 }
 
@@ -4260,6 +4281,14 @@ address {
   left: 5%;
 }
 
+@media screen and (max-width: 767px) {
+  .p-form__bottom-tel:before {
+    position: relative;
+    width: 60px;
+    height: 24px;
+  }
+}
+
 .p-form__attention {
   padding-bottom: 2.5em;
 }
@@ -4267,6 +4296,12 @@ address {
 .p-form__attention-text {
   font-size: 1.125em;
   text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .p-form__attention-text {
+    font-size: 1em;
+  }
 }
 
 .p-form__title {
@@ -4289,7 +4324,7 @@ address {
 .p-form__must:after {
   content: '必須';
   position: absolute;
-  width: 100%;
+  width: 50px;
   font-weight: bold;
   padding-left: 0.25em;
   font-size: 12px;
@@ -4303,7 +4338,7 @@ address {
 .p-form__any:after {
   content: '任意';
   position: absolute;
-  width: 100%;
+  width: 50px;
   font-weight: bold;
   padding-left: 0.25em;
   font-size: 12px;
@@ -4319,6 +4354,7 @@ address {
 @media screen and (max-width: 767px) {
   .p-form__flex {
     display: block;
+    width: 95%;
   }
 }
 
@@ -4329,6 +4365,7 @@ address {
 @media screen and (max-width: 767px) {
   .p-form__left {
     width: 100%;
+    padding-bottom: 1.5em;
   }
 }
 
@@ -4347,8 +4384,15 @@ address {
   padding-bottom: 1.5em;
 }
 
+@media screen and (max-width: 767px) {
+  .p-form__wrap {
+    padding-bottom: 1em;
+  }
+}
+
 .p-form__title {
   padding-bottom: 0.5em;
+  margin-right: 1.5em;
 }
 
 .p-form__annotation {
@@ -4360,7 +4404,6 @@ address {
 }
 
 .p-form__text {
-  padding-left: 2em;
   padding-top: 0.5em;
 }
 
@@ -4371,6 +4414,12 @@ address {
 .p-form__bottom {
   width: 90%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .p-form__bottom {
+    width: 95%;
+  }
 }
 
 .p-form__checkbox {
@@ -4384,6 +4433,12 @@ address {
 .p-form__dateselect {
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .p-form__dateselect {
+    justify-content: space-evenly;
+  }
 }
 
 .p-form select {
@@ -4422,19 +4477,32 @@ address {
   width: 5%;
 }
 
-.p-form input[name="submit"] {
+.p-form input[name="submitConfirm"],
+.p-form input[name="button__confirm"] {
   background-color: #b49e68;
   color: #fff;
   font-size: 1.5em;
   width: auto;
   padding: 0.5em;
   margin: 0 auto;
+  transition: 0.5s;
+  box-sizing: border-box;
 }
 
-.p-form select[name="yourdate"],
-.p-form select[name="yourdate2"],
-.p-form select[name="yourdate3"],
-.p-form select[name="yourdate4"] {
+.p-form input[name="submitConfirm"]:hover,
+.p-form input[name="button__confirm"]:hover {
+  outline: 3px solid #b49e68;
+  outline-offset: -3px;
+  color: #b49e68;
+  font-weight: bold;
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.p-form input[name="yourdate"],
+.p-form input[name="yourdate2"],
+.p-form input[name="yourdate3"],
+.p-form input[name="yourdate4"] {
   width: 43%;
 }
 
@@ -4455,8 +4523,18 @@ address {
   height: 23vh;
 }
 
+.p-form input:disabled {
+  cursor: not-allowed;
+}
+
 .p-privacypolicy__text {
   font-size: 1.125em;
+}
+
+@media screen and (max-width: 767px) {
+  .p-privacypolicy__text {
+    font-size: 1em;
+  }
 }
 
 .p-privacypolicy__wrap {
@@ -4467,6 +4545,12 @@ address {
   font-size: 1.5em;
   padding-left: 1.5em;
   position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .p-privacypolicy__title {
+    padding-left: 0;
+  }
 }
 
 .p-privacypolicy__title:before {
@@ -4480,6 +4564,13 @@ address {
   padding-left: 7em;
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+@media screen and (max-width: 767px) {
+  .p-privacypolicy__purpose {
+    padding-left: 1.5em;
+    padding-bottom: 0;
+  }
 }
 
 .p-privacypolicy__purpose-title {
@@ -4497,15 +4588,33 @@ address {
   left: -7%;
 }
 
+@media screen and (max-width: 767px) {
+  .p-privacypolicy__purpose-title:before {
+    width: 20px;
+  }
+}
+
 .p-privacypolicy__list {
   padding-left: 4em;
   padding-bottom: 3em;
+}
+
+@media screen and (max-width: 767px) {
+  .p-privacypolicy__list {
+    padding-left: 0;
+  }
 }
 
 .p-privacypolicy__list-item {
   font-size: 1.125em;
   position: relative;
   line-height: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .p-privacypolicy__list-item {
+    font-size: 1em;
+  }
 }
 
 .p-privacypolicy__list-item:before {
@@ -4520,8 +4629,21 @@ address {
   padding-top: 0.5em;
 }
 
+@media screen and (max-width: 767px) {
+  .p-privacypolicy__address {
+    padding-left: 0;
+    padding-bottom: 4em;
+  }
+}
+
 .p-privacypolicy__address-text {
   font-size: 1.5em;
+}
+
+@media screen and (max-width: 767px) {
+  .p-privacypolicy__address-text {
+    font-size: 1.125em;
+  }
 }
 
 .u-uppercase {
@@ -4569,6 +4691,14 @@ address {
 
 .u-gold {
   color: #b49e68;
+}
+
+.u-center {
+  text-align: center;
+}
+
+.u-pink {
+  color: #F6ADC6;
 }
 
 #js-floating {
