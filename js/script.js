@@ -18,13 +18,3 @@ pagetopBtn.addEventListener('click', () => {
     behavior: "smooth"
   });
 });
-
-
-$(function(){
-  $(document).on('focus', 'input',function(){
-    $('.p-bottom').hide();
-  });
-  $(document).on('blur', 'input', function(){
-    $('.p-bottom').show();
-  });
-});

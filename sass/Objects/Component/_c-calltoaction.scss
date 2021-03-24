@@ -39,13 +39,9 @@
     
             @include mq('sp') {
                 font-size: 1.125em;
-                padding-left: 0.8em;
+                padding-left: 0;
+                text-align: center;
             }
-
-            @include mq('small') {
-                font-size: 1em;
-            }
-
 
         }
 
