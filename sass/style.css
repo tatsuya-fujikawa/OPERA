@@ -4497,7 +4497,11 @@ address {
 .p-form input[name="yourdate"],
 .p-form input[name="yourdate2"],
 .p-form input[name="yourdate3"],
-.p-form input[name="yourdate4"] {
+.p-form input[name="yourdate4"],
+.p-form input[name="yourdate02"],
+.p-form input[name="yourdate02_2"],
+.p-form input[name="yourdate02_3"],
+.p-form input[name="yourdate02_4"] {
   width: 43%;
 }
 
@@ -4505,7 +4509,11 @@ address {
   .p-form input[name="yourdate"],
   .p-form input[name="yourdate2"],
   .p-form input[name="yourdate3"],
-  .p-form input[name="yourdate4"] {
+  .p-form input[name="yourdate4"],
+  .p-form input[name="yourdate02"],
+  .p-form input[name="yourdate02_2"],
+  .p-form input[name="yourdate02_3"],
+  .p-form input[name="yourdate02_4"] {
     width: 100%;
   }
 }
@@ -4513,7 +4521,11 @@ address {
 .p-form select[name="yourtime"],
 .p-form select[name="yourtime2"],
 .p-form select[name="yourtime3"],
-.p-form select[name="yourtime4"] {
+.p-form select[name="yourtime4"],
+.p-form select[name="yourtime02"],
+.p-form select[name="yourtime02_2"],
+.p-form select[name="yourtime02_3"],
+.p-form select[name="yourtime02_4"] {
   width: 43%;
 }
 
@@ -4521,9 +4533,22 @@ address {
   .p-form select[name="yourtime"],
   .p-form select[name="yourtime2"],
   .p-form select[name="yourtime3"],
-  .p-form select[name="yourtime4"] {
+  .p-form select[name="yourtime4"],
+  .p-form select[name="yourtime02"],
+  .p-form select[name="yourtime02_2"],
+  .p-form select[name="yourtime02_3"],
+  .p-form select[name="yourtime02_4"] {
     width: 100%;
   }
+}
+
+.p-form input[name="submitBack"] {
+  width: 80px;
+  margin-bottom: 1em;
+  background-color: gray;
+  padding-left: 0;
+  margin: 0 auto 1em;
+  color: #fff;
 }
 
 .p-form textarea {
@@ -4821,4 +4846,18 @@ address {
 
 .next-arrow {
   right: 0;
+}
+
+.mw_wp_form_confirm .input-show {
+  display: none;
+}
+
+#formTanpinSelect,
+#formCourseSelect {
+  display: none;
+}
+
+#formTanpinSelect.-show,
+#formCourseSelect.-show {
+  display: block;
 }

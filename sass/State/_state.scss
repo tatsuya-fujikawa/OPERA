@@ -59,3 +59,16 @@
 .next-arrow {
   right: 0;
 }
+
+.mw_wp_form_confirm .input-show {
+  display: none;
+}
+
+#formTanpinSelect,
+#formCourseSelect {
+  display: none;
+}
+#formTanpinSelect.-show,
+#formCourseSelect.-show {
+  display: block;
+}

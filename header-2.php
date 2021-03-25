@@ -16,6 +16,8 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/humberger.js" defer></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/script.js" defer></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/checkbox.js" defer></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/scroll.js" defer></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/form.js" defer></script>
     <title><?php echo the_title(); ?>|ペット自宅葬儀・火葬のOPERA（オペラ青山）</title>
     <?php wp_head(); ?>
 </head>

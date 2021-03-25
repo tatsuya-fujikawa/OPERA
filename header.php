@@ -15,9 +15,7 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/slick.js" defer></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/humberger.js" defer></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/script.js" defer></script>
-    <?php if(is_front_page()): ?>
     <script src="<?php echo get_template_directory_uri(); ?>/js/bannar.js" defer></script>
-    <?php endif; ?>
     <title>東京23区・横浜・川崎でのペット自宅葬儀・火葬｜OPERA（オペラ青山）</title>
     <?php wp_head(); ?>
 </head>

@@ -1,4 +1,4 @@
-$(function() {
+jQuery(function($) {
     function sliderSetting() {
         var width = $(window).width();
 
@@ -10,7 +10,7 @@ $(function() {
                 prevArrow: '<img src="http://opera-pet.com/wp-content/themes/OPERA/img/sp/arrow_before.png" class="slide-arrow prev-arrow">',
                 nextArrow: '<img src="http://opera-pet.com/wp-content/themes/OPERA/img/sp/arrow_after.png" class="slide-arrow next-arrow">',
             });
-            
+
         } else {
             $('.js-slick.slick-initialized').slick('unslick');
         }
@@ -21,4 +21,3 @@ $(function() {
     });
 
 });
-
