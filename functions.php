@@ -39,17 +39,21 @@ function is_mobile(){
 function my_required_phone( $validation, $data ) {
   $lists = $data['lists'];
   if( isset( $lists ) && $lists === 'ご自宅葬（コース）お申し込み' ) {
-    $validation->set_rule( 'yourcourse', 'noEmpty', array( 'message' => '連絡方法に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
-    $validation->set_rule( 'yourdate', 'noEmpty', array( 'message' => '連絡方法に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
-    $validation->set_rule( 'yourtime', 'noEmpty', array( 'message' => '連絡方法に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
-    $validation->set_rule( 'yourdate2', 'noEmpty', array( 'message' => '連絡方法に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
-    $validation->set_rule( 'yourtime2', 'noEmpty', array( 'message' => '連絡方法に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
-    $validation->set_rule( 'yourdate3', 'noEmpty', array( 'message' => '連絡方法に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
-    $validation->set_rule( 'yourtime3', 'noEmpty', array( 'message' => '連絡方法に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
-    $validation->set_rule( 'yourdate4', 'noEmpty', array( 'message' => '連絡方法に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
-    $validation->set_rule( 'yourtime4', 'noEmpty', array( 'message' => '連絡方法に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
+    $validation->set_rule( 'yourcourse', 'noEmpty', array( 'message' => '項目に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
+    $validation->set_rule( 'yourdate', 'noEmpty', array( 'message' => '項目に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
+    $validation->set_rule( 'yourtime', 'noEmpty', array( 'message' => '項目に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
+    $validation->set_rule( 'yourdate2', 'noEmpty', array( 'message' => '項目に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
+    $validation->set_rule( 'yourtime2', 'noEmpty', array( 'message' => '項目に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
+    $validation->set_rule( 'yourdate3', 'noEmpty', array( 'message' => '項目に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
+    $validation->set_rule( 'yourtime3', 'noEmpty', array( 'message' => '項目に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
+    $validation->set_rule( 'yourdate4', 'noEmpty', array( 'message' => '項目に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
+    $validation->set_rule( 'yourtime4', 'noEmpty', array( 'message' => '項目に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
   } else if( isset( $lists ) && $lists === 'ご自宅葬（単品）お申し込み' ) {
-    $validation->set_rule( 'yourcourse02', 'noEmpty', array( 'message' => '連絡方法に「ご⾃宅葬(単品)お申し込み」を選択した場合、入力は必須です。') );
+    $validation->set_rule( 'yourcourse02', 'noEmpty', array( 'message' => '項目に「ご⾃宅葬(単品)お申し込み」を選択した場合、入力は必須です。') );
+  } else if( isset( $lists ) && $lists === '思い出トランクお申し込み' ) {
+    $validation->set_rule( 'yourpayment', 'noEmpty', array( 'message' => '項目に「思い出トランクお申し込み」を選択した場合、入力は必須です。') );
+  } else if( isset( $lists ) && $lists === '他サービスについて' ) {
+    $validation->set_rule( 'yourpayment', 'noEmpty', array( 'message' => '項目に「他サービスについて」を選択した場合、入力は必須です。') );
   }
   return $Validation;
 }

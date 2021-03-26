@@ -22,6 +22,8 @@ window.onload = function() {
         if(formCourse.classList.contains('-show')) {
           formCourse.classList.remove('-show');
         }
+      } else if(document.querySelector("input:checked[name=lists]").value === 'その他ご相談やお問い合わせ') {
+        
       } else {
         formCourse.classList.remove('-show');
         formTanpin.classList.remove('-show');
@@ -36,7 +38,6 @@ let checkInputConfirm = function () {
   for (let i = 0; i < formTitle.length; i++) {
 
     let test = formTitle[i].getAttribute('value');
-    console.log(test);
     if (test.includes('コース')) {
       formCourse.classList.add('-show');
     } else if (test.includes('単品')) {
@@ -50,7 +51,6 @@ let checkInputValue = function () {
   for (let i = 0; i < formTitle.length; i++) {
     let testItem = document.querySelector('input[checked]');
     let test = testItem.getAttribute('value');
-    console.log(test);
     if (test.includes('コース')) {
       formCourse.classList.add('-show');
     } else if (test.includes('単品')) {
@@ -66,7 +66,6 @@ let checkInputValue = function () {
 let checkInputChecked = function () {
   for (let i = 0; i < formTitle.length; i++) {
     if (formTitle[i].checked) {
-      console.log('チェック！')
       checkInputValue();
     };
   };
@@ -76,8 +75,11 @@ let checkInputChecked = function () {
 document.addEventListener('DOMContentLoaded', function () {
 
   checkInputChecked();
+  // 該当クラスをもつ要素があるかを判別
   if (formConfirm != null) {
     checkInputConfirm();
+  const formBtn  = document.querySelector('.button__confirm');
+  formBtn.disabled = false;
   }
 });
 
