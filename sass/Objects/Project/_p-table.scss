@@ -33,12 +33,16 @@
             width: 33.333%;
 
             @include mq('sp') {
-                font-size: 0.85em;
+                font-size: 1em;
                 height: auto;
+                width: 100%;
             }
 
             &:first-child {
                 border-top: 4px solid $color-gold;
+                @include mq('sp') {
+                    border-top: 1px solid $color-gold;
+                }
             }
             
             &.noborder {
@@ -75,11 +79,53 @@
                 width: 90%;
             }
         }
-
     }
-
     &__scroll {
         overflow: auto;
         white-space: nowrap;
+    }
+
+    &__sp {
+        &-course {
+            font-size: 1.25em;
+            text-align: center;
+            border-top: 1px solid $color-gold;
+            border-bottom: 3px solid $color-gold;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+        }
+
+        &-wrap {
+            display: flex;
+            margin-bottom: 1em;
+            border-top: 1px solid $color-gold;
+
+            &:last-of-type {
+                padding-bottom: 1em;
+                margin-bottom: 5em;
+                border-bottom: 1px solid $color-gold;
+            }
+        }
+
+        &-title {
+            width: 40%;
+            padding-top: 1em;
+
+        }
+        &-lead {
+            width: 60%;
+            padding-top: 1em;
+        }
+        &-img {
+            img {
+                width: 100%;
+            }
+        }
+        &-text {
+            font-size: 1em;
+            text-align: center;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+        }
     }
 }

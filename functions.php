@@ -48,7 +48,7 @@ function my_required_phone( $validation, $data ) {
     $validation->set_rule( 'yourtime3', 'noEmpty', array( 'message' => '連絡方法に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
     $validation->set_rule( 'yourdate4', 'noEmpty', array( 'message' => '連絡方法に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
     $validation->set_rule( 'yourtime4', 'noEmpty', array( 'message' => '連絡方法に「ご自宅葬（コース）お申し込み」を選択した場合、入力は必須です。') );
-  } else if( isset( $lists ) && $lists === 'ご⾃宅葬(単品)お申し込み' ) {
+  } else if( isset( $lists ) && $lists === 'ご自宅葬（単品）お申し込み' ) {
     $validation->set_rule( 'yourcourse02', 'noEmpty', array( 'message' => '連絡方法に「ご⾃宅葬(単品)お申し込み」を選択した場合、入力は必須です。') );
   }
   return $Validation;

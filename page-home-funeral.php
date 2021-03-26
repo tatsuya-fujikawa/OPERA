@@ -76,7 +76,7 @@ Template Name: 自宅葬サービス
             <div class="l-container -forSub">
                 <h2 id="course" class="c-heading" title="course">コースメニュー</h2>
                 <p class="p-table__text">お通夜セットのお届けから個別⽕葬、ご収⾻まで込みのプランとなります。</p>
-                <div class="p-table__scroll">
+                <div class="p-table__scroll pc">
                     <table class="p-table__table">
                         <thead>
                             <tr>
@@ -155,6 +155,134 @@ Template Name: 自宅葬サービス
                             </tr>
                         </tbody>
                     </table>
+                </div>
+                <div class="p-table__sp sp">
+                    <div class="p-table__sp-course">
+                        <p class="u-bold">ロミオコース</p>
+                    </div>
+                    <div class="p-table__sp-wrap">
+                        <div class="p-table__sp-title">
+                            <p class="u-bold">価格</p>
+                        </div>
+                        <div class="p-table__sp-lead">
+                            <p><span class="u-pink u-bold">￥68,800</span>(税込)<br><span class="p-table__text-small">※お届け⽇が⼟⽇祝となる場合は￥3,300(税込)の追加料⾦がかかります</span></p>
+                        </div>
+                    </div>
+                    <div class="p-table__sp-wrap">
+                    <div class="p-table__sp-title">
+                        <p><span class="u-bold">お届けお通夜セット</span><br><span class="p-table__text-small">※お花はピンク系かブルー系<br>どちらか1つを選択してください</span></p>
+                    </div>
+                    <div class="p-table__sp-lead">
+                        <ul>
+                            <li>・さいだんフラワー<br>【花おまかせ】</li>
+                            <li>・アイスパック2袋</li>
+                            <li>・ホワイトチュールマット</li>
+                        </ul>
+                        <p class="p-table__sp-text u-bold">お花：ピンク系</p>
+                        <div class="p-table__sp-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/bouquet_pink.png" alt="">
+                        </div>
+                        <p class="p-table__sp-text u-bold">お花：ブルー系</p>
+                        <div class="p-table__sp-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/bouquet_blue.png" alt="">
+                        </div>
+                    </div>
+                    </div>
+                    <div class="p-table__sp-wrap">
+                    <div class="p-table__sp-title">
+                        <p class="u-bold">訪問　牧師1名</p>
+                    </div>
+                    <div class="p-table__sp-lead">
+                        <ul>
+                            <li>・お祈り＆カウンセリング</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="p-table__sp-wrap">
+                    <div class="p-table__sp-title">
+                        <p class="u-bold">訪問　火葬車</p>
+                    </div>
+                    <div class="p-table__sp-lead">
+                        <ul>
+                            <li>・個別⽕葬、ご収⾻</li>
+                            <li>・⾻壺</li>
+                            <li>・⾻壺カバー</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="p-table__sp-wrap">
+                    <div class="p-table__sp-title">
+                        <p class="u-bold">コース特典</p>
+                    </div>
+                    <div class="p-table__sp-lead">
+                    <p>牧師による癒しの動画1週間⾒放題<br>体験型メモリー/ハートバルーンリリース</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="p-table__sp sp">
+                    <div class="p-table__sp-course">
+                        <p class="u-bold">ジュリエットコース</p>
+                    </div>
+                    <div class="p-table__sp-wrap">
+                        <div class="p-table__sp-title">
+                            <p class="u-bold">価格</p>
+                        </div>
+                        <div class="p-table__sp-lead">
+                            <p><span class="u-pink u-bold">￥98,800</span>(税込)<br><span class="p-table__text-small">※お届け⽇が⼟⽇祝となる場合は￥3,300(税込)の追加料⾦がかかります</span></p>
+                        </div>
+                    </div>
+                    <div class="p-table__sp-wrap">
+                    <div class="p-table__sp-title">
+                        <p><span class="u-bold">お届けお通夜セット</span><br><span class="p-table__text-small">※お花はピンク系かブルー系<br>どちらか1つを選択してください</span></p>
+                    </div>
+                    <div class="p-table__sp-lead">
+                        <ul>
+                            <li>・さいだんフラワー<br>【特上花】</li>
+                            <li>・LEDキャンドル２個</li>
+                            <li>・ローズBOX 、バルーンBOX各1箱</li>
+                            <li>・アイスパック2袋</li>
+                            <li>・特注 クリアおひつぎ</li>
+                        </ul>
+                        <p class="p-table__sp-text u-bold">お花：ピンク系</p>
+                        <div class="p-table__sp-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/flower_pink.png" alt="">
+                        </div>
+                        <p class="p-table__sp-text u-bold">お花：ブルー系</p>
+                        <div class="p-table__sp-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/flower_blue.png" alt="">
+                        </div>
+                    </div>
+                    </div>
+                    <div class="p-table__sp-wrap">
+                    <div class="p-table__sp-title">
+                        <p class="u-bold">訪問　牧師1名</p>
+                    </div>
+                    <div class="p-table__sp-lead">
+                        <ul>
+                            <li>・お祈り＆カウンセリング</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="p-table__sp-wrap">
+                    <div class="p-table__sp-title">
+                        <p class="u-bold">訪問　火葬車</p>
+                    </div>
+                    <div class="p-table__sp-lead">
+                        <ul>
+                            <li>・個別⽕葬、ご収⾻</li>
+                            <li>・⾻壺</li>
+                            <li>・⾻壺カバー</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="p-table__sp-wrap">
+                    <div class="p-table__sp-title">
+                        <p class="u-bold">コース特典</p>
+                    </div>
+                    <div class="p-table__sp-lead">
+                    <p>牧師による癒しの動画1週間⾒放題<br>体験型メモリー/ハートバルーンリリース</p>
+                    </div>
+                    </div>
                 </div>
             </div>
         </section>
