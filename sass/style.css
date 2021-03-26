@@ -3631,13 +3631,20 @@ address {
 
 @media screen and (max-width: 767px) {
   .p-table__table th {
-    font-size: 0.85em;
+    font-size: 1em;
     height: auto;
+    width: 100%;
   }
 }
 
 .p-table__table th:first-child {
   border-top: 4px solid #b49e68;
+}
+
+@media screen and (max-width: 767px) {
+  .p-table__table th:first-child {
+    border-top: 1px solid #b49e68;
+  }
 }
 
 .p-table__table th.noborder {
@@ -3683,6 +3690,48 @@ address {
 .p-table__scroll {
   overflow: auto;
   white-space: nowrap;
+}
+
+.p-table__sp-course {
+  font-size: 1.25em;
+  text-align: center;
+  border-top: 1px solid #b49e68;
+  border-bottom: 3px solid #b49e68;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.p-table__sp-wrap {
+  display: flex;
+  margin-bottom: 1em;
+  border-top: 1px solid #b49e68;
+}
+
+.p-table__sp-wrap:last-of-type {
+  padding-bottom: 1em;
+  margin-bottom: 5em;
+  border-bottom: 1px solid #b49e68;
+}
+
+.p-table__sp-title {
+  width: 40%;
+  padding-top: 1em;
+}
+
+.p-table__sp-lead {
+  width: 60%;
+  padding-top: 1em;
+}
+
+.p-table__sp-img img {
+  width: 100%;
+}
+
+.p-table__sp-text {
+  font-size: 1em;
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .p-course__flex {
@@ -3768,10 +3817,9 @@ address {
   font-size: 0.85em;
 }
 
-@media screen and (max-width: 767px) {
-  .p-course__picture img {
-    width: 100%;
-  }
+.p-course__picture img {
+  max-width: 436px;
+  width: 100%;
 }
 
 .p-course__picture.-first {
