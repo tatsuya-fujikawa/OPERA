@@ -60,7 +60,7 @@ Template Name: OPERAとは
                         <div class="p-commitment__wrap -secound">
                             <h3 class="p-commitment__lead">ご自宅に祭壇を</h3>
                             <div class="p-commitment__text">
-                                <p class="c-text">献花、祭壇花は代官⼭のフローリスト宇⽥川 優(Aʼs you)が担当<br>ペットを亡くされた飼い主様の⼼にを癒せるように、と<br>かわいらしさと思い出を重ねた作品ができました。<br>ここでしか出会えない美しさをぜひお⼿元に。</p>
+                                <p class="c-text">献花、祭壇花は代官⼭のフローリスト<br>宇⽥川 優(Aʼs you)が担当。<br>ペットを亡くされた飼い主様の⼼にを癒せるように、と<br>かわいらしさと思い出を重ねた作品ができました。<br>ここでしか出会えない美しさをぜひお⼿元に。</p>
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ Template Name: OPERAとは
                             <h3 class="p-commitment__lead">まるで、白雪姫みたい</h3>
                             <div class="p-commitment__text">
                                 <p class="c-text">おとぎ話をイメージしたお棺は<br>神戸の専門工房にて制作した特注品です。</p>
-                                <p class="c-text">初めてうちに来た日…初めてのおさんぽ…<br>様々なストーリーを話しかけながら<br>ご遺体周りを生花、<br>パールバルーンをお飾りください<br>美しい装飾で、お弔いの献花をしましょう。</p>
+                                <p class="c-text">初めてうちに来た日…初めてのおさんぽ…<br>様々なストーリーを話しかけながら<br>ご遺体周りを生花、<br>パールバルーンをお飾りください。<br>美しい装飾で、お弔いの献花をしましょう。</p>
                             </div>
                         </div>
                     </div>

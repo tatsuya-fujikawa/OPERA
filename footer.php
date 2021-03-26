@@ -27,7 +27,7 @@
                 <div class="p-footer__left">
                     <div class="p-footer__company">
                         <p class="p-footer__company-name">株式会社<span class="u-uppercase">good luck &d</span></p>
-                        <p class="p-footer__company-address">東京都港区南青山2丁目2番15号<br>ウィン青山834</p>
+                        <p class="p-footer__company-address">〒107-0062<br>東京都港区南青山2-2-15<br>ウィン青山834</p>
                     </div>
                     <div class="p-footer__sns">
                         <a href="https://www.instagram.com/operaaoyama1122/" target="_blank" rel="noreferrer noopener"><img class="p-footer__sns-instagram" src="<?php echo get_template_directory_uri(); ?>/img/instagram.svg" alt="インスタグラムロゴ" width="40px"></a>
@@ -72,7 +72,7 @@
                 </div>
                 <div class="p-footer__company-sp">
                     <p class="p-footer__company-name-sp">株式会社<span class="u-uppercase">good luck &d</span></p>
-                    <p class="p-footer__company-address-sp">東京都港区南青山2丁目2番15号<br>ウィン青山834</p>
+                    <p class="p-footer__company-address-sp">〒107-0062<br>東京都港区南青山2-2-15<br>ウィン青山834</p>
                 </div>
             </div>
             <div class="p-footer__sp-list">

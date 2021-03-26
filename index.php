@@ -11,7 +11,7 @@
                     <p>ペット葬儀OPERAは牧師のお祈りで<br>清らかにお見送りいたします</p>
                 </div>
                 <div class="p-mv__price">
-                    <p class="p-mv__price-text">お通夜からご収骨まで込みで<br><span>¥68,000</span>(税込)～<br>送料無料</p>
+                    <p class="p-mv__price-text">お通夜からご収骨まで込みで<br><span class="u-rose">¥69,800</span>(税込)～<br>送料無料</p>
                 </div>
             </div>
         </section>
@@ -77,7 +77,7 @@
                                 <div class="p-service__set">
                                     <div class="p-service__set-top">
                                         <h3 class="p-service__set-title">
-                                            <span class="u-uppercase">opera</span>の自宅葬セット<br><span class="p-service__set-strong u-pink u-bold">¥68,000</span>(税込)〜
+                                            <span class="u-uppercase">opera</span>の自宅葬セット<br><span class="p-service__set-strong u-rose u-bold">¥69,800</span><span class="p-service__set-small">(税込)〜</span>
                                         </h3>
                                     </div>
                                     <div class="p-service__set-middle">
@@ -86,6 +86,7 @@
                                             <li class="p-service__list-item">2．牧師のお祈り＆カウンセリング</li>
                                             <li class="p-service__list-item">3．訪問火葬車(個別火葬)</li>
                                             <li class="p-service__list-item">4．牧師による祈りの動画</li>
+                                            <li class="p-service__list-item">5．ハートバルーンリリース</li>
                                         </ul>
                                     </div>
                                     <div class="p-service__set-bottom">

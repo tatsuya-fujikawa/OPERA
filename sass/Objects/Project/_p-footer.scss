@@ -59,12 +59,12 @@
             }
         }
         &-address {
-            font-size: 1.75em;
+            font-size: 1.5em;
             line-height: 36px;
             padding-bottom: 0.75em;
 
             @include mq('tab') {
-                font-size: 1.25em;
+                font-size: 1.125em;
             }
 
             &-sp {

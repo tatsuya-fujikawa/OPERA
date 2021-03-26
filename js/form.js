@@ -22,8 +22,6 @@ window.onload = function() {
         if(formCourse.classList.contains('-show')) {
           formCourse.classList.remove('-show');
         }
-      } else if(document.querySelector("input:checked[name=lists]").value === 'その他ご相談やお問い合わせ') {
-        
       } else {
         formCourse.classList.remove('-show');
         formTanpin.classList.remove('-show');

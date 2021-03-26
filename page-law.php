@@ -22,14 +22,14 @@ Template Name: 特定商取引法に基づく表記
                 <div class="p-privacy__container">
                     <h3 class="p-privacy__title">運営統括責任者</h3>
                     <div class="p-privacy__text">
-                        <p>藤⾕ 博樹（フジタニ ヒロキ）</p>
+                        <p>藤⾕ 博樹</p>
                     </div>
                 </div>
                 <hr class="c-border -long">
                 <div class="p-privacy__container">
                     <h3 class="p-privacy__title">所在地</h3>
                     <div class="p-privacy__text">
-                        <p>〒107-0062 東京都港区南⻘⼭2丁⽬2番15号 ウィン⻘⼭834</p>
+                        <p>〒107-0062 東京都港区南青山2-2-15 ウィン青山834</p>
                     </div>
                 </div>
                 <hr class="c-border -long">
@@ -37,13 +37,6 @@ Template Name: 特定商取引法に基づく表記
                     <h3 class="p-privacy__title">電話番号</h3>
                     <div class="p-privacy__text">
                         <p>03-6721-1122</p>
-                    </div>
-                </div>
-                <hr class="c-border -long">
-                <div class="p-privacy__container">
-                    <h3 class="p-privacy__title"><span class="u-uppercase">fax</span>番号</h3>
-                    <div class="p-privacy__text">
-                        <p>03-6721-1123</p>
                     </div>
                 </div>
                 <hr class="c-border -long">
@@ -78,7 +71,7 @@ Template Name: 特定商取引法に基づく表記
                 <div class="p-privacy__container">
                     <h3 class="p-privacy__title">申込の有効期限</h3>
                     <div class="p-privacy__text">
-                        <p>銀⾏振込の場合：ご注⽂日かその翌日中に代⾦をお振り込みください。</p>
+                        <p>事前決済の場合：ご注⽂日かその翌日中に代⾦をお振り込みください。</p>
                     </div>
                 </div>
                 <hr class="c-border -long">
@@ -115,7 +108,7 @@ Template Name: 特定商取引法に基づく表記
                 <div class="p-privacy__container">
                     <h3 class="p-privacy__title">お届け時不在の場合について</h3>
                     <div class="p-privacy__text">
-                        <p>お届け前にだいたいのお時間⽬安をご注⽂者様へ案内しております。万が⼀、お届け時にご不在だった場合は登録お電話番号へご連絡いたします。その際、ご連絡が取れない場合には品質保持上、商品は当社へ持ち帰ります。その場合の返⾦には応じることはできませんので、予めご承知おきください。(お⽀払いが済んでいない⽅へは、後⽇、請求書をお送りいたしますので、記載期⽇までにお⽀払いをお願いします)上記のようなことが起きないために、ご注⽂前に必ず、お届け先のご住所、お電話番号等は、最新の情報をご確認ください。</p>
+                        <p>お届け前にだいたいのお時間⽬安をご注⽂者様へ案内しております。万⼀、お届け時にご不在だった場合は登録お電話番号へご連絡いたします。その際、ご連絡が取れない場合には品質保持上、商品は当社へ持ち帰ります。その場合の返⾦には応じることはできませんので、予めご承知おきください。(お⽀払いが済んでいない⽅へは、後⽇、請求書をお送りいたしますので、記載期⽇までにお⽀払いをお願いします)上記のようなことが起きないために、ご注⽂前に必ず、お届け先のご住所、お電話番号等は、最新の情報をご確認ください。</p>
                     </div>
                 </div>
                 <hr class="c-border -long">

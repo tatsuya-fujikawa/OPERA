@@ -86,8 +86,8 @@ Template Name: 自宅葬サービス
                         <tbody>
                             <tr>
                                 <th>価格</th>
-                                <th><span class="u-pink u-bold">￥68,800</span>(税込)<br><span class="p-table__text-small">※お届け⽇が⼟⽇祝となる場合は<br>￥3,300(税込)の追加料⾦がかかります。</span></th>
-                                <th><span class="u-pink u-bold">￥98,800</span>(税込)<br><span class="p-table__text-small">※お届け⽇が⼟⽇祝となる場合は<br>￥3,300(税込)の追加料⾦がかかります。</span></th>
+                                <th><span class="u-rose u-bold p-table__strong">￥69,800</span><span class="p-table__text-small">(税込)</span><br><span class="p-table__text-small">※お届け⽇が⼟⽇祝となる場合は<br>￥3,300(税込)の追加料⾦がかかります。</span></th>
+                                <th><span class="u-rose u-bold p-table__strong">￥98,800</span><span class="p-table__text-small">(税込)</span><br><span class="p-table__text-small">※お届け⽇が⼟⽇祝となる場合は<br>￥3,300(税込)の追加料⾦がかかります。</span></th>
                             </tr>
                             <tr>
                                 <th>お届けお通夜セット<br><span class="p-table__text-small">※お花はピンク系かブルー系<br>どちらか1つを選択してください</span></th>
@@ -165,7 +165,7 @@ Template Name: 自宅葬サービス
                             <p class="u-bold">価格</p>
                         </div>
                         <div class="p-table__sp-lead">
-                            <p><span class="u-pink u-bold">￥68,800</span>(税込)<br><span class="p-table__text-small">※お届け⽇が⼟⽇祝となる場合は￥3,300(税込)の追加料⾦がかかります</span></p>
+                            <p><span class="u-rose u-bold p-table__strong">￥69,800</span>(税込)<br><span class="p-table__text-small">※お届け⽇が⼟⽇祝となる場合は￥3,300(税込)の追加料⾦がかかります</span></p>
                         </div>
                     </div>
                     <div class="p-table__sp-wrap">
@@ -228,7 +228,7 @@ Template Name: 自宅葬サービス
                             <p class="u-bold">価格</p>
                         </div>
                         <div class="p-table__sp-lead">
-                            <p><span class="u-pink u-bold">￥98,800</span>(税込)<br><span class="p-table__text-small">※お届け⽇が⼟⽇祝となる場合は￥3,300(税込)の追加料⾦がかかります</span></p>
+                            <p><span class="u-rose u-bold p-table__strong">￥98,800</span>(税込)<br><span class="p-table__text-small">※お届け⽇が⼟⽇祝となる場合は￥3,300(税込)の追加料⾦がかかります</span></p>
                         </div>
                     </div>
                     <div class="p-table__sp-wrap">
@@ -331,7 +331,7 @@ Template Name: 自宅葬サービス
                         <div class="p-instrunctions__bg">
                             <p class="p-instrunctions__text -list">配送時間は混雑状況によりますので、当⽇調整とさせていただきます。</p>
                             <p class="p-instrunctions__text -list">お申込み、お⽀払いが15:00を過ぎた場合は翌⽇配送となります。</p>
-                            <p class="p-instrunctions__text -list"><span class="u-bold">お届け前にだいたいのお時間⽬安をご注⽂者様へ案内しております。万が⼀、お届け時にご不在だった場合は登録お電話番号へご連絡いたします。<br>その際、ご連絡が取れない場合には品質保持上、商品は当店へ持ち帰ります。その場合の返⾦には応じることはできませんので、予めご承知おきください。</span></p>
+                            <p class="p-instrunctions__text -list"><span class="u-bold">お届け前にだいたいのお時間⽬安をご注⽂者様へ案内しております。万が⼀、お届け時にご不在だった場合は登録お電話番号へご連絡いたします。<br>その際、ご連絡が取れない場合には品質保持上、商品は当社へ持ち帰ります。その場合の返⾦には応じることはできませんので、予めご承知おきください。</span></p>
                         </div>
                         <p class="p-instrunctions__text-inline">③ 牧師訪問</p>
                         <p class="p-instrunctions__text">経歴を積んだ牧師がご⾃宅へ伺います。ご遺体前にてお祈りをし、飼い主様へのカウンセリングを⾏います(滞在時間は30分程度です)。受付⽇から3⽇後以内のご都合の良い⽇時に訪問いたします。</p>
@@ -356,7 +356,7 @@ Template Name: 自宅葬サービス
                         <p class="p-instrunctions__text">【当⽇⽀払い】</p>
                         <p class="p-instrunctions__text">お届け時に現⾦⽀払い、カード決済
                         </p>
-                        <p class="p-instrunctions__text l-spacer -medium -notop"><a href="#" class="u-gold">▼詳しくはこちら</a></p>
+                        <p class="p-instrunctions__text l-spacer -medium -notop"><a href="#payment" class="u-gold">▼詳しくはこちら</a></p>
                         <p class="p-instrunctions__text-small">※売上の⼀部をペット保護ボランティア団体に寄付します。</p>
                     </div>
                 </div>
@@ -379,7 +379,7 @@ Template Name: 自宅葬サービス
                                 <span>ロミオ</span><br>
                                 お花：ピンク系
                             </p>
-                            <div class="p-card__item-price">￥38,000(税込)</div>
+                            <div class="p-card__item-price">￥38,000<span>(税込)</span></div>
                         </div>
                     </div>
                     <!--p-card__item-->
@@ -395,7 +395,7 @@ Template Name: 自宅葬サービス
                                 <span>ロミオ</span><br>
                                 お花：ブルー系
                             </p>
-                            <div class="p-card__item-price">￥38,000(税込)</div>
+                            <div class="p-card__item-price">￥38,000<span>(税込)</span></div>
                         </div>
                     </div>
                     <!--p-card__item-->
@@ -411,7 +411,7 @@ Template Name: 自宅葬サービス
                                 <span>ジュリエット</span><br>
                                 お花：ピンク系
                             </p>
-                            <div class="p-card__item-price">￥51,000(税込)</div>
+                            <div class="p-card__item-price">￥51,000<span>(税込)</span></div>
                         </div>
                     </div>
                     <!--p-card__item-->
@@ -427,7 +427,7 @@ Template Name: 自宅葬サービス
                                 <span>ジュリエット</span><br>
                                 お花：ブルー系
                             </p>
-                            <div class="p-card__item-price">￥51,000(税込)</div>
+                            <div class="p-card__item-price">￥51,000<span>(税込)</span></div>
                         </div>
                     </div>
                     <!--p-card__item-->
@@ -443,7 +443,7 @@ Template Name: 自宅葬サービス
                                 <span>訪問：</span><br>
                                 牧師1名のみ
                             </p>
-                            <div class="p-card__item-price">￥30,000(税込)</div>
+                            <div class="p-card__item-price">￥30,000<span>(税込)</span></div>
                         </div>
                     </div>
                     <!--p-card__item-->
@@ -459,7 +459,7 @@ Template Name: 自宅葬サービス
                                 <span>訪問：</span><br>
                                 火葬車のみ
                             </p>
-                            <div class="p-card__item-price">￥41,000(税込)</div>
+                            <div class="p-card__item-price">￥41,000<span>(税込)</span></div>
                         </div>
                     </div>
                     <!--p-card__item-->
@@ -474,7 +474,7 @@ Template Name: 自宅葬サービス
                     <div class="p-faq__box">
                         <div class="p-faq__question">
                             <div class="p-faq__border">
-                                <p class="p-faq__question-text">対象地域について教えて下さい。</p>
+                                <p class="p-faq__question-text">対象地域について教えてください。</p>
                             </div>
                         </div>
                         <div class="p-faq__answer">
@@ -496,7 +496,7 @@ Template Name: 自宅葬サービス
                     <div class="p-faq__box">
                         <div class="p-faq__question">
                             <div class="p-faq__border">
-                                <p class="p-faq__question-text">ひつぎの大きさを教えて下さい。</p>
+                                <p class="p-faq__question-text">ひつぎの大きさを教えてください。</p>
                             </div>
                         </div>
                         <div class="p-faq__answer">
@@ -511,18 +511,18 @@ Template Name: 自宅葬サービス
                             </div>
                         </div>
                         <div class="p-faq__answer">
-                            <p class="p-faq__answer-text">はい。承っております。その場合「単品」でご購⼊ください。</p>
+                            <p class="p-faq__answer-text">承っております。その場合「単品」でご購⼊ください。</p>
                         </div>
                     </div>
                     <!-- p-faq__box-->
                     <div class="p-faq__box">
                         <div class="p-faq__question">
                             <div class="p-faq__border">
-                                <p class="p-faq__question-text">牧師さんは⽕葬のあとでも<br>来てもらえますか？</p>
+                                <p class="p-faq__question-text">牧師さんは⽕葬の後でも<br>来てもらえますか？</p>
                             </div>
                         </div>
                         <div class="p-faq__answer">
-                            <p class="p-faq__answer-text">はい。アレンジできますので、受付時にお申し付けください。<br>また、⽉命⽇、各法要にもご利⽤ください。</p>
+                            <p class="p-faq__answer-text">アレンジできますので、受付時にお申し付けください。<br>また、⽉命⽇、各法要にもご利⽤ください。</p>
                         </div>
                     </div>
                     <!-- p-faq__box-->
@@ -533,14 +533,14 @@ Template Name: 自宅葬サービス
                             </div>
                         </div>
                         <div class="p-faq__answer">
-                            <p class="p-faq__answer-text">はい。感染症予防につとめております。<br>消毒、⾞内清掃はもちろん、ご訪問前の検温、殺菌の他、⾶沫感染防⽌策を⾏っております。</p>
+                            <p class="p-faq__answer-text">はい、感染症予防につとめております。<br>消毒、⾞内清掃はもちろん、ご訪問前の検温、殺菌の他、⾶沫感染防⽌策を⾏っております。</p>
                         </div>
                     </div>
                     <!-- p-faq__box-->
                     <div class="p-faq__box">
                         <div class="p-faq__question">
                             <div class="p-faq__border">
-                                <p class="p-faq__question-text">仏教徒ですが牧師さんの<br>利⽤はできますか？？</p>
+                                <p class="p-faq__question-text">仏教徒ですが牧師さんの<br>利⽤はできますか？</p>
                             </div>
                         </div>
                         <div class="p-faq__answer">
@@ -555,7 +555,7 @@ Template Name: 自宅葬サービス
                             </div>
                         </div>
                         <div class="p-faq__answer">
-                            <p class="p-faq__answer-text">ペット葬儀OPERAでは「ていねいに」という合⾔葉があります。電話対応からご訪問、各種カスタマーにおいて、対応に不備がないように細⼼の注意を払っております。<br>また、清潔さをモットーとしておりますので安⼼してご利⽤ください。</p>
+                            <p class="p-faq__answer-text">ペット葬儀OPERAでは「ていねいに」という合⾔葉があります。電話対応からご訪問、各種カスタマーにおいて、対応に不備がないよう細⼼の注意を払っております。<br>また、清潔さをモットーとしておりますので安⼼してご利⽤ください。</p>
                         </div>
                     </div>
                     <!-- p-faq__box-->
@@ -566,7 +566,7 @@ Template Name: 自宅葬サービス
                             </div>
                         </div>
                         <div class="p-faq__answer">
-                            <p class="p-faq__answer-text">決済完了後のお客様のご都合による返品・交換はお受けしておりませんので、あらかじめご了承ください。<br>商品の品質につきましては万全を期しておりますが、万⼀、お届けいたしました商品に商品詳細記載以外の著しい⽋陥等が認められた場合、またはこちらの⼿配間違いによる場合は、返品交換させていただきます。(尚、その場合でも勝⼿ながら当⽇配送できない状況も考えられますのでご容赦ください)</p>
+                            <p class="p-faq__answer-text">決済完了後のお客様都合による返品・交換はお受けしておりませんので、あらかじめご了承ください。<br>商品の品質につきましては万全を期しておりますが、万⼀、お届けいたしました商品に商品詳細記載以外の著しい⽋陥等が認められた場合、またはこちらの⼿配間違いによる場合は、返品交換させていただきます。(尚、その場合でも勝⼿ながら当⽇配送できない状況も考えられますのでご容赦ください)</p>
                         </div>
                     </div>
                     <!-- p-faq__box-->
@@ -577,7 +577,7 @@ Template Name: 自宅葬サービス
                             </div>
                         </div>
                         <div class="p-faq__answer">
-                            <p class="p-faq__answer-text">商品の性質上、変更を承れない場合がございます。変更ご希望の際は、お⼿数ですがコールセンターまでお早めにご連絡ください。<br>コールセンターフリーダイヤル：0120-15-4487</p>
+                            <p class="p-faq__answer-text">商品の性質上、変更を承れない場合がございます。変更ご希望の際は、お⼿数ですがコールセンターまでお早めにご連絡ください。<br>コールセンターフリーダイヤル：0120-71-1212</p>
                         </div>
                     </div>
                     <!-- p-faq__box-->
@@ -599,7 +599,7 @@ Template Name: 自宅葬サービス
                             </div>
                         </div>
                         <div class="p-faq__answer">
-                            <p class="p-faq__answer-text">お客様の在宅時にお届けさせていただいております。<br>お届け前にだいたいのお時間⽬安をご注⽂者様へ案内しております。万が⼀、お届け時にご不在だった場合は登録お電話番号へご連絡いたします。その際、ご連絡が取れない場合には品質保持上、商品は当社へ持ち帰ります。その場合の返⾦には応じることはできませんので、予めご承知おきください。(お⽀払いが済んでいないない⽅へは、後⽇、請求書をお送りしますので記載期⽇までにお⽀払いをお願いします)<br>上記のようなことが起きないために、ご注⽂前に必ず、お届け先のご住所、お電話番号等は、最新の情報をご確認ください。</p>
+                            <p class="p-faq__answer-text">お客様の在宅時にお届けさせていただいております。<br>お届け前にだいたいのお時間⽬安をご注⽂者様へ案内しております。万⼀、お届け時にご不在だった場合は登録お電話番号へご連絡いたします。その際、ご連絡が取れない場合には品質保持上、商品は当社へ持ち帰ります。その場合の返⾦には応じることはできませんので、予めご承知おきください。(お⽀払いが済んでいないない⽅へは、後⽇、請求書をお送りしますので記載期⽇までにお⽀払いをお願いします)<br>上記のようなことが起きないために、ご注⽂前に必ず、お届け先のご住所、お電話番号等は、最新の情報をご確認ください。</p>
                         </div>
                     </div>
                     <!-- p-faq__box-->
@@ -609,25 +609,32 @@ Template Name: 自宅葬サービス
         <section class="l-instructions p-instrunctions">
             <div class="l-container -forSub">
                 <div class="l-spacer">
-                    <h2 class="c-heading" title="payment">お支払い方法</h2>
+                    <h2 id="payment" class="c-heading" title="payment">お支払い方法</h2>
                 </div>
                 <div class="p-instrunctions__inner">
                     <div class="l-spacer -medium -notop">
-                        <p class="p-instrunctions__text">⾃宅葬サービスのお⽀払い⽅法です。<br>アフターサポートにつきましては、別途定めた⽅法にて承ります。</p>
+                        <p class="p-instrunctions__text">⾃宅葬サービスのお⽀払い⽅法です。<br>承る時期やサービスの併⽤などで、お⽀払い⽅法が変更となることもございます。詳しくはお問い合わせください。</p>
                     </div>
                     <div class="p-instrunctions__box">
                         <h3 class="c-subheading">銀行振込</h3>
                         <p class="p-instrunctions__text-inline -smt">代⾦先払い(振込⼿数料：お客様ご負担)</p>
-                        <ul>
+                        <ul class="l-spacer -minimum">
                             <li>・お振込みのご名義は、ご注⽂者様のお名前にてお願いします。</li>
                             <li>・ご注⽂商品のお⽀払⾦額に対して、振込のご⼊⾦額が多く振り込まれた場合は、振込⼿数料を差し引いてご返⾦いたします。</li>
                             <li>※振込⼿数料を差し引いた⾦額がマイナスとなる場合は返⾦いたしかねます。</li>
+                        </ul>
+                        <ul>
+                            <li>銀行振込・お振込先</li>
+                            <li>⾦融機関名：みずほ銀⾏（0001）</li>
+                            <li>⽀店名：⻘⼭⽀店（211）</li>
+                            <li>科⽬：普通 ⼝座番号：2621515</li>
+                            <li>受取⼈名：カ）グツドラツクアンドデイー</li>
                         </ul>
                     </div>
                     <div class="p-instrunctions__box">
                         <h3 class="c-subheading">代金手渡し</h3>
                         <p class="p-instrunctions__text-inline -smt">商品お届け時(手数料０円)</p>
-                        <p class="p-instrunctions__text">コース商品、お届けお通夜セット単品購⼊の場合は、お届け時にフローリストへ、単品での訪問牧師、訪問⽕葬⾞の購⼊は、それぞれ牧師と⽕葬技術者へお⽀払いください。</p>
+                        <p class="p-instrunctions__text">コース商品、お届けお通夜セット単品購⼊の場合はお届け時にフローリストへ、単品での訪問牧師、訪問⽕葬⾞の購⼊は、それぞれ牧師と⽕葬技術者へお⽀払いください。</p>
                     </div>
                     <div class="p-instrunctions__box">
                         <h3 class="c-subheading">カード決済</h3>

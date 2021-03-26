@@ -321,6 +321,7 @@ html, body {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  transition: ease-out;
 }
 
 * {
@@ -1005,7 +1006,7 @@ address {
 
 .c-calltoaction {
   background-color: #ffeef2;
-  width: 70%;
+  width: 80%;
   max-width: 750px;
   margin: 0 auto 2em;
   padding-bottom: 2em;
@@ -1516,14 +1517,14 @@ address {
 }
 
 .p-footer__company-address {
-  font-size: 1.75em;
+  font-size: 1.5em;
   line-height: 36px;
   padding-bottom: 0.75em;
 }
 
 @media screen and (max-width: 1200px) {
   .p-footer__company-address {
-    font-size: 1.25em;
+    font-size: 1.125em;
   }
 }
 
@@ -2269,6 +2270,10 @@ address {
 
 .p-service__set-strong {
   font-size: 1.25em;
+}
+
+.p-service__set-small {
+  font-size: 1.125rem;
 }
 
 .p-service__list-item {
@@ -3403,6 +3408,13 @@ address {
   justify-content: center;
 }
 
+@media screen and (max-width: 767px) {
+  .p-description {
+    height: 800px;
+    background-size: cover;
+  }
+}
+
 .p-description__title {
   font-size: 2.375em;
   text-align: center;
@@ -3428,6 +3440,7 @@ address {
     width: 90%;
     margin: 0 auto;
     text-align: left;
+    font-size: 1em;
   }
 }
 
@@ -3604,7 +3617,8 @@ address {
 }
 
 .p-table__text-small {
-  font-size: 0.75em;
+  font-size: 0.875rem;
+  font-weight: normal;
 }
 
 .p-table__table {
@@ -3732,6 +3746,16 @@ address {
   text-align: center;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+}
+
+.p-table__strong {
+  font-size: 1.75rem;
+}
+
+@media screen and (max-width: 767px) {
+  .p-table__strong {
+    font-size: 1.5rem;
+  }
 }
 
 .p-course__flex {
@@ -4046,14 +4070,19 @@ address {
 }
 
 .p-card__item-price {
-  font-size: 1.125em;
+  font-size: 1.5em;
   padding-bottom: 2em;
   text-align: center;
+}
+
+.p-card__item-price span {
+  font-size: 0.875rem;
 }
 
 @media screen and (max-width: 767px) {
   .p-card__item-price {
     padding-bottom: 1em;
+    font-size: 1.25em;
   }
 }
 
@@ -4831,6 +4860,10 @@ address {
 
 .u-pink {
   color: #F6ADC6;
+}
+
+.u-rose {
+  color: #ED6275;
 }
 
 #js-floating {

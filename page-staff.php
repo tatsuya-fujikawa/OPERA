@@ -17,9 +17,9 @@ Template Name: スタッフ紹介
                 </div>
                 <div class="p-description__wrap-bottom">
                     <p class="p-description__wrap-text">〜ペットは家族〜<br>そうよばれるようになり、<br class="sp">何年が経つでしょうか</p>
-                    <p class="p-description__wrap-text">新しい⽣活様式へ<br class="sp">と変化を続ける世の中で<br>ペットという名の⼩さな家族は、<br class="sp">昔も今も変わらず<br>⼈間の⼼を癒し、<br class="sp">あたため続けてくれました</p>
-                    <p class="p-description__wrap-text">しかし、<br class="sp">ペットの存在価値が⾼まる⼀⽅で<br>お別れの形はどうなっているのだろうか…<br>そんな気持ちから<br class="sp">「本当にやりたかったペット葬儀」<br class="sp">を考えました</p>
-                    <p class="p-description__wrap-text">OPERAのスタッフは全員、<br class="sp">ペットとの別れを経験した者です<br>哀しみの深さを知るからこそ<br class="sp">できる葬儀があります<br>それが私たちがご提供する、<br class="sp">新しいペット葬儀の形です</p>
+                    <p class="p-description__wrap-text">新しい⽣活様式へと<br class="sp">変化を続ける世の中で<br>ペットという名の⼩さな家族は、<br class="sp">昔も今も変わらず<br>⼈間の⼼を癒し、<br class="sp">あたため続けてくれました</p>
+                    <p class="p-description__wrap-text"><br class="sp">しかし、<br class="sp">ペットの存在価値が⾼まる⼀⽅で<br>お別れの形はどうなっているのだろうか…<br>そんな気持ちから<br class="sp">「本当にやりたかったペット葬儀」<br class="sp">を考えました</p>
+                    <p class="p-description__wrap-text"><br class="sp">OPERAのスタッフは全員、<br class="sp">ペットとの別れを経験した者です<br>哀しみの深さを知るからこそ<br class="sp">できる葬儀があります<br>それが私たちがご提供する、<br class="sp">新しいペット葬儀の形です</p>
                 </div>
             </div>
         </section>
