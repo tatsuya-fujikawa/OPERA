@@ -1,0 +1,49 @@
+.p-memories {
+    background-image: url('../img/omoide/omoide_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 751px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include mq('sp') {
+        height: 500px;
+        background-size: cover;
+    }
+    &__lead {
+        text-align: center;
+        font-size: 1.5em;
+        &-strong {
+            font-size: 2.375rem;
+        }
+    }
+    &__text {
+        font-size: 1.125em;
+    }
+
+    &__wrap {
+        &-bottom {
+            padding-top: 2em;
+        }
+    }
+
+
+    &__wrap {
+        &-text {
+            text-align: center;
+            font-size: 1.125em;
+            margin-top: 1.9em;
+
+            @include mq('sp') {
+                margin-top: 0.5em;
+                width: 90%;
+                margin: 0 auto;
+                text-align: left;
+                font-size: 1em;
+            }
+        }
+        
+    }
+}

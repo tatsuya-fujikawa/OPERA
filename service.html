@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 公開前に消す -->
+    <meta name="robots" content="noindex">
+    <!-- 公開前に消す -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Great+Vibes&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./slick/slick.min.js" defer></script>
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <scrip type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></scrip> -->
+    <link rel="stylesheet" href="./sass/style.css">
+    <script src="./js/slick.js" defer></script>
+    <script src="./js/humberger.js" defer></script>
+    <script src="./js/script.js" defer></script>
+    <title>OPERA</title>
+</head>
+<body>
+    <header class="l-header p-header">
+        <div class="p-humberger sp">
+            <div class="p-humberger__button">
+                <button class="p-humberger__menu">
+                    <span class="p-humberger__menu-line -top"></span>
+                    <span class="p-humberger__menu-line -middle"></span>
+                    <span class="p-humberger__menu-line -bottom"></span>
+                </button>
+            </div>
+            <nav class="p-humberger__gnav">
+                <div class="p-humberger__gnav-wrap">
+                    <ul class="p-humberger__gnav-menu">
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#"><span class="u-uppercase">opera</span>とは<span><span class="p-humberger__en">About</span></span></a>
+                        </li>
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#">自宅葬サービス<span class="p-humberger__en">Home Funeral</span></a>
+                        </li>
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#">お焚き上げサービス<span class="p-humberger__en">Otakiage</span></a>
+                        </li>
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#">スタッフ紹介<span class="p-humberger__en">Staff</span></a>
+                        </li>
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#">アフターサポート<span class="p-humberger__en">Support</span></a>
+                        </li>
+                        <li class="p-humberger__gnav-menu-item">
+                            <a href="#">インフォメーション<span class="p-humberger__en">Information</span></a>
+                        </li>
+                            <button class="p-humberger__close-button">
+                                <span class="u-visually-hidden">閉じる</span>
+                                <div class="p-humberger__circle">
+                                    <span class="p-humberger__line"></span>
+                                </div>
+                            </button>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="l-container -narrow">
+            <div class="p-header__top">
+                <div class="p-header__top-left">
+                    <div class="p-header__logo">
+                        <h1 class="u-visually-hidden">オペラ青山</h1>
+                        <img src="./img/header_logo.png" alt="オペラ青山ロゴ">
+                    </div>
+                </div>
+                <div class="p-header__top-right">
+                    <div class="p-header__freedial pc">
+                        <a href="tel:0120711212"><img src="./img/header_freedial.png" alt="電話番号"></a>
+                    </div>
+                    <div class="p-header__mail pc">
+                        <a href="#"><img src="./img/header_mailbtn.png" alt="お申し込み・ご相談メール"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="p-header__nav pc">
+            <div class="l-container -narrow">
+                <div class="p-header__flex">
+                    <ul class="p-header__list">
+                        <li class="p-header__list-item">
+                            <a href="#" class="p-header__list-jp" title="About"><span class="u-uppercase">opera</span>とは</a>
+                        </li>
+                        <li class="p-header__list-item">
+                            <a href="#" class="p-header__list-jp" title="Home Funeral">自宅葬サービス</a>
+                        </li>
+                        <li class="p-header__list-item">
+                            <a href="#" class="p-header__list-jp" title="Otakiage">お焚き上げサービス</a>
+                        </li>
+                    </ul>
+                    <ul class="p-header__list">
+                        <li class="p-header__list-item">
+                            <a href="#" class="p-header__list-jp" title="Staff">スタッフ紹介</a>
+                        </li>
+                        <li class="p-header__list-item">
+                            <a href="#" class="p-header__list-jp" title="Support">アフターサポート</a>
+                        </li>
+                        <li class="p-header__list-item">
+                            <a href="#" class="p-header__list-jp" title="Information">インフォメーション</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="l-spacer -nobottom">
+            <div class="c-subtitle -other">
+                <h2 class="c-title02 u-centerposition" title="Service">他サービス</h2>
+            </div>
+        </section>
+        <section class="l-staff p-staff p-other">
+            <div class="l-container -forSub">
+                <div class="p-staff__wrapper">
+                    <h2 class="c-heading" title="consultation">生前のご相談</h2>
+                    <div class="p-staff__flex p-other__flex">
+                        <div class="p-staff__flex-item -column2 p-staff__left">
+                            <img src="./img/service/service_01.png" alt="">
+                        </div>
+                        <div class="p-staff__flex-item -column2">
+                            <div class="p-other__wrap">
+                                <h3 class="p-other__title">お話を伺い、モヤモヤをスッキリさせます</h3>
+                                <p class="p-other__text -lead">相談員がオンラインでお話を伺います。</p>
+                            </div>
+                            <div class="p-other__wrap">
+                                <p class="c-subheading">料⾦</p>
+                                <p class="p-other__text">初回<span class="p-other__text-strong">￥0</span>（税込）</p>
+                                <p class="p-other__text">2回⽬から<span class="p-other__text-strong">￥3,000</span>（税込）/30分</p>
+                            </div>
+                            <div class="p-other__wrap">
+                                <p class="c-subheading">ご相談⽅法</p>
+                                <p class="p-other__text">ZOOM、LINE電話、電話</p>
+                            </div>
+                            <div class="p-other__wrap">
+                                <p class="c-subheading">お⽀払い⽅法</p>
+                                <p class="p-other__text">カード決済⼊⾦、銀⾏振込</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="c-border">
+                <div class="p-staff__wrapper">
+                    <h3 class="c-heading" title="aroma grooming">アロマグルーミング</h3>
+                    <div class="p-staff__flex p-other__flex">
+                        <div class="p-staff__flex-item -column2 p-staff__left">
+                            <img src="./img/service/service_02.png" alt="">
+                        </div>
+                        <div class="p-staff__flex-item -column2">
+                            <div class="p-other__wrap">
+                                <h3 class="p-other__title">つらい治療で疲れたお⾝体を、<br>真⼼込めてきれいにします</h3>
+                                <p class="p-other__text -lead">大切なペットの身だしなみを整えます。<br>トリマーがご自宅までお伺いします。</p>
+                            </div>
+                            <div class="p-other__wrap">
+                                <p class="c-subheading">料⾦</p>
+                                <p class="p-other__text"><span class="p-other__text-strong">￥10,500</span>（税込）</p>
+                                <p class="p-other__text">トリマー1名派遣/部分湯灌/アロマコートブラシ/お⽖切り/顔回りカット/部分カット/アイシング等/死後処置</p>
+                            </div>
+                            <div class="p-other__wrap">
+                                <p class="c-subheading">対象エリア</p>
+                                <p class="p-other__text">東京都（23区）・神奈川県（横浜市・川崎市）</p>
+                            </div>
+                            <div class="p-other__wrap">
+                                <p class="c-subheading">お⽀払い⽅法</p>
+                                <p class="p-other__text">カード決済（当日お支払い）、銀行振込</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="c-border">
+                <div class="p-staff__wrapper">
+                    <h3 class="c-heading" title="powder addition">パウダー加工</h3>
+                    <div class="p-staff__flex">
+                        <div class="p-staff__flex-item -column2 p-staff__left">
+                            <img src="./img/service/service_03.png" alt="">
+                        </div>
+                        <div class="p-staff__flex-item -column2">
+                            <div class="p-other__wrap">
+                                <h3 class="p-other__title">お骨を粉状にすることで、<br>散骨や樹木葬、お手元供養等に</h3>
+                                <p class="p-other__text -lead">お⾻上げのあとそのまま⽕葬スタッフにお預けください。<br>パウダー加⼯を施し、翌⽉命⽇までにご家庭へお戻しいたします。<br>（後⽇でも承りますのでお気軽にご相談ください）</p>
+                            </div>
+                            <div class="p-other__wrap">
+                                <p class="c-subheading">料⾦</p>
+                                <p class="p-other__text"><span class="p-other__text-strong">￥21,000</span>（税込）※お⾻お帰し料込</p>
+                            </div>
+                            <div class="p-other__wrap">
+                                <p class="c-subheading">対象エリア</p>
+                                <p class="p-other__text">東京都（23区）・神奈川県（横浜市・川崎市）</p>
+                            </div>
+                            <div class="p-other__wrap">
+                                <p class="c-subheading">お⽀払い⽅法</p>
+                                <p class="p-other__text">カード決済入金、銀行振込、カード決済（当日お支払い）</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="c-border">
+            </div>
+        </section>
+        <section class="l-instructions p-instrunctions">
+            <div class="l-container -forSub">
+                <div class="l-spacer">
+                    <h2 class="c-heading" title="payment">お支払い方法</h2>
+                </div>
+                <div class="p-instrunctions__inner">
+                    <div class="l-spacer -medium -notop">
+                        <p class="p-instrunctions__text">「他サービス」のお⽀払い⽅法です。<br>承る時期やサービスの併⽤などで、お⽀払い⽅法が変更となることもございます。詳しくはお問い合わせください。</p>
+                    </div>
+                    <div class="p-instrunctions__box">
+                        <h3 class="c-subheading">カード決済入金</h3>
+                        <p class="p-instrunctions__text-inline -smt">代⾦先払い(振込⼿数料：お客様手数料０円)</p>
+                        <p class="p-instrunctions__text">Square (スクエア)を利⽤したクレジットカード⽀払いが可能です。<br>お問い合わせいただきましてから、決済ページのご案内をお送りします。</p>
+                    </div>
+                    <div class="p-instrunctions__box">
+                        <h3 class="c-subheading">銀行振込</h3>
+                        <p class="p-instrunctions__text-inline -smt">代⾦先払い(振込⼿数料：お客様ご負担)</p>
+                        <ul class="p-instrunctions__list">
+                            <li>・お振込みのご名義は、ご注⽂者様のお名前にてお願いします。</li>
+                            <li>・ご注⽂商品のお⽀払⾦額に対して、振込のご⼊⾦額が多く振り込まれた場合は、振込⼿数料を差し引いてご返⾦いたします。</li>
+                            <li>※振込⼿数料を差し引いた⾦額がマイナスとなる場合は返⾦いたしかねます。</li>
+                        </ul>
+                        <ul class="p-instrunctions__list">
+                            <li>銀行振込・お振込先</li>
+                            <li>⾦融機関名：みずほ銀⾏（0001）</li>
+                            <li>⽀店名：⻘⼭⽀店（211）</li>
+                            <li>科⽬：普通 ⼝座番号：2621515</li>
+                            <li>受取⼈名：カ）グツドラツクアンドデイー</li>
+                        </ul>
+                    </div>
+                    <div class="p-instrunctions__box">
+                        <h3 class="c-subheading">カード決済</h3>
+                        <p class="p-instrunctions__text-inline -smt">当⽇お⽀払い(お客様⼿数料0円)</p>
+                        <p class="p-instrunctions__text">クレジット決済端末を利⽤したカード⽀払いが可能です。</p>
+                    </div>
+                </div>
+                <div class="l-spacer -notop">
+                    <div class="c-calltoaction">
+                        <p class="c-calltoaction__text">まずはお電話か<br class="sp">メールにてご連絡ください。</p>
+                        <div class="c-calltoaction__middle">
+                            <p class="c-calltoaction__tel-time">24時間受付</p>
+                            <p class="c-calltoaction__tel-number">0120-71-1212</p>
+                        </div>
+                        <div class="c-calltoaction__form">
+                            <a href="#">お申し込みフォーム</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="l-footer p-footer">
+        <!-- トップスクロールボタン-->
+        <div class="p-topscroll">
+            <button id="js-scroll" class="p-topscroll__wrapper">
+                <p class="p-topscroll__text u-uppercase">top</p>
+            </button>
+        </div>
+        <div class="l-container pc">
+            <div class="p-footer__top">
+                <nav class="p-footer__nav">
+                    <ul class="p-footer__list">
+                        <li class="p-footer__nav-item"><a href="#"> &emsp;Home &emsp;/</a></li>
+                        <li class="p-footer__nav-item"><a href="#"> &emsp;OPERAとは &emsp;/</a></li>
+                        <li class="p-footer__nav-item"><a href="#"> &emsp;自宅葬サービス &emsp;/</a></li>
+                        <li class="p-footer__nav-item"><a href="#"> &emsp;お焚き上げサービス &emsp;/</a></li>
+                        <li class="p-footer__nav-item"><a href="#"> &emsp;スタッフ紹介 &emsp;/</a></li>
+                        <li class="p-footer__nav-item"><a href="#"> &emsp;アフターサポート &emsp;/</a></li>
+                        <li class="p-footer__nav-item"><a href="#"> &emsp;お知らせ &emsp;/</a></li>
+                        <li class="p-footer__nav-item"><a href="#"> &emsp;コラム &emsp;/</a></li>
+                        <li class="p-footer__nav-item"><a href="#"> &emsp;プライバシーポリシー &emsp;/</a></li>
+                        <li class="p-footer__nav-item"><a href="#"> &emsp;特定商取引法に基づく表記 &emsp;/</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- p-footer__top-->
+            <div class="p-footer__middle">
+                <div class="p-footer__left">
+                    <div class="p-footer__company">
+                        <p class="p-footer__company-name">株式会社<span class="u-uppercase">good luck &d</span></p>
+                        <p class="p-footer__company-address">東京都港区南青山2丁目2番15号<br>ウィン青山834</p>
+                    </div>
+                    <div class="p-footer__sns">
+                        <a href="#"><img class="p-footer__sns-instagram" src="./img/instagram.svg" alt="インスタグラムロゴ" width="40px"></a>
+                        <a href="#"><img class="p-footer__sns-line" src="./img/line.svg" alt="ラインロゴ" width="40px"></a>
+                    </div>
+                </div>
+                <div class="p-footer__right">
+                    <div class="p-footer__right-top">
+                        <a href="#"><img src="./img/mail_btn.png" alt=""></a>
+                    </div>
+                    <div class="p-footer__right-bottom">
+                        <a href="#"><img src="./img/freedial.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <!-- p-footer__middle-->
+        </div>
+        <!-- l-container-->
+        <div class="p-footer__logo">
+            <span class="u-visually-hidden">オペラ青山</span>
+        </div>
+        <!-- spレイアウト -->
+        <div class="p-footer__sp sp">
+            <div class="p-footer__sp">
+                <div class="p-footer__sp-tel">
+                    <a href="#"><img src="./img/sp/footer_freedial.png" alt=""></a>
+                </div>
+                <div class="p-footer__sp-mail">
+                    <a href="#"><img src="./img/sp/footer_mail.png" alt=""></a>
+                    <p class="p-footer__sp-text">※生前のご相談も承っております</p>
+                </div>
+                <div class="p-footer__sns">
+                    <a href="#"><img class="p-footer__sns-instagram" src="./img/instagram.svg" alt="インスタグラムロゴ" width="60px"></a>
+                    <a href="#"><img class="p-footer__sns-line" src="./img/line.svg" alt="ラインロゴ" width="60px"></a>
+                </div>
+                <div class="p-footer__company-sp">
+                    <p class="p-footer__company-name-sp">株式会社<span class="u-uppercase">good luck &d</span></p>
+                    <p class="p-footer__company-address-sp">東京都港区南青山2丁目2番15号<br>ウィン青山834</p>
+                </div>
+            </div>
+            <div class="p-footer__sp-list">
+                <nav class="p-footer__sp-nav">
+                    <ul class="p-footer__sp-list">
+                        <li class="p-footer__sp-list-item"><a href="#"><span class="uppercase">Home</span></a></li>
+                        <li class="p-footer__sp-list-item"><a href="#">自宅葬サービス</a></li>
+                        <li class="p-footer__sp-list-item"><a href="#">お知らせ</a></li>
+                        <li class="p-footer__sp-list-item"><a href="#">火葬サービス</a></li>
+                        <li class="p-footer__sp-list-item"><a href="#">コラム</a></li>
+                        <li class="p-footer__sp-list-item"><a href="#">メモリアルサービス</a></li>
+                        <li class="p-footer__sp-list-item"><a href="#">お問い合わせ</a></li>
+                        <li class="p-footer__sp-list-item"><a href="#">スタッフ紹介</a></li>
+                        <li class="p-footer__sp-list-item"><a href="#">プライバシーポリシー</a></li>
+                        <li class="p-footer__sp-list-item"><a href="#">ペットロスサポート</a></li>
+                        <li class="p-footer__sp-list-item"><a href="#">特定商取引法に基づく表記</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="p-footer__copyright">
+            <p class="p-footer__copyright-text">&copy;<span class="u-uppercase">2021 good luck &d</span></p>
+        </div>
+    </footer>
+    <div class="l-bottom p-bottom sp">
+        <div class="p-bottom__wrapper">
+            <div class="p-bottom__left">
+                <a href="">
+                    <div class="p-bottom__flex">
+                        <div class="p-bottom__icon">
+                            <img src="./img/sp/call.png" alt="">
+                        </div>
+                        <div class="p-bottom__text">
+                            <p>24時間<br><span class="p-bottom__text-strong">電話受付</span></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="p-bottom__right">
+                <a href="">
+                    <div class="p-bottom__flex">
+                        <div class="p-bottom__icon -mail">
+                            <img src="./img/sp/mail.png" alt="">
+                        </div>
+                        <div class="p-bottom__text">
+                            <p>ご相談・お申し込み<br><span class="p-bottom__text-strong">メール受付</span></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

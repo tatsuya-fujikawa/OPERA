@@ -128,6 +128,36 @@
             }
         }
     }
+
+    &.-other {
+        &:before {
+            width: 39vw;
+            @include mq('sp') {
+                width: 24vw;
+            }
+        }
+        &:after {
+            width: 39vw;
+            @include mq('sp') {
+                width: 24vw;
+            }
+        }
+    }
+    &.-memories {
+        &:before {
+            width: 39vw;
+            @include mq('sp') {
+                width: 24vw;
+            }
+        }
+        &:after {
+            width: 39vw;
+            @include mq('sp') {
+                width: 24vw;
+            }
+        }
+    }
+
 }
 
 .c-title02 {

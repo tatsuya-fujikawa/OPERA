@@ -1,13 +1,4 @@
-.p-instrunctions {
-    &__wrap {
-        padding-bottom: 2em;
-        padding-left: 1em;
-
-        @include mq('sp') {
-            padding-left: 0;
-        }
-    }
-
+.p-details {
     &__text {
         font-size: 1.125em;
 
@@ -20,6 +11,11 @@
             position: relative;
             margin-top: 2em;
             padding-left: 2.3em;
+            padding-bottom: 0.5em;
+
+            &.-number {
+                margin-top: 1.25em;
+            }
 
             @include mq('sp') {
                 font-size: 1.125em;
@@ -61,43 +57,24 @@
         }
     }
 
-    &__bg {
-        background-color: $color-pink;
-        margin-top: 1em;
-        padding: 2em;
-
-        @include mq('sp') {
-            padding: 1em;
-        }
-
-        &-box {
-            padding-bottom: 1.5em;
-        }
-
-        &-text {
-            font-size: 1.125em;
-            padding-left: 1em;
-            padding-right: 1em;
-
-            @include mq('sp') {
-                font-size: 1em;
-            }
-        }
+    &__box {
+        padding-left: 2em;
     }
 
-    &__box {
-        padding-bottom: 2.5em;
+    &__spacer {
+        padding-top: 1em;
     }
 
     &__list {
         font-size: 1.125em;
+    }
 
-        @include mq('sp') {
-            font-size: 1em;
-        }
+    &__flex {
+        display: flex;
+        justify-content: space-between;
 
-        &:last-of-type {
-            padding-top: 1.5em;
+        &-item {
+            display: block;
         }
     }
 }
