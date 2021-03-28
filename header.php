@@ -19,7 +19,7 @@
     <title>東京23区・横浜・川崎でのペット自宅葬儀・火葬｜OPERA（オペラ青山）</title>
     <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
     <header class="l-header p-header">
         <div class="p-humberger sp">
             <div class="p-humberger__button">

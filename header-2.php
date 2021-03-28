@@ -21,7 +21,7 @@
     <title><?php echo the_title(); ?>|ペット自宅葬儀・火葬のOPERA（オペラ青山）</title>
     <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
     <header class="l-header p-header">
         <div class="p-humberger sp">
             <div class="p-humberger__button">

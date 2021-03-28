@@ -73,8 +73,21 @@
         display: flex;
         justify-content: space-between;
 
+        @include mq('sp') {
+            flex-wrap: wrap;
+            justify-content: unset;
+        }
+
         &-item {
             display: block;
+
+            @include mq('sp') {
+                width: 47%;
+                margin-bottom: 1em;
+                &:nth-of-type(odd) {
+                    margin-right: 5%;
+                }
+            }
         }
     }
 }

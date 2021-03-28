@@ -884,6 +884,26 @@ address {
   }
 }
 
+.c-subtitle.-information:before {
+  width: 34vw;
+}
+
+@media screen and (max-width: 767px) {
+  .c-subtitle.-information:before {
+    width: 24vw;
+  }
+}
+
+.c-subtitle.-information:after {
+  width: 34vw;
+}
+
+@media screen and (max-width: 767px) {
+  .c-subtitle.-information:after {
+    width: 24vw;
+  }
+}
+
 .c-title02 {
   font-size: 2.375em;
   font-weight: bold;
@@ -957,6 +977,21 @@ address {
 @media screen and (max-width: 767px) {
   .c-title02.-privacy::before {
     bottom: 100px;
+  }
+}
+
+.c-title02.-information {
+  margin-top: 3.1em;
+}
+
+.c-title02.-information:before {
+  bottom: 135px;
+}
+
+@media screen and (max-width: 767px) {
+  .c-title02.-information:before {
+    bottom: 80px;
+    font-size: 3.8rem;
   }
 }
 
@@ -4938,12 +4973,24 @@ address {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .p-what__wrap {
+    padding-top: 0;
+  }
+}
+
 .p-what__wrap-img {
   width: 100%;
 }
 
 .p-what__wrap.-left {
   padding-right: 3em;
+}
+
+@media screen and (max-width: 767px) {
+  .p-what__wrap.-left {
+    padding-right: 0;
+  }
 }
 
 .p-what__wrap-box {
@@ -4955,8 +5002,54 @@ address {
   padding-top: 4em;
 }
 
+@media screen and (max-width: 767px) {
+  .p-what__flex {
+    padding-top: 2em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .p-what__flex.-secound {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .p-what__flex-item1 {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .p-what__flex-item2 {
+    order: 0;
+  }
+}
+
 .p-what__lead {
   font-size: 2.375em;
+}
+
+@media screen and (max-width: 767px) {
+  .p-what__lead {
+    font-size: 1.5em;
+  }
+}
+
+.p-what__text {
+  font-size: 1.125em;
+}
+
+.p-what__text-right {
+  text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+  .p-what__text-right {
+    padding-bottom: 2em;
+  }
 }
 
 .p-details__text {
@@ -5041,8 +5134,25 @@ address {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 767px) {
+  .p-details__flex {
+    flex-wrap: wrap;
+    justify-content: unset;
+  }
+}
+
 .p-details__flex-item {
   display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .p-details__flex-item {
+    width: 47%;
+    margin-bottom: 1em;
+  }
+  .p-details__flex-item:nth-of-type(odd) {
+    margin-right: 5%;
+  }
 }
 
 .u-uppercase {

@@ -157,6 +157,20 @@
             }
         }
     }
+    &.-information {
+        &:before {
+            width: 34vw;
+            @include mq('sp') {
+                width: 24vw;
+            }
+        }
+        &:after {
+            width: 34vw;
+            @include mq('sp') {
+                width: 24vw;
+            }
+        }
+    }
 
 }
 
@@ -218,6 +232,16 @@
 
             @include mq('sp') {
                 bottom: 100px;
+            }
+        }
+    }
+    &.-information {
+        margin-top: 3.1em;
+        &:before {
+            bottom: 135px;
+            @include mq('sp') {
+                bottom: 80px;
+                font-size: 3.8rem;
             }
         }
     }
