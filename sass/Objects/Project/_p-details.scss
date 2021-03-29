@@ -59,6 +59,10 @@
 
     &__box {
         padding-left: 2em;
+
+        @include mq('sp') {
+            padding-left: 0;
+        }
     }
 
     &__spacer {
@@ -80,6 +84,8 @@
 
         &-item {
             display: block;
+            max-width: 200px;
+            width: 100%;
 
             @include mq('sp') {
                 width: 47%;
