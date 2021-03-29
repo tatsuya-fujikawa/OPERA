@@ -4943,14 +4943,35 @@ address {
 .p-memories__lead {
   text-align: center;
   font-size: 1.5em;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .p-memories__lead {
+    font-size: 1.25em;
+  }
 }
 
 .p-memories__lead-strong {
   font-size: 2.375rem;
 }
 
+@media screen and (max-width: 767px) {
+  .p-memories__lead-strong {
+    font-size: 1.5rem;
+  }
+}
+
 .p-memories__text {
   font-size: 1.125em;
+}
+
+@media screen and (max-width: 767px) {
+  .p-memories__text {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 1em;
+  }
 }
 
 .p-memories__wrap-bottom {
@@ -5121,6 +5142,12 @@ address {
   padding-left: 2em;
 }
 
+@media screen and (max-width: 767px) {
+  .p-details__box {
+    padding-left: 0;
+  }
+}
+
 .p-details__spacer {
   padding-top: 1em;
 }
@@ -5143,6 +5170,8 @@ address {
 
 .p-details__flex-item {
   display: block;
+  max-width: 200px;
+  width: 100%;
 }
 
 @media screen and (max-width: 767px) {

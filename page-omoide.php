@@ -16,7 +16,7 @@ Template Name: 思い出トランク
                     <p class="p-memories__lead">ペットの遺品をお預かり<br><span class="p-memories__lead-strong">思い出トランク</span></p>
                 </div>
                 <div class="p-memories__wrap-bottom">
-                    <p class="p-memories__text">ペットの遺品を⽬にするのがつらい・・・・<br>そのお悩みを、選べる定額制でサポートします。</p>
+                    <p class="p-memories__text">ペットの遺品を⽬にするのがつらい・・・<br>そのお悩みを、選べる定額制でサポートします。</p>
                 </div>
             </div>
         </section>
