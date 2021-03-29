@@ -72,7 +72,7 @@ Template Name: 思い出トランク
                 <h3 class="c-subheading">料金</h3>
                 <div class="p-details__box">
                     <p class="p-details__text-inline">思い出トランク購⼊</p>
-                    <p class="p-details__text">新品トランク＝1台 ￥14,000（税込）</p>
+                    <p class="p-details__text">新品トランク＝1台 <span class="p-details__text-strong">￥14,000</span>（税込）</p>
                     <p class="p-details__text">宅急便送り 配送料無料</p>
                     <div class="p-details__spacer">
                         <p class="p-details__text">サイズ 幅40cm×奥⾏き28cm×深さ12cm（1サイズのみ）</p>
@@ -81,22 +81,19 @@ Template Name: 思い出トランク
                 <div class="p-details__box">
                     <p class="p-details__text-inline">お預かり費用</p>
                     <p class="p-details__text">（トランク１台につき）</p>
-                    <p class="p-details__text">・6か⽉更新コース ひと⽉ ￥3,800（税込）</p>
-                    <p class="p-details__text">・1年更新コース ひと⽉ ￥2,900（税込）</p>
+                    <p class="p-details__text">・6か⽉更新コース ひと⽉ <span class="p-details__text-strong">￥3,800</span>（税込）</p>
+                    <p class="p-details__text">・1年更新コース ひと⽉ <span class="p-details__text-strong">￥2,900</span>（税込）</p>
                     <div class="p-details__spacer">
-                        <p class="p-details__text">※上記の他 管理費⽤ ひと⽉ ￥800（税込）</p>
+                        <p class="p-details__text">※上記の他 管理費⽤としてひと⽉￥800（税込）いただいております。</p>
                         <p class="p-details__text">※更新⽉の前⽉に、解約か継続かを選べます。</p>
                     </div>
                 </div>
                 <div class="p-details__box">
                     <p class="p-details__text-inline">リリース費⽤</p>
                     <p class="p-details__text">（選べるお戻し⽅法）</p>
-                    <p class="p-details__text">①ご返却（着払い、送料お客様ご負担） ￥1,000（税込）</p>
-                    <p class="p-details__text">②ご供養、お焚き上げ ￥15,000（税込）</p>
-                    <p class="p-details__text">③リユース（⾮営利動物保護団体へ寄付）￥0</p>
-                    <div class="p-details__spacer">
-                        <p class="p-details__text">※更新⽉の前⽉に、解約か継続かを選べます。</p>
-                    </div>
+                    <p class="p-details__text">①ご返却（着払い、送料お客様ご負担） <span class="p-details__text-strong">￥1,000</span>（税込）</p>
+                    <p class="p-details__text">②ご供養、お焚き上げ <span class="p-details__text-strong">￥15,000</span>（税込）</p>
+                    <p class="p-details__text">③リユース（⾮営利動物保護団体へ寄付）<span class="p-details__text-strong">￥0</span></p>
                 </div>
                 <div class="l-spacer">
                     <h3 class="c-subheading">思い出トランクについて</h3>
@@ -108,7 +105,7 @@ Template Name: 思い出トランク
                             <ul class="p-details__list">
                                 <li class="p-details__list-item">・上記はおおよそのサイズとなります。（仕⼊れ上、多少の誤差あり）</li>
                                 <li class="p-details__list-item">・トランクはアンティーク⾵の新品です。</li>
-                                <li class="p-details__list-item">・⾊、柄の指定不可。（到着直後のあきらかな不良品については交換します）</li>
+                                <li class="p-details__list-item">・⾊、柄の指定はできません。（到着直後のあきらかな不良品については交換します）</li>
                             </ul>
                         </div>
                     </div>
@@ -131,7 +128,7 @@ Template Name: 思い出トランク
                 <h3 class="c-subheading">お預かり終了後</h3>
                 <div class="p-details__box">
                     <div class="p-details__spacer">
-                        <p class="p-details__text">お預かり期間が終了したあとは、返却、処分、リサイクルの３タイプからご選択ください。<br>牧師によるお清めのセレモニーも、ご⽤意しております。</p>
+                        <p class="p-details__text">お預かり期間が終了した後は、返却、処分、リサイクルの3タイプからご選択ください。<br>牧師によるお清めのセレモニーも、ご⽤意しております。</p>
                     </div>
                 </div>
                 <div class="l-spacer">
@@ -146,7 +143,7 @@ Template Name: 思い出トランク
                     <h3 class="c-subheading">ご利用の流れ</h3>
                     <div class="p-details__box">
                         <p class="p-details__text-inline -number">① 受付</p>
-                        <p class="p-details__text">PERAコールセンター、または当サイト「<a class="u-gold" href="<?php echo esc_url( home_url("/contact/")); ?>">お申込み・ご相談フォーム</a>」よりご連絡ください。ご購⼊⽅法をご案内します。</p>
+                        <p class="p-details__text">オペラコールセンター、または当サイト「<a class="u-gold" href="<?php echo esc_url( home_url("/contact/")); ?>">お申込み・ご相談フォーム</a>」よりご連絡ください。ご購⼊⽅法をご案内します。</p>
                     </div>
                     <div class="p-details__box">
                         <p class="p-details__text-inline -number">② キットのお届け</p>
@@ -163,7 +160,7 @@ Template Name: 思い出トランク
                     </div>
                     <div class="p-details__box">
                         <p class="p-details__text-inline -number">④ オペラに到着</p>
-                        <p class="p-details__text">オペラでトランクをお受け取りしましたら、到着のお知らせをいたします。<br>その際にトランクナンバーの発⾏をいたします。</p>
+                        <p class="p-details__text">オペラでトランクを受け取りましたら、到着のご報告とトランクナンバーのご連絡をいたします。<br>その際にトランクナンバーの発⾏をいたします。</p>
                     </div>
                     <div class="p-details__box">
                         <p class="p-details__text-inline -number">⑤ オペラでのお預かり</p>
@@ -186,7 +183,7 @@ Template Name: 思い出トランク
                 </div>
                 <div class="p-instrunctions__inner">
                     <div class="l-spacer -medium -notop">
-                        <p class="p-instrunctions__text">「思い出トランク」のお⽀払い⽅法です。<br>⾃宅葬サービスにつきましては、別途定めた⽅法にて承ります。</p>
+                        <p class="p-instrunctions__text">「思い出トランク」のお⽀払い⽅法です。<br>承る時期やサービスの併⽤などで、お⽀払い⽅法が変更となることもございます。詳しくはお問い合わせください。</p>
                     </div>
                     <div class="p-instrunctions__box">
                         <h3 class="c-subheading">カード決済入金</h3>
@@ -201,11 +198,20 @@ Template Name: 思い出トランク
                             <li>・ご注⽂商品のお⽀払⾦額に対して、振込のご⼊⾦額が多く振り込まれた場合は、振込⼿数料を差し引いてご返⾦いたします。</li>
                             <li>※振込⼿数料を差し引いた⾦額がマイナスとなる場合は返⾦いたしかねます。</li>
                         </ul>
+                        <div class="l-spacer -minimum">
+                            <ul>
+                                <li>銀行振込・お振込先</li>
+                                <li>⾦融機関名：みずほ銀⾏（0001）</li>
+                                <li>⽀店名：⻘⼭⽀店（211）</li>
+                                <li>科⽬：普通 ⼝座番号：2621515</li>
+                                <li>受取⼈名：カ）グツドラツクアンドデイー</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <div class="l-spacer -section">
+        <div class="l-spacer">
             <div class="l-container -forSub">
                 <?php get_template_part('inc/cta'); ?>
             </div>

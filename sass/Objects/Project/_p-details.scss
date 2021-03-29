@@ -6,6 +6,10 @@
             font-size: 1em;
         }
 
+        &-strong {
+            font-size: 1.5em;
+        }
+
         &-inline {
             font-size: 1.5em;
             position: relative;
@@ -71,6 +75,10 @@
 
     &__list {
         font-size: 1.125em;
+
+        @include mq('sp') {
+            font-size: 1em;
+        }
     }
 
     &__flex {
@@ -79,7 +87,7 @@
 
         @include mq('sp') {
             flex-wrap: wrap;
-            justify-content: unset;
+            justify-content: center;
         }
 
         &-item {

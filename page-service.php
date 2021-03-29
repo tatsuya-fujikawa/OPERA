@@ -25,8 +25,8 @@ Template Name: 他サービス
                             </div>
                             <div class="p-other__wrap">
                                 <p class="c-subheading">料⾦</p>
-                                <p class="p-other__text">初回<span class="p-other__text-strong">￥0</span>（税込）</p>
-                                <p class="p-other__text">2回⽬から<span class="p-other__text-strong">￥3,000</span>（税込）/30分</p>
+                                <p class="p-other__text">初回<span class="p-other__text-strong">￥0</span>（税込）/20分</p>
+                                <p class="p-other__text">2回⽬から<span class="p-other__text-strong">￥3,000</span>（税込）/20分</p>
                             </div>
                             <div class="p-other__wrap">
                                 <p class="c-subheading">ご相談⽅法</p>
@@ -53,7 +53,7 @@ Template Name: 他サービス
                             </div>
                             <div class="p-other__wrap">
                                 <p class="c-subheading">料⾦</p>
-                                <p class="p-other__text"><span class="p-other__text-strong">￥10,500</span>（税込）</p>
+                                <p class="p-other__text"><span class="p-other__text-strong">￥18,000</span>（税込）</p>
                                 <p class="p-other__text">トリマー1名派遣/部分湯灌/アロマコートブラシ/お⽖切り/顔回りカット/部分カット/アイシング等/死後処置</p>
                             </div>
                             <div class="p-other__wrap">
@@ -81,7 +81,7 @@ Template Name: 他サービス
                             </div>
                             <div class="p-other__wrap">
                                 <p class="c-subheading">料⾦</p>
-                                <p class="p-other__text"><span class="p-other__text-strong">￥21,000</span>（税込）※お⾻お帰し料込</p>
+                                <p class="p-other__text"><span class="p-other__text-strong">￥25,000</span>（税込）※お⾻お帰し料込</p>
                             </div>
                             <div class="p-other__wrap">
                                 <p class="c-subheading">対象エリア</p>

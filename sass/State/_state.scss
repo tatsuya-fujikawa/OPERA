@@ -64,6 +64,14 @@
   display: none;
 }
 
+.mw_wp_form .error {
+  font-size: 100%!important;
+  color: $color-white!important;
+  display: inline-block!important;
+  background-color: red;
+  font-weight: bold;
+}
+
 #formTanpinSelect,
 #formCourseSelect {
   display: none;

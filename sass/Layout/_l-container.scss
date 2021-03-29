@@ -27,4 +27,15 @@
         }
     }
 
+    &.-forNarrow {
+        width: 85%;
+        @include mq('pc') {
+            max-width: 1000px;
+        }
+
+        @include mq('sp') {
+            width: 93%;
+        }
+    }
+
 }

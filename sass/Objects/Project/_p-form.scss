@@ -392,5 +392,18 @@
     input[type=checkbox]:checked + .p-form__checkmark::after {
         opacity: 1;
     }
+
+    &__dropdown {
+        position: relative;
+
+        &:after {
+            position: absolute;
+            content: '▼';
+            right: 5%;
+            top: 50%;
+            transform: translateY(-50%);
+            display: inline-block;
+        }
+    }
 }
 

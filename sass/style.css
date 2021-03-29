@@ -459,6 +459,22 @@ address {
   }
 }
 
+.l-container.-forNarrow {
+  width: 85%;
+}
+
+@media screen and (min-width: 1300px) {
+  .l-container.-forNarrow {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l-container.-forNarrow {
+    width: 93%;
+  }
+}
+
 .l-spacer {
   padding: 3.3rem 0;
 }
@@ -4777,6 +4793,19 @@ address {
   opacity: 1;
 }
 
+.p-form__dropdown {
+  position: relative;
+}
+
+.p-form__dropdown:after {
+  position: absolute;
+  content: '▼';
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+}
+
 .p-privacypolicy__text {
   font-size: 1.125em;
 }
@@ -4927,7 +4956,7 @@ address {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 751px;
+  height: 550px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4935,7 +4964,7 @@ address {
 
 @media screen and (max-width: 767px) {
   .p-memories {
-    height: 500px;
+    height: 400px;
     background-size: cover;
   }
 }
@@ -5083,6 +5112,10 @@ address {
   }
 }
 
+.p-details__text-strong {
+  font-size: 1.5em;
+}
+
 .p-details__text-inline {
   font-size: 1.5em;
   position: relative;
@@ -5156,6 +5189,12 @@ address {
   font-size: 1.125em;
 }
 
+@media screen and (max-width: 767px) {
+  .p-details__list {
+    font-size: 1em;
+  }
+}
+
 .p-details__flex {
   display: flex;
   justify-content: space-between;
@@ -5164,7 +5203,7 @@ address {
 @media screen and (max-width: 767px) {
   .p-details__flex {
     flex-wrap: wrap;
-    justify-content: unset;
+    justify-content: center;
   }
 }
 
@@ -5181,6 +5220,159 @@ address {
   }
   .p-details__flex-item:nth-of-type(odd) {
     margin-right: 5%;
+  }
+}
+
+.p-single__top {
+  padding-top: 4em;
+}
+
+@media screen and (max-width: 767px) {
+  .p-single__top {
+    padding-top: 2em;
+  }
+}
+
+.p-single__top-flex {
+  display: flex;
+}
+
+.p-single__time {
+  font-size: 1.25em;
+  padding-right: 1em;
+}
+
+.p-single__tag {
+  font-size: 1.125em;
+  line-height: 25px;
+  background-color: #b49e68;
+  color: #fff;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.p-single__titlewrap {
+  padding-top: 2em;
+  font-size: 1.25em;
+}
+
+@media screen and (max-width: 767px) {
+  .p-single__titlewrap {
+    font-size: 1em;
+  }
+}
+
+.p-single h2 {
+  font-size: 2.375em;
+  position: relative;
+  line-height: 38px;
+  margin-left: 2em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+}
+
+.p-single h2:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background-color: #b49e68;
+  top: 50%;
+  left: -8%;
+}
+
+@media screen and (max-width: 767px) {
+  .p-single h2:before {
+    width: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .p-single h2 {
+    font-size: 1.5em;
+    margin-left: 1.5em;
+  }
+}
+
+.p-single h3 {
+  font-size: 1.5em;
+  position: relative;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.p-single h3:before {
+  content: '◆';
+  position: absolute;
+  color: #b49e68;
+  font-size: 1rem;
+  top: 33%;
+  left: 0%;
+}
+
+@media screen and (max-width: 767px) {
+  .p-single h3 {
+    font-size: 1.25em;
+  }
+}
+
+.p-single h4 {
+  font-size: 1.25em;
+  position: relative;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  padding-left: 2.3em;
+}
+
+.p-single h4:before {
+  content: '';
+  width: 20px;
+  height: 1px;
+  position: absolute;
+  background-color: #b49e68;
+  background-position: center;
+  top: 50%;
+  left: 1%;
+  margin-right: 1em;
+}
+
+@media screen and (max-width: 767px) {
+  .p-single h4 {
+    padding-left: 1.5em;
+    font-size: 1.125em;
+  }
+}
+
+.p-single p {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+.p-single__border {
+  border: none;
+  width: 100%;
+  height: 2px;
+  background-color: #b49e68;
+  margin: 1.25em auto;
+}
+
+.p-single__thumbnail {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.p-single__thumbnail img {
+  object-fit: cover;
+  max-width: 720px;
+}
+
+@media screen and (max-width: 767px) {
+  .p-single__thumbnail img {
+    width: 100%;
   }
 }
 
@@ -5309,6 +5501,14 @@ address {
 
 .mw_wp_form_confirm .input-show {
   display: none;
+}
+
+.mw_wp_form .error {
+  font-size: 100% !important;
+  color: #fff !important;
+  display: inline-block !important;
+  background-color: red;
+  font-weight: bold;
 }
 
 #formTanpinSelect,
