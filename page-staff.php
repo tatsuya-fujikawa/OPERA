@@ -34,7 +34,7 @@ Template Name: スタッフ紹介
                     <h3 class="c-heading" title="pastor">牧師</h3>
                     <div class="p-staff__flex">
                         <div class="p-staff__flex-item -column2 p-staff__left">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/staff/staff_01.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/staff/staff_01.png" alt="牧師Gabriel">
                         </div>
                         <div class="p-staff__flex-item -column2 p-staff__right">
                             <p class="p-staff__text">ペットの聖地からその精神を受け継いだ、牧師Gabriel（ガブリエル）と申します。</p>
@@ -49,7 +49,7 @@ Template Name: スタッフ紹介
                     <h3 class="c-heading" title="florist">フローリスト</h3>
                     <div class="p-staff__flex">
                         <div class="p-staff__flex-item -column2 p-staff__left">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/staff/staff_02.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/staff/staff_02.png" alt="フローリスト宇田川優">
                         </div>
                         <div class="p-staff__flex-item -column2 p-staff__right">
                             <p class="p-staff__text">フローリストの宇田川優です。<br>創業から愛され続ける店舗は、私たちの誇りです。フレッシュな花を常にご用意するため、季節に合った花々を直接買い付けております。そのため、店内は新しい色とりどりの生花で埋め尽くされています。また、弊社はお式などのバルーン装飾も古くから取り扱っている企業です。<br>このたびOPERAペット葬儀の話をいただいたとき、真っ先に思い出したのは今は亡きラブラドールのことです。あのとき感じた悲しさ、切なさは忘れません。当時のことを思い出しながら、生花、バルーンのプロとして、ご家族を失った痛みを癒せるようなオリジナル作品を作りました。<br>お亡くなりになりましたら、すぐにきれいなご祭壇をご用意したいと思っています。代官山からフローリストが、あなたのペットのご冥福を祈りながらお届けします。</p>
@@ -62,7 +62,7 @@ Template Name: スタッフ紹介
                     <h3 class="c-heading" title="cremation car">火葬車</h3>
                     <div class="p-staff__flex">
                         <div class="p-staff__flex-item -column2 p-staff__left">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/staff/staff_03.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/staff/staff_03.png" alt="火葬車">
                         </div>
                         <div class="p-staff__flex-item -column2 p-staff__right">
                             <p class="p-staff__text">家族や友人・恋人等、人と人との特別な巡り合わせ同様、小さな命との出逢いもまさに「御縁」です。関わり方は様々ですが、種を越えて信頼関係で結ばれた者同士には、他者が立ち入れない程の強い絆が生まれます。<br>一つ一つのお別れを大切に過ごして頂く為、一日にお伺いできるご家庭も限られてしまいますが、もし『御縁』があれば～『今までありがとう』と心から伝えたい～そんなお別れをお手伝いさせて頂ければ幸いです。</p>

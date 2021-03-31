@@ -2,7 +2,7 @@
 <div class="c-calltoaction">
     <p class="c-calltoaction__text">まずはお電話か<br class="sp">メールにてご連絡ください。</p>
         <div class="c-calltoaction__middle">
-            <p class="c-calltoaction__tel-time">24時間受付</p>
+            <p class="c-calltoaction__tel-time">電話受付時間：7:00〜19:00</p>
             <p class="c-calltoaction__tel-number">
                 <?php if(is_mobile()): ?>
                 <a href="tel:0120-71-1212">0120-71-1212</a>

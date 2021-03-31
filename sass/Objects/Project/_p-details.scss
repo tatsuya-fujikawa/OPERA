@@ -84,6 +84,7 @@
     &__flex {
         display: flex;
         justify-content: space-between;
+        align-items: flex-start;
 
         @include mq('sp') {
             flex-wrap: wrap;

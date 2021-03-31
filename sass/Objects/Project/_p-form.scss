@@ -53,7 +53,7 @@
 
         &-bg {
             background-color: $color-white;
-            width: 70%;
+            width: 75%;
             margin: 0 auto;
             padding-top: 1em;
             padding-bottom: 1em;
@@ -65,18 +65,18 @@
 
         &-time {
             font-size: 1.75em;
-            padding-left: 8rem;
+            text-align: center;
 
             @include mq('sp') {
                 padding-left: 0;
-                font-size: 1.25em;
+                font-size: 1.125em;
                 text-align: center;
             }
         }
         &-tel {
-            font-size: 5em;
+            font-size: 4.5em;
             line-height: 75px;
-            padding-left: 8rem;
+            text-align: center;
             position: relative;
 
             @include mq('sp') {
@@ -87,20 +87,20 @@
 
             &:before {
                 content: '';
-                position: absolute;
+                position: relative;
                 background-image: url(../img/freecallicon.png);
                 display: inline-block;
                 background-repeat: no-repeat;
                 background-size: contain;
                 width: 80px;
-                height: 55px;
-                top: 25%;
-                left: 5%;
+                height: 48px;
+                left: 3%;
 
                 @include mq('sp') {
                     position: relative;
-                    width: 60px;
+                    width: 45px;
                     height: 24px;
+                    left: 5%;
                 }
             }
         }
@@ -396,13 +396,15 @@
     &__dropdown {
         position: relative;
 
-        &:after {
+        &:before {
             position: absolute;
             content: '▼';
+            font-size: 0.75em;
             right: 5%;
             top: 50%;
             transform: translateY(-50%);
             display: inline-block;
+            z-index: 10;
         }
     }
 }

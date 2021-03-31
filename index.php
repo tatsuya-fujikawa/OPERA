@@ -3,7 +3,7 @@
         <section class="l-mv p-mv">
             <picture>
                 <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/sp/MV.png">
-                <img class="p-mv__slide" src="<?php echo get_template_directory_uri(); ?>/img/MV.png" alt="" loading="eager">
+                <img class="p-mv__slide" src="<?php echo get_template_directory_uri(); ?>/img/MV.png" alt="メインビュー" loading="eager">
             </picture>
             <div class="p-mv__wrapper">
                 <h2 class="p-mv__lead">大切なペットの命に、祈りを</h2>
@@ -70,7 +70,7 @@
                             <div class="p-service__description-item">
                                 <picture>
                                     <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/img/img_01.png">
-                                    <img class="p-service__slide" src="<?php echo get_template_directory_uri(); ?>/img/img_01.png" alt="">
+                                    <img class="p-service__slide" src="<?php echo get_template_directory_uri(); ?>/img/img_01.png" alt="自宅葬セット（お花）">
                                 </picture>
                             </div>
                             <div class="p-service__description-item">
@@ -113,10 +113,10 @@
                     <div class="p-flow__step-item">
                         <div class="p-flow__flex-forSP">
                             <div class="p-flow__step-top">
-                                <h3 class="p-flow__step-title"><span class="sp_inline p-flow__step-number">1.&thinsp;</span>24時間受付</h3>
+                                <h3 class="p-flow__step-title"><span class="sp_inline p-flow__step-number">1.&thinsp;</span>なるべくお早めに</h3>
                             </div>
                             <div class="p-flow__step-middle">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/circle_01.png" alt="" class="p-flow__step-img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/circle_01.png" alt="お電話をしている女性" class="p-flow__step-img">
                             </div>
                         </div>
                         <div class="p-flow__step-bottom">
@@ -130,7 +130,7 @@
                                 <h3 class="p-flow__step-title"><span class="sp_inline p-flow__step-number">2.&thinsp;</span>最短当日お届け</h3>
                             </div>
                             <div class="p-flow__step-middle">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/circle_02.png" alt="" class="p-flow__step-img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/circle_02.png" alt="お通夜セット（お花）" class="p-flow__step-img">
                             </div>
                         </div>
                         <div class="p-flow__step-bottom">
@@ -145,7 +145,7 @@
                         <div class="p-flow__flexInner">
                             <div class="p-flow__flexInner-item">
                                 <div class="p-flow__step-middle">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/circle_03.png" alt="" class="p-flow__step-img">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/circle_03.png" alt="牧師写真" class="p-flow__step-img">
                                 </div>
                                 <div class="p-flow__step-bottom">
                                     <p>牧師の<br class="pc">お祈り&カウンセリング</p>
@@ -153,7 +153,7 @@
                             </div>
                             <div class="p-flow__flexInner-item">
                                 <div class="p-flow__step-middle">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/circle_04.png" alt="" class="p-flow__step-img">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/circle_04.png" alt="火葬車写真" class="p-flow__step-img">
                                 </div>
                                 <div class="p-flow__step-bottom">
                                     <p>火葬車がお伺いし<br class="pc">ご遺体を火葬</p>
@@ -169,7 +169,7 @@
                                 <h3 class="p-flow__step-title"><span class="sp_inline p-flow__step-number">3.&thinsp;</span>お申し込みから3日後まで</h3>
                             </div>
                             <div class="p-flow__step-middle">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/circle_03.png" alt="" class="p-flow__step-img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/circle_03.png" alt="牧師写真" class="p-flow__step-img">
                             </div>
                         </div>
                         <div class="p-flow__step-bottom">
@@ -183,7 +183,7 @@
                                 <h3 class="p-flow__step-title"><span class="sp_inline p-flow__step-number">4.&thinsp;</span>お申し込みから3日後まで</h3>
                             </div>
                             <div class="p-flow__step-middle">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/circle_04.png" alt="" class="p-flow__step-img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/circle_04.png" alt="火葬車写真" class="p-flow__step-img">
                             </div>
                         </div>
                         <div class="p-flow__step-bottom">
@@ -197,7 +197,7 @@
                                 <h3 class="p-flow__step-title"><span class="sp_inline p-flow__step-number">5.&thinsp;</span>一週間限定</h3>
                             </div>
                             <div class="p-flow__step-middle">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/circle_05.png" alt="" class="p-flow__step-img">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/circle_05.png" alt="癒やし動画" class="p-flow__step-img">
                             </div>
                         </div>
                         <div class="p-flow__step-bottom">
@@ -222,7 +222,7 @@
                 </div>
                 <div class="p-introduction__flex">
                     <div class="p-introduction__flex-item p-introduction__left pc">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/img_02.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/img_02.png" alt="サービスを紹介する女性">
                     </div>
                     <div class="p-introduction__flex-item p-introduction__right">
                         <h3 class="p-introduction__title">他サービス</h3>
@@ -246,7 +246,7 @@
 
                     </div>
                     <div class="p-introduction__flex-item p-introduction__right -rows pc">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/img_03.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/img_03.png" alt="思い出トランクの写真">
                     </div>
                 </div>
 
@@ -273,7 +273,7 @@
             </div>
         </section>
         <!-- l-letter-->
-        <section class="l-information p-information">
+        <!-- <section class="l-information p-information">
             <div class="l-container -forWide">
                 <div class="p-information__title l-spacer -title">
                     <h2 class="c-title u-centerposition" title="Information">インフォメーション</h2>
@@ -344,15 +344,15 @@
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> -->
                 <!-- p-information__wrapper -->
-                <div class="u-centerposition">
+                <!-- <div class="u-centerposition">
                     <a class="c-button p-information__button" href="<?php echo esc_url( home_url("/information/")); ?>">インフォメーション一覧</a>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- l-information-->
-        <section class="l-column p-column">
+        <!-- <section class="l-column p-column">
             <div class="l-container">
                 <div class="p-column__container">
                     <div class="p-information__title l-spacer -title">
@@ -403,20 +403,20 @@
                                 </h3>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
                     <!--p-column__list-->
-                </div>
+                <!-- </div>
                 <div class="l-spacer u-centerposition">
                     <a class="c-button -pplus u-bgwhite" href="<?php echo esc_url( home_url("/column/")); ?>">コラム一覧</a>
                 </div>
             </div>
-        </section>
+        </section> -->
         <?php if(is_front_page()): ?>
         <div id="js-floating" class="p-floating pc">
             <div class="p-floating__wrapper">
-                <p class="p-floating__text">24時間電話受付</p>
+                <p class="p-floating__text">受付時間：7:00〜19:00</p>
                 <div class="p-floating__middle">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/freecallicon.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/freecallicon.png" alt="フリーダイヤル">
                     <p class="p-floating__middle-phone">0120-71-1212</p>
                 </div>
                 <p class="p-floating__bottom">事前のご相談も承ります。</p>

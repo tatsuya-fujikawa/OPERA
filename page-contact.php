@@ -27,7 +27,7 @@ Template Name: お申し込み・ご相談
                         </div>
                         <div class="p-form__bottom">
                             <div class="p-form__bottom-bg">
-                                <p class="p-form__bottom-time">24時間受付</p>
+                                <p class="p-form__bottom-time">電話受付時間：7:00〜19:00</p>
                                 <p class="p-form__bottom-tel">
                                     <?php if(is_mobile()): ?>
                                     <a href="tel:0120-71-1212">0120-71-1212</a>

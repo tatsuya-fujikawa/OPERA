@@ -106,7 +106,7 @@
                             <img src="<?php echo get_template_directory_uri(); ?>/img/sp/call.png" alt="">
                         </div>
                         <div class="p-bottom__text">
-                            <p>24時間<br><span class="p-bottom__text-strong">電話受付</span></p>
+                            <p><span class="p-bottom__text-strong">7:00〜19:00</span><br><span class="p-bottom__text-strong">電話受付</span></p>
                         </div>
                     </div>
                 </a>

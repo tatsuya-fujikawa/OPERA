@@ -18,6 +18,7 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/checkbox.js" defer></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/scroll.js" defer></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/form.js" defer></script>
+    <meta name="keywords" content="ペット,葬儀,⾃宅葬,火葬,OPERA,オペラ,東京,横浜,川崎,⽕葬,ペットロス">
     <title><?php echo the_title(); ?>|ペット自宅葬儀・火葬のOPERA（オペラ青山）</title>
     <?php wp_head(); ?>
 </head>
@@ -66,7 +67,10 @@
             <div class="p-header__top">
                 <div class="p-header__top-left">
                     <div class="p-header__logo">
-                        <h1 class="u-visually-hidden">オペラ青山</h1>
+                    <?php global $post;
+                    $pageTitle = $post->post_title;
+                    ?>
+                        <h1 class="u-visually-hidden"><?php echo $pageTitle; ?></h1>
                         <a href="<?php echo esc_url( home_url("/")); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/header_logo.png" alt="オペラ青山ロゴ">
                         </a>

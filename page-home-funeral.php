@@ -109,13 +109,13 @@ Template Name: 自宅葬サービス
                                 </th>
                                 <tr>
                                     <th class="noborder"></th>
-                                    <th>お花：ピンク系<br><img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/bouquet_pink.png" alt=""></th>
-                                    <th>お花：ピンク系<br><img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/flower_pink.png" alt=""></th>
+                                    <th>お花：ピンク系<br><img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/bouquet_pink.png" alt="お花：ピンク系"></th>
+                                    <th>お花：ピンク系<br><img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/flower_pink.png" alt="お花：ピンク系"></th>
                                 </tr>
                                 <tr>
                                     <th class="noborder"></th>
-                                    <th>お花：ブルー系<br><img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/bouquet_blue.png" alt=""></th>
-                                    <th>お花：ブルー系<br><img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/flower_blue.png" alt=""></th>
+                                    <th>お花：ブルー系<br><img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/bouquet_blue.png" alt="お花：ブルー系"></th>
+                                    <th>お花：ブルー系<br><img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/flower_blue.png" alt="お花：ブルー系"></th>
                                 </tr>
                                 <tr>
                                     <th>訪問　牧師1名</th>
@@ -180,11 +180,11 @@ Template Name: 自宅葬サービス
                         </ul>
                         <p class="p-table__sp-text u-bold">お花：ピンク系</p>
                         <div class="p-table__sp-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/bouquet_pink.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/bouquet_pink.png" alt="お花：ピンク系">
                         </div>
                         <p class="p-table__sp-text u-bold">お花：ブルー系</p>
                         <div class="p-table__sp-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/bouquet_blue.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/bouquet_blue.png" alt="お花：ブルー系">
                         </div>
                     </div>
                     </div>
@@ -245,11 +245,11 @@ Template Name: 自宅葬サービス
                         </ul>
                         <p class="p-table__sp-text u-bold">お花：ピンク系</p>
                         <div class="p-table__sp-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/flower_pink.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/flower_pink.png" alt="お花：ピンク系">
                         </div>
                         <p class="p-table__sp-text u-bold">お花：ブルー系</p>
                         <div class="p-table__sp-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/flower_blue.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/flower_blue.png" alt="お花：ブルー系">
                         </div>
                     </div>
                     </div>
@@ -294,7 +294,7 @@ Template Name: 自宅葬サービス
                         <div class="p-course__center">
                             <figure class="p-course__picture -first">
                                 <figcaption>祭壇設営イメージ</figcaption>
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/img_course01.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/img_course01.png" alt="祭壇設営イメージロミオコース">
                             </figure>
                         </div>
                     </div>
@@ -303,7 +303,7 @@ Template Name: 自宅葬サービス
                         <div class="p-course__center">
                             <figure class="p-course__picture">
                                 <figcaption>祭壇設営イメージ</figcaption>
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/img_course02.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/img_course02.png" alt="祭壇設営イメージジュリエットコース">
                                 <figcaption class="p-course__picture-text">※ひつぎサイズ：幅59cm、縦39cm、深さ25.5cm(内⼨)</figcaption>
                             </figure>
                         </div>
@@ -325,7 +325,7 @@ Template Name: 自宅葬サービス
                     <h3 class="c-subheading">ご利用の流れ</h3>
                     <div class="p-instrunctions__inner">
                         <p class="p-instrunctions__text-inline">① 受付</p>
-                        <p class="p-instrunctions__text">ペットがお亡くなりになりましたら、すぐにOPERAコールセンター、または当サイト「お申込み・ご相談フォーム」よりご連絡ください。(24時間受付)</p>
+                        <p class="p-instrunctions__text">ペットがお亡くなりになりましたら、すぐにOPERAコールセンター、または当サイト「お申込み・ご相談フォーム」よりご連絡ください。(電話受付時間：7:00〜19:00)</p>
                         <p class="p-instrunctions__text-inline">②「お届けお通夜セット」のお届け</p>
                         <p class="p-instrunctions__text">15:00までの⽀払い完了(当⽇⽀払いの場合は申込み完了)で、その⽇のうちにフローリストがご⾃宅へご葬儀セットをお届けします。<br>ご⾃宅祭壇設営、保冷剤処置、ご遺体安置まで⾏います(所要時間は10分程度です)。<br>※ご家族様にて設営ご希望の⽅は、商品を⽞関前でお渡しいたします。</p>
                         <div class="p-instrunctions__bg">
@@ -369,7 +369,7 @@ Template Name: 自宅葬サービス
                 <div class="p-card__wrap">
                     <div class="p-card__item">
                         <div class="p-card__item-top">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/card01.png" alt="" class="p-card__item-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/card01.png" alt="お届けお通夜セット1" class="p-card__item-img">
                         </div>
                         <div class="p-card__item-bottom">
                             <div class="p-card__item-bg">
@@ -385,7 +385,7 @@ Template Name: 自宅葬サービス
                     <!--p-card__item-->
                     <div class="p-card__item">
                         <div class="p-card__item-top">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/card02.png" alt="" class="p-card__item-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/card02.png" alt="お届けお通夜セット2" class="p-card__item-img">
                         </div>
                         <div class="p-card__item-bottom">
                             <div class="p-card__item-bg">
@@ -401,7 +401,7 @@ Template Name: 自宅葬サービス
                     <!--p-card__item-->
                     <div class="p-card__item">
                         <div class="p-card__item-top">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/card03.png" alt="" class="p-card__item-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/card03.png" alt="お届けお通夜セット3" class="p-card__item-img">
                         </div>
                         <div class="p-card__item-bottom">
                             <div class="p-card__item-bg">
@@ -417,7 +417,7 @@ Template Name: 自宅葬サービス
                     <!--p-card__item-->
                     <div class="p-card__item">
                         <div class="p-card__item-top">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/card04.png" alt="" class="p-card__item-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/card04.png" alt="お届けお通夜セット4" class="p-card__item-img">
                         </div>
                         <div class="p-card__item-bottom">
                             <div class="p-card__item-bg">
@@ -433,7 +433,7 @@ Template Name: 自宅葬サービス
                     <!--p-card__item-->
                     <div class="p-card__item">
                         <div class="p-card__item-top">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/card05.png" alt="" class="p-card__item-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/card05.png" alt="牧師" class="p-card__item-img">
                         </div>
                         <div class="p-card__item-bottom">
                             <div class="p-card__item-bg">
@@ -449,7 +449,7 @@ Template Name: 自宅葬サービス
                     <!--p-card__item-->
                     <div class="p-card__item">
                         <div class="p-card__item-top">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/card06.png" alt="" class="p-card__item-img">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/home-funeral/card06.png" alt="火葬車" class="p-card__item-img">
                         </div>
                         <div class="p-card__item-bottom">
                             <div class="p-card__item-bg">

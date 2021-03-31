@@ -16,6 +16,7 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/humberger.js" defer></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/script.js" defer></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/bannar.js" defer></script>
+    <meta name="keywords" content="ペット,葬儀,⾃宅葬,火葬,OPERA,オペラ,東京,横浜,川崎,⽕葬,ペットロス">
     <title>東京23区・横浜・川崎でのペット自宅葬儀・火葬｜OPERA（オペラ青山）</title>
     <?php wp_head(); ?>
 </head>
@@ -64,7 +65,7 @@
             <div class="p-header__top">
                 <div class="p-header__top-left">
                     <div class="p-header__logo">
-                        <h1 class="u-visually-hidden">オペラ青山</h1>
+                        <h1 class="u-visually-hidden"><span class="u-uppercase">opera</span>（オペラ青山）</h1>
                         <img src="<?php echo get_template_directory_uri(); ?>/img/header_logo.png" alt="オペラ青山ロゴ">
                     </div>
                 </div>
