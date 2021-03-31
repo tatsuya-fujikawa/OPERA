@@ -49,7 +49,7 @@ Template Name: 自宅葬サービス
                                 <div class="p-service__flex-item -sp">
                                     <p class="p-service__flex-lead">分かりやすく安心</p>
                                     <h3 class="p-service__flex-title">定額料金</h3>
-                                    <p class="p-service__flex-lead">現金・銀行振込・カード決済</p>
+                                    <p class="p-service__flex-lead">現金・銀行振込・<br>カード決済</p>
                                 </div>
                                 <div class="p-service__flex-item -sp">
                                     <p class="p-service__flex-lead">業界のプロが対応</p>
@@ -75,7 +75,7 @@ Template Name: 自宅葬サービス
         <section class="l-table p-table">
             <div class="l-container -forSub">
                 <h2 id="course" class="c-heading" title="course">コースメニュー</h2>
-                <p class="p-table__text">お通夜セットのお届けから個別⽕葬、ご収⾻まで込みのプランとなります。</p>
+                <p class="p-table__text">お通夜セットのお届けから個別⽕葬、ご収⾻まで<br class="sp">込みのプランとなります。</p>
                 <div class="p-table__scroll pc">
                     <table class="p-table__table">
                         <thead>
@@ -327,7 +327,7 @@ Template Name: 自宅葬サービス
                         <p class="p-instrunctions__text-inline">① 受付</p>
                         <p class="p-instrunctions__text">ペットがお亡くなりになりましたら、すぐにOPERAコールセンター、または当サイト「お申込み・ご相談フォーム」よりご連絡ください。(電話受付時間：7:00〜19:00)</p>
                         <p class="p-instrunctions__text-inline">②「お届けお通夜セット」のお届け</p>
-                        <p class="p-instrunctions__text">15:00までの⽀払い完了(当⽇⽀払いの場合は申込み完了)で、その⽇のうちにフローリストがご⾃宅へご葬儀セットをお届けします。<br>ご⾃宅祭壇設営、保冷剤処置、ご遺体安置まで⾏います(所要時間は10分程度です)。<br>※ご家族様にて設営ご希望の⽅は、商品を⽞関前でお渡しいたします。</p>
+                        <p class="p-instrunctions__text">15:00までの⽀払い完了(当⽇⽀払いの場合は申込み完了)で、その⽇のうちにフローリストがご⾃宅へご葬儀セットをお届けします。<br>ご⾃宅祭壇設営を⾏います(所要時間は10分程度です)。<br>※ご家族様にて設営ご希望の⽅は、商品を⽞関前でお渡しいたします。</p>
                         <div class="p-instrunctions__bg">
                             <p class="p-instrunctions__text -list">配送時間は混雑状況によりますので、当⽇調整とさせていただきます。</p>
                             <p class="p-instrunctions__text -list">お申込み、お⽀払いが15:00を過ぎた場合は翌⽇配送となります。</p>
@@ -339,11 +339,10 @@ Template Name: 自宅葬サービス
                             <p class="p-instrunctions__text -list">お申込み時に牧師訪問希望⽇時をお知らせいただきます。その後当社とお客様にて訪問⽇時を決定し、お伺いします。</p>
                         </div>
                         <p class="p-instrunctions__text-inline">④ 火葬車訪問</p>
-                        <p class="p-instrunctions__text">巧の⽕葬技術者が、⽕葬⾞でご⾃宅へ伺います。⽕葬(1時間程度)後、お⾻上げ、ご収⾻、⾻壺カバーに包まれ、お⾻が戻ります。⽕葬証明書も発⾏いたします。</p>
+                        <p class="p-instrunctions__text">巧の⽕葬技術者が、⽕葬⾞でご⾃宅へ伺います。⽕葬(1時間程度)後、お⾻上げ、ご収⾻、⾻壺カバーに包まれ、お⾻が戻ります。</p>
                         <div class="p-instrunctions__bg">
                             <p class="p-instrunctions__text -list">お申込み時に⽕葬⾞訪問希望⽇時をお知らせいただきます。その後当社とお客様にて訪問⽇時を決定し、お伺いします。</p>
                             <p class="p-instrunctions__text -list">牧師訪問と同じ⽇も対応可能です。</p>
-                            <p class="p-instrunctions__text -list">⽕葬証明書の再発⾏はできかねますのでご了承ください。</p>
                         </div>
                         <p class="p-instrunctions__text-inline">⑤ 牧師による祈り動画配信</p>
                         <p class="p-instrunctions__text">ペットの聖地から来たダニエレ＆マリアが、⼩さくて⼤きな命へ祈りを捧げる動画です。<br>URLをお送りしますのでご覧ください(1週間限定)。</p>
