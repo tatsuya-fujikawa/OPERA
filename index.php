@@ -11,7 +11,7 @@
                     <p>ペット葬儀OPERAは牧師のお祈りで<br>清らかにお見送りいたします</p>
                 </div>
                 <div class="p-mv__price">
-                    <p class="p-mv__price-text">お通夜からご収骨まで込みで<br><span class="u-rose">¥69,800</span>(税込)～<br>送料無料</p>
+                    <p class="p-mv__price-text">お通夜からご収骨まで込み<br><span class="u-rose">¥69,800</span>(税込)～<br>送料無料</p>
                 </div>
             </div>
         </section>
@@ -55,7 +55,7 @@
                                 <div class="p-service__flex-item -sp">
                                     <p class="p-service__flex-lead">分かりやすく安心</p>
                                     <h3 class="p-service__flex-title">定額料金</h3>
-                                    <p class="p-service__flex-lead">現金・銀行振込・カード決済</p>
+                                    <p class="p-service__flex-lead">現金・銀行振込・<br>カード決済</p>
                                 </div>
                                 <div class="p-service__flex-item -sp">
                                     <p class="p-service__flex-lead">業界のプロが対応</p>
@@ -257,13 +257,12 @@
             <div class="l-container -forWide">
                 <div class="p-letter__container">
                     <div class="p-letter__container-item">
-                        <h2 class="p-letter__title"><span class="u-uppercase">opera</span>の思い</h2>
-                        <p class="p-letter__sentence">～ペットは家族～<br>そうよばれるようになり、何年がたつでしょうか</p>
-                        <p class="p-letter__sentence">新しい生活様式へと変化を続ける世の中で<br>ペットという名の小さな家族は、昔も今も変わらず<br>人間の心を癒やし、あたため続けてくれました</p>
-                        <p class="p-letter__sentence">しかし、ペットの存在価値が高まる一方で<br>
-                            お別れの形はどうなっているのだろうか...<br>
-                            そんな気持ちから「本当にやりたかったペット葬儀」を考えました</p>
-                        <p class="p-letter__sentence">OPERAのスタッフは全員、ペットとの別れを経験した者です<br>悲しみの深さを知るからこそできる葬儀があります<br>それが私たちがご提供する、新しいペット葬儀の形です</p>
+                        <h2 class="p-letter__title"><span class="u-uppercase">opera</span>の想い</h2>
+                        <p class="p-letter__sentence">～ペットは家族～</p>
+                        <p class="p-letter__sentence">そうよばれるようになり、<br class="sp">何年がたつでしょうか。<br>新しい生活様式へと変化を続ける中でペットという小さな家族は、昔も今も<br>変わらず人間の心を癒し温めてくれます。</p>
+                        <p class="p-letter__sentence">しかし、存在価値が高まる一方でお別れの形はどうなっているだろうか・・・</p>
+                        <p class="p-letter__sentence">そんな気持ちから<br class="sp">「本当にやりたかったペット葬儀」を考えました。</p>
+                        <p class="p-letter__sentence">OPERAのスタッフは全員がペットとの別れを<br class="sp">経験した者です。<br>悲しみの深さを知るからこそできる、<br class="sp">葬儀があります。<br class="sp">それが私たちのご提供する<br class="sp">新しいペット葬儀の形です。</p>
                     </div>
                 </div>
             </div>

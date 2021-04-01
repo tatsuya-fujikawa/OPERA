@@ -20,8 +20,7 @@ Template Name: 他サービス
                         </div>
                         <div class="p-staff__flex-item -column2">
                             <div class="p-other__wrap">
-                                <h3 class="p-other__title">お話を伺い、モヤモヤをスッキリさせます</h3>
-                                <p class="p-other__text -lead">相談員がオンラインでお話を伺います。</p>
+                                <h3 class="p-other__title">プロカウンセラーがお話を伺い、<br>悩みをスッキリさせます</h3>
                             </div>
                             <div class="p-other__wrap">
                                 <p class="c-subheading">料⾦</p>
@@ -48,13 +47,13 @@ Template Name: 他サービス
                         </div>
                         <div class="p-staff__flex-item -column2">
                             <div class="p-other__wrap">
-                                <h3 class="p-other__title">つらい治療で疲れたお⾝体を、<br>真⼼込めてきれいにします</h3>
-                                <p class="p-other__text -lead">大切なペットの身だしなみを整えます。<br>トリマーがご自宅までお伺いします。</p>
+                                <h3 class="p-other__title">つらい治療で疲れたお⾝体を<br>トリマーが優しくきれいに整えます</h3>
+                                <p class="p-other__text -lead">トリマーがご自宅までお伺いし<br>大切なペットの身だしなみを整えます。</p>
                             </div>
                             <div class="p-other__wrap">
                                 <p class="c-subheading">料⾦</p>
                                 <p class="p-other__text"><span class="p-other__text-strong">￥18,000</span>（税込）</p>
-                                <p class="p-other__text">トリマー1名派遣/部分湯灌/アロマコートブラシ/お⽖切り/顔回りカット/部分カット/アイシング等/死後処置</p>
+                                <p class="p-other__text">トリマー1名/部分湯灌/アロマコートブラシ/お⽖切り/お顔回りカット/部分カット/アイシング/死後処置</p>
                             </div>
                             <div class="p-other__wrap">
                                 <p class="c-subheading">対象エリア</p>
@@ -70,14 +69,14 @@ Template Name: 他サービス
                 <hr class="c-border">
                 <div class="p-staff__wrapper">
                     <h3 class="c-heading" title="powder addition">パウダー加工</h3>
-                    <div class="p-staff__flex">
+                    <div class="p-staff__flex p-other__flex">
                         <div class="p-staff__flex-item -column2 p-staff__left">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/service/service_03.png" alt="パウダー加工">
                         </div>
                         <div class="p-staff__flex-item -column2">
                             <div class="p-other__wrap">
-                                <h3 class="p-other__title">お骨を粉状にすることで、<br>散骨や樹木葬、お手元供養等に</h3>
-                                <p class="p-other__text -lead">お⾻上げのあとそのまま⽕葬スタッフにお預けください。<br>パウダー加⼯を施し、翌⽉命⽇までにご家庭へお戻しいたします。<br>（後⽇でも承りますのでお気軽にご相談ください）</p>
+                                <h3 class="p-other__title">お骨を粉状にすることで<br>散骨や樹木葬、お手元供養等に</h3>
+                                <p class="p-other__text -lead">火葬後はまだお気持ちの整理もついていないことと思います。<br>後日、ご連絡をください。きちんとパウダー加⼯を施しきれいな状態でご家庭へお戻しいたします。</p>
                             </div>
                             <div class="p-other__wrap">
                                 <p class="c-subheading">料⾦</p>
