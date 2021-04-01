@@ -43,23 +43,25 @@
             @include mq('sp') {
                 padding-top: 2em;
                 padding-bottom: 2em;
-                font-size: 1.75em;
+                font-size: 1.25em;
                 width: 90%;
                 margin: 0 auto;
             }
             @include mq('small') {
-                font-size: 1.25em;
+                font-size: 1.125em;
             }
         }
         &-name {
-            font-size: 2.375em;
-
+            font-size: 1.5em;
             @include mq('tab') {
                 font-size: 1.5em;
             }
+            @include mq('sp') {
+                font-size: 1.125em;
+            }
         }
         &-address {
-            font-size: 1.5em;
+            font-size: 1.25em;
             line-height: 36px;
             padding-bottom: 0.75em;
 
@@ -69,7 +71,7 @@
 
             &-sp {
                 @include mq('sp') {
-                    font-size: 0.85em;
+                    font-size: 0.75em;
                 }
             }
         }

@@ -16,7 +16,7 @@
 
         &-item {
             position: absolute;
-            top: 50%;
+            top: 53%;
             left: 50%;
             transform: translateY(-50%) translateX(-50%);
             width: 30%;
@@ -36,17 +36,14 @@
         }
     }
     &__sentence {
-        padding-bottom: 3em;
+        padding-bottom: 1em;
         padding-top: 1em;
 
         @include mq('sp') {
-            padding-bottom: 1.5em;
+            padding-bottom: 0.5em;
             padding-top: 0.5em;
         }
 
-        @include mq('tab') {
-            padding-bottom: 0;
-        }
     } 
     &__button {
         padding: 25px 50px;

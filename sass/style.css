@@ -1585,7 +1585,7 @@ address {
   .p-footer__company-sp {
     padding-top: 2em;
     padding-bottom: 2em;
-    font-size: 1.75em;
+    font-size: 1.25em;
     width: 90%;
     margin: 0 auto;
   }
@@ -1593,12 +1593,12 @@ address {
 
 @media screen and (max-width: 425px) {
   .p-footer__company-sp {
-    font-size: 1.25em;
+    font-size: 1.125em;
   }
 }
 
 .p-footer__company-name {
-  font-size: 2.375em;
+  font-size: 1.5em;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1607,8 +1607,14 @@ address {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .p-footer__company-name {
+    font-size: 1.125em;
+  }
+}
+
 .p-footer__company-address {
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 36px;
   padding-bottom: 0.75em;
 }
@@ -1621,7 +1627,7 @@ address {
 
 @media screen and (max-width: 767px) {
   .p-footer__company-address-sp {
-    font-size: 0.85em;
+    font-size: 0.75em;
   }
 }
 
@@ -2776,7 +2782,7 @@ address {
 
 .p-letter__container-item {
   position: absolute;
-  top: 50%;
+  top: 53%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   width: 30%;
@@ -2801,20 +2807,14 @@ address {
 }
 
 .p-letter__sentence {
-  padding-bottom: 3em;
+  padding-bottom: 1em;
   padding-top: 1em;
 }
 
 @media screen and (max-width: 767px) {
   .p-letter__sentence {
-    padding-bottom: 1.5em;
+    padding-bottom: 0.5em;
     padding-top: 0.5em;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .p-letter__sentence {
-    padding-bottom: 0;
   }
 }
 
@@ -3710,6 +3710,8 @@ address {
 .p-table__text-small {
   font-size: 0.875rem;
   font-weight: normal;
+  display: inline-block;
+  line-height: 26px;
 }
 
 .p-table__table {
