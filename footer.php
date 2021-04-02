@@ -8,6 +8,7 @@
         <div class="l-container -narrow pc">
             <div class="p-footer__top">
                 <nav class="p-footer__nav">
+                    <h2 class="u-visually-hidden">フッターナビゲーションPC</h2>
                     <ul class="p-footer__list">
                         <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/")); ?>"> &emsp;Home &emsp;/</a></li>
                         <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/about/")); ?>"> &emsp;OPERAとは &emsp;/</a></li>
@@ -77,6 +78,7 @@
             </div>
             <div class="p-footer__sp-list">
                 <nav class="p-footer__sp-nav">
+                <h2 class="u-visually-hidden">フッターナビゲーションSP</h2>
                     <ul class="p-footer__sp-list">
                         <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/")); ?>"><span class="uppercase">Home</span></a></li>
                         <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/about/")); ?>">OPERAとは</a></li>

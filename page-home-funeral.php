@@ -17,7 +17,7 @@ Template Name: 自宅葬サービス
                         <h2 class="c-title u-centerposition" title="Home Funeral"><span class="u-uppercase">opera</span>の自宅葬サービス</h2>
                     </div>
                     <p class="p-service__text">
-                        ペット葬儀「<span class="u-uppercase">OPERA</span>」は、お通夜からご収骨までオールインワン。<br>お求め安い価格でご自宅にお届けします。
+                        ペット葬儀「<span class="u-uppercase">OPERA</span>」は、お通夜からご収骨までオールインワン。<br>お求めやすい価格でご自宅にお届けします。
                     </p>
                     <div class="p-service__inner pc">
                         <div class="p-service__flex">

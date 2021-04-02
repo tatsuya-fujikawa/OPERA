@@ -33,6 +33,7 @@
                 </button>
             </div>
             <nav class="p-humberger__gnav">
+            <h2 class="u-visually-hidden">ヘッダーナビゲーション</h2>
                 <div class="p-humberger__gnav-wrap">
                     <ul class="p-humberger__gnav-menu">
                         <li class="p-humberger__gnav-menu-item">
@@ -87,6 +88,7 @@
             </div>
         </div>
         <nav class="p-header__nav pc">
+        <h2 class="u-visually-hidden">ヘッダーナビゲーション</h2>
             <div class="l-container -narrow">
                 <div class="p-header__flex">
                     <ul class="p-header__list">
