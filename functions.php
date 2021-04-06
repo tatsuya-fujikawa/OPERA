@@ -1,5 +1,8 @@
 <?php
 
+//アイキャッチ画像を使用可能にする
+add_theme_support('post-thumbnails');
+
 // 自動で挿入されるｐタグを消去
 add_action('init', function() {
   remove_filter('the_excerpt', 'wpautop');
@@ -59,3 +62,34 @@ function my_required_phone( $validation, $data ) {
 }
 
 add_filter( 'mwform_validation_mw-wp-form-24', 'my_required_phone', 10, 2 );
+
+// ページネーション表示
+function wp_pagination()
+{
+    global $wp_query;
+    $big = 999999999;
+    echo paginate_links(array(
+        'base' => str_replace($big, '%#%', esc_url(get_pagenum_link($big))),
+        'format' => '?paged=%#%',
+        'current' => max(1, get_query_var('paged')),
+        'prev_text' => '<span>≪</span>',
+        'next_text' => '<span>≫</span>',
+        'total' => $wp_query->max_num_pages
+    ));
+}
+add_action('init', 'wp_pagination');
+
+
+// アーカイブページタイトル設定
+function get_archive_title() {
+  if(!is_archive()) {
+  return false;
+  }
+
+  if(is_post_type_archive()) {
+    return post_type_archive_title('',false);
+  }
+
+  return single_term_title('',false);
+
+}
