@@ -272,144 +272,111 @@
             </div>
         </section>
         <!-- l-letter-->
-        <!-- <section class="l-information p-information">
+        <section class="l-information p-information">
             <div class="l-container -forWide">
                 <div class="p-information__title l-spacer -title">
                     <h2 class="c-title u-centerposition" title="Information">インフォメーション</h2>
                 </div>
+                <?php 
+                $args = array(
+                    'post_type' => 'post',
+                    'category_name' => 'information',
+                    'posts_per_page' => 5,
+                );
+                $the_query = new WP_Query($args);
+                if($the_query->have_posts()):?>
                 <div class="p-information__wrapper">
-                    <a href="#">
+                <?php  while($the_query->have_posts()): $the_query->the_post(); ?>
+                    <a class="p-information__link" href="<?php the_permalink(); ?>">
                         <div class="p-information__line">
                             <div class="p-information__date">
-                                <p>2021.01.01</p>
+                                <p><?php the_time('Y.m.d'); ?></p>
                             </div>
                             <div class="p-information__tag">
-                                <p>お知らせ</p>
+                                <p>
+                                <?php $cat = get_the_category(); $cat = $cat[0]; $cat_name = $cat->cat_name; echo $cat_name; ?>
+                                </p>
                             </div>
                             <div class="p-information__title">
-                                <h3>タイトルが入ります。タイトルが入ります。タイトルが入ります。</h3>
+                                <h3>
+                                <?php 
+                                if(mb_strlen($post->post_title, 'UTF-8') > 35) {
+                                    $title = mb_substr($post->post_title, 0, 35, 'UTF-8');
+                                    echo $title.'...';
+                                } else {
+                                    echo $post->post_title;
+                                }
+                                ?>
+                                </h3>
                             </div>
                         </div>
                     </a>
-                    <a href="#">
-                        <div class="p-information__line">
-                            <div class="p-information__date">
-                                <p>2021.01.01</p>
-                            </div>
-                            <div class="p-information__tag">
-                                <p>お知らせ</p>
-                            </div>
-                            <div class="p-information__title">
-                                <h3>タイトルが入ります。タイトルが入ります。タイトルが入ります。</h3>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="p-information__line">
-                            <div class="p-information__date">
-                                <p>2021.01.01</p>
-                            </div>
-                            <div class="p-information__tag">
-                                <p>お知らせ</p>
-                            </div>
-                            <div class="p-information__title">
-                                <h3>タイトルが入ります。タイトルが入ります。タイトルが入ります。</h3>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="p-information__line">
-                            <div class="p-information__date">
-                                <p>2021.01.01</p>
-                            </div>
-                            <div class="p-information__tag">
-                                <p>お知らせ</p>
-                            </div>
-                            <div class="p-information__title">
-                                <h3>タイトルが入ります。タイトルが入ります。タイトルが入ります。</h3>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="p-information__line">
-                            <div class="p-information__date">
-                                <p>2021.01.01</p>
-                            </div>
-                            <div class="p-information__tag">
-                                <p>お知らせ</p>
-                            </div>
-                            <div class="p-information__title">
-                                <h3>タイトルが入ります。タイトルが入ります。タイトルが入ります。タイトルが入ります。</h3>
-                            </div>
-                        </div>
-                    </a>
-                </div> -->
+                    <?php endwhile; ?>
+                </div>
                 <!-- p-information__wrapper -->
-                <!-- <div class="u-centerposition">
+                <?php endif; ?>
+                <?php wp_reset_postdata(); ?>
+                <div class="u-centerposition">
                     <a class="c-button p-information__button" href="<?php echo esc_url( home_url("/information/")); ?>">インフォメーション一覧</a>
                 </div>
             </div>
-        </section> -->
+        </section>
         <!-- l-information-->
-        <!-- <section class="l-column p-column">
+        <section class="l-column p-column">
             <div class="l-container">
                 <div class="p-column__container">
                     <div class="p-information__title l-spacer -title">
                         <h2 class="c-title u-centerposition" title="Column">旅立ちの日のために</h2>
                     </div>
                     <div class="p-column__list">
+                        <?php 
+                        $args = array(
+                            'post_type' => 'post',
+                            'category_name' => 'column',
+                            'posts_per_page' => 4,
+                            'order' => 'DESC',
+                        );
+                        $the_query = new WP_Query($args);
+                        if($the_query->have_posts()):
+                        ?>
+                        <?php  while($the_query->have_posts()): $the_query->the_post(); ?>
                         <div class="p-column__list-item">
-                            <a href="">
-                                <img class="p-column__list-picture" src="https://placehold.jp/300x300.png" alt="">
+                            <a href="<?php the_permalink(); ?>">
+                                <?php if(has_post_thumbnail()): ?>
+                                <?php the_post_thumbnail('medium'); ?>
+                                <?php else: ?>
+                                <img class="p-column__list-picture" src="<?php echo get_template_directory_uri(); ?>/img/logo_s.png" alt="ロゴ">
+                                <?php endif; ?>
                                 <div class="p-column__list-date">
-                                    <p>2021.01.01</p>
+                                    <p><?php the_time('Y.m.d'); ?></p>
                                 </div>
                                 <h3 class="p-column__list-title">
-                                    <span>タイトルが入ります。タイトルが入ります。タイトルが入ります。</span>
+                                    <span>
+                                    <?php 
+                                        if(mb_strlen($post->post_title, 'UTF-8') > 35) {
+                                            $title = mb_substr($post->post_title, 0, 35, 'UTF-8');
+                                            echo $title.'...';
+                                        } else {
+                                            echo $post->post_title;
+                                        }
+                                    ?>
+                                    </span>
                                 </h3>
                             </a>
                         </div>
-                        <div class="p-column__list-item">
-                            <a href="">
-                                <img class="p-column__list-picture" src="https://placehold.jp/300x300.png" alt="">
-                                <div class="p-column__list-date">
-                                    <p>2021.01.01</p>
-                                </div>
-                                <h3 class="p-column__list-title">
-                                    <span>タイトルが入ります。タイトルが入ります。タイトルが入ります。</span>
-                                </h3>
-                            </a>
-                        </div>
-                        <div class="p-column__list-item">
-                            <a href="">
-                                <img class="p-column__list-picture" src="https://placehold.jp/300x300.png" alt="">
-                                <div class="p-column__list-date">
-                                    <p>2021.01.01</p>
-                                </div>
-                                <h3 class="p-column__list-title">
-                                    <span>タイトルが入ります。タイトルが入ります。タイトルが入ります。</span>
-                                </h3>
-                            </a>
-                        </div>
-                        <div class="p-column__list-item">
-                            <a href="">
-                                <img class="p-column__list-picture" src="https://placehold.jp/300x300.png" alt="">
-                                <div class="p-column__list-date">
-                                    <p>2021.01.01</p>
-                                </div>
-                                <h3 class="p-column__list-title">
-                                    <span>タイトルが入ります。タイトルが入ります。タイトルが入ります。</span>
-                                </h3>
-                            </a>
-                        </div>
-                    </div> -->
+                        <?php 
+                        endwhile; 
+                        endif;
+                        ?>
+                        <?php wp_reset_postdata(); ?>
+                    </div>
                     <!--p-column__list-->
-                <!-- </div>
+                </div>
                 <div class="l-spacer u-centerposition">
                     <a class="c-button -pplus u-bgwhite" href="<?php echo esc_url( home_url("/column/")); ?>">コラム一覧</a>
                 </div>
             </div>
-        </section> -->
+        </section>
         <?php if(is_front_page()): ?>
         <div id="js-floating" class="p-floating pc">
             <div class="p-floating__wrapper">

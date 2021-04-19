@@ -18,8 +18,16 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/checkbox.js" defer></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/scroll.js" defer></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/form.js" defer></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/page.js" defer></script>
+    <?php if(is_archive() || is_single()): ?>
+    <meta name="description" content="OPERAからのご案内です。ペット葬儀のOPERA（オペラ青山）は、東京23区と神奈川県横浜市・川崎市を対象とした自宅葬・火葬サービス、その他ペットの葬儀にまつわるサービスを展開しています。華やかなペット葬儀をご自宅に。">
+    <?php endif; ?>
     <meta name="keywords" content="ペット,葬儀,⾃宅葬,火葬,OPERA,オペラ,東京,横浜,川崎,⽕葬,ペットロス">
+    <?php if(!is_archive()): ?>
     <title><?php echo the_title(); ?>|ペット自宅葬儀・火葬のOPERA（オペラ青山）</title>
+    <?php else: ?>
+    <title><?php echo get_archive_title()."の記事一覧"; ?>|ペット自宅葬儀・火葬のOPERA（オペラ青山）</title>
+    <?php endif; ?>
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -52,7 +60,7 @@
                             <a href="<?php echo esc_url( home_url("/staff/")); ?>">スタッフ紹介<span class="p-humberger__en">Staff</span></a>
                         </li>
                         <li class="p-humberger__gnav-menu-item">
-                            <a href="<?php echo esc_url( home_url("/information/")); ?>">インフォメーション<span class="p-humberger__en">Information</span></a>
+                            <a href="<?php echo esc_url( home_url("/all/")); ?>">インフォメーション<span class="p-humberger__en">Information</span></a>
                         </li>
                             <button class="p-humberger__close-button">
                                 <span class="u-visually-hidden">閉じる</span>
@@ -71,7 +79,13 @@
                     <?php global $post;
                     $pageTitle = $post->post_title;
                     ?>
-                        <h1 class="u-visually-hidden"><?php echo $pageTitle; ?></h1>
+                        <h1 class="u-visually-hidden">
+                            <?php if(!is_archive()): ?>
+                            <?php echo $pageTitle; ?>
+                            <?php else: ?>
+                            <?php echo get_archive_title()."の記事一覧"; ?>
+                            <?php endif; ?>
+                        </h1>
                         <a href="<?php echo esc_url( home_url("/")); ?>">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/header_logo.png" alt="オペラ青山ロゴ">
                         </a>
@@ -110,7 +124,7 @@
                             <a href="<?php echo esc_url( home_url("/staff/")); ?>" class="p-header__list-jp" title="Staff">スタッフ紹介</a>
                         </li>
                         <li class="p-header__list-item">
-                            <a href="<?php echo esc_url( home_url("/information/")); ?>" class="p-header__list-jp" title="Information">インフォメーション</a>
+                            <a href="<?php echo esc_url( home_url("/all/")); ?>" class="p-header__list-jp" title="Information">インフォメーション</a>
                         </li>
                     </ul>
                 </div>

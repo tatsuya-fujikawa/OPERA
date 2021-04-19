@@ -220,6 +220,9 @@
 
     &-strong {
       font-size: 1.25em;
+      @include mq('sp') {
+        font-size: 1.75em;
+      }
     }
 
     &-small {

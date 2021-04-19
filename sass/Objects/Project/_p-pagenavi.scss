@@ -1,0 +1,42 @@
+.p-pagenavi {
+  @include mq('sp') {
+    padding-top: 3em;
+    padding-bottom: 4.5em;
+  }
+  .wp-pagenavi {
+    text-align: center;
+    font-size: 1.25em;
+  }
+
+  .wp-pagenavi a {
+    color: $color-gold;
+  }
+  
+  .wp-pagenavi .pages {
+    display: none;
+  }
+
+  .wp-pagenavi span.current {
+    font-weight: bold;
+    color: $color-gold;
+    border-color: $color-gold;
+  }
+  .wp-pagenavi span.extend {
+    color: $color-gold;
+    border: none;
+  }
+  
+  .wp-pagenavi a {
+    border: none;
+  }
+  .wp-pagenavi a, .wp-pagenavi span {
+    padding: 3px 11px;
+  }
+
+  .wp-pagenavi .nextpostslink {
+    padding-left: 20px;
+  }
+  .wp-pagenavi .previouspostslink {
+    padding-right: 20px;
+  }
+}

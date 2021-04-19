@@ -60,7 +60,7 @@ Template Name: OPERAとは
                         <div class="p-commitment__wrap -secound">
                             <h3 class="p-commitment__lead">ご自宅に祭壇を</h3>
                             <div class="p-commitment__text">
-                                <p class="c-text">献花、祭壇花は代官⼭のフローリスト<br>宇⽥川 優(Aʼs you)が担当。<br>ペットを亡くされた飼い主様の⼼を癒せるように、と<br>かわいらしさと思い出を重ねた作品ができました。<br>ここでしか出会えない美しさをぜひお⼿元に。</p>
+                                <p class="c-text">献花、祭壇花は代官⼭のフローリストが担当。<br>ペットを亡くされた飼い主様の⼼を癒せるように、と<br>かわいらしさと思い出を重ねた作品ができました。<br>ここでしか出会えない美しさをぜひお⼿元に。</p>
                             </div>
                         </div>
                     </div>

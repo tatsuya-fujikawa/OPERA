@@ -17,7 +17,7 @@
                         <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/omoide/")); ?>"> &emsp;思い出トランク &emsp;/</a></li>
                         <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/staff/")); ?>"> &emsp;スタッフ紹介 &emsp;/</a></li>
                         <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/information/")); ?>"> &emsp;インフォメーション &emsp;/</a></li>
-                        <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/information#column/")); ?>"> &emsp;コラム &emsp;/</a></li>
+                        <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/column/")); ?>"> &emsp;コラム &emsp;/</a></li>
                         <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/contact#privacy")); ?>"> &emsp;プライバシーポリシー &emsp;/</a></li>
                         <li class="p-footer__nav-item"><a href="<?php echo esc_url( home_url("/law/")); ?>"> &emsp;特定商取引法に基づく表記 &emsp;/</a></li>
                     </ul>
@@ -37,10 +37,10 @@
                 </div>
                 <div class="p-footer__right">
                     <div class="p-footer__right-top">
-                        <a href="<?php echo esc_url( home_url("/contact/")); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/mail_btn.png" alt=""></a>
+                        <a href="<?php echo esc_url( home_url("/contact/")); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/mail_btn.png" alt="お申し込み・ご相談ボタン"></a>
                     </div>
                     <div class="p-footer__right-bottom">
-                        <a href="tel:0120-71-1212"><img src="<?php echo get_template_directory_uri(); ?>/img/freedial.png" alt=""></a>
+                        <a href="tel:0120-71-1212"><img src="<?php echo get_template_directory_uri(); ?>/img/freedial.png" alt="フリーダイヤルボタン"></a>
                     </div>
                 </div>
             </div>
@@ -50,10 +50,10 @@
         <div class="p-footer__logo">
             <?php if(!is_front_page()): ?>
             <a href="<?php echo esc_url( home_url()); ?>">
-                <img class="p-footer__logo-img" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="">
+                <img class="p-footer__logo-img" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="オペラ青山ロゴ">
             </a>
             <?php else: ?>
-            <img class="p-footer__logo-img" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="">
+            <img class="p-footer__logo-img" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="オペラ青山ロゴ">
             <?php endif; ?>
             <span class="u-visually-hidden">オペラ青山</span>
         </div>
@@ -61,10 +61,10 @@
         <div class="p-footer__sp sp">
             <div class="p-footer__sp">
                 <div class="p-footer__sp-tel">
-                    <a href="tel:0120-71-1212"><img src="<?php echo get_template_directory_uri(); ?>/img/sp/footer_freedial.png" alt=""></a>
+                    <a href="tel:0120-71-1212"><img src="<?php echo get_template_directory_uri(); ?>/img/sp/footer_freedial.png" alt="フリーダイヤルボタン"></a>
                 </div>
                 <div class="p-footer__sp-mail">
-                    <a href="<?php echo esc_url( home_url("/contact/")); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/sp/footer_mail.png" alt=""></a>
+                    <a href="<?php echo esc_url( home_url("/contact/")); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/sp/footer_mail.png" alt="メールボタン"></a>
                     <p class="p-footer__sp-text">※生前のご相談も承っております</p>
                 </div>
                 <div class="p-footer__sns">
@@ -87,7 +87,7 @@
                         <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/omoide/")); ?>">思い出トランク</a></li>
                         <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/staff/")); ?>">スタッフ紹介</a></li>
                         <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/information/")); ?>">インフォメーション</a></li>
-                        <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/information#column/")); ?>">コラム</a></li>
+                        <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/column/")); ?>">コラム</a></li>
                         <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/contact#privacy")); ?>">プライバシーポリシー</a></li>
                         <li class="p-footer__sp-list-item"><a href="<?php echo esc_url( home_url("/law/")); ?>">特定商取引法に基づく表記</a></li>
                     </ul>
@@ -105,7 +105,7 @@
                 <a href="tel:0120711212">
                     <div class="p-bottom__flex">
                         <div class="p-bottom__icon">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/sp/call.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/sp/call.png" alt="電話アイコン">
                         </div>
                         <div class="p-bottom__text">
                             <p><span class="p-bottom__text-strong">7:00〜19:00</span><br><span class="p-bottom__text-strong">電話受付</span></p>
@@ -117,7 +117,7 @@
                 <a href="<?php echo esc_url( home_url("/contact/")); ?>">
                     <div class="p-bottom__flex">
                         <div class="p-bottom__icon -mail">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/sp/mail.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/sp/mail.png" alt="メールアイコン">
                         </div>
                         <div class="p-bottom__text">
                             <p>ご相談・お申し込み<br><span class="p-bottom__text-strong">メール受付</span></p>

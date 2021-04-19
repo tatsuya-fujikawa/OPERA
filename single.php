@@ -26,12 +26,45 @@
                 </div>
                 <hr class="p-single__border">
                 <div class="p-single__body">
+                    <?php if(has_post_thumbnail()): ?>
                     <div class="p-single__thumbnail">
-                        <img src="./img/img_01.png" alt="">
+                        <?php the_post_thumbnail('large'); ?>
                     </div>
+                    <?php endif; ?>
                     <?php the_content(); ?>
                 </div>
-                <hr class="p-single__border">
+                <div class="l-spacer">
+                    <hr class="p-single__border">
+                </div>
+                <div class="l-spacer -notop">
+                    <div class="p-single__flex">
+                        <?php if(get_previous_post()): ?>
+                            <div class="p-single__pagenation -left">
+                                <?php previous_post_link('%link', '前の記事へ'); ?>
+                            </div>
+                        <?php else: ?>
+                            <div class="p-single__pagenation p-single__hidden">
+                                <span>記事はありません。</span>
+                            </div>
+                        <?php endif; ?>
+                        <div class="p-single__pagenation -center">
+                            <?php if($cat->cat_name === 'インフォメーション'): ?>
+                                <a href="<?php echo esc_url( home_url("/information/")); ?>">一覧へ戻る</a>
+                            <?php else: ?>
+                                <a href="<?php echo esc_url( home_url("/column/")); ?>">一覧へ戻る</a>
+                            <?php endif; ?>
+                        </div>
+                        <?php if(get_next_post()): ?>
+                            <div class="p-single__pagenation -right">
+                                <?php next_post_link('%link', '次の記事へ'); ?>
+                            </div>
+                            <?php else: ?>
+                            <div class="p-single__pagenation p-single__hidden">
+                                <span>記事はありません。</span>
+                            </div>
+                        <?php endif; ?>
+                    </div>
+                </div>
             </div>
         </article>
         <?php endwhile; ?>

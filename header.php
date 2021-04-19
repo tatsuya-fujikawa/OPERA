@@ -50,7 +50,7 @@
                             <a href="<?php echo esc_url( home_url("/staff/")); ?>">スタッフ紹介<span class="p-humberger__en">Staff</span></a>
                         </li>
                         <li class="p-humberger__gnav-menu-item">
-                            <a href="<?php echo esc_url( home_url("/information/")); ?>">インフォメーション<span class="p-humberger__en">Information</span></a>
+                            <a href="<?php echo esc_url( home_url("/all/")); ?>">インフォメーション<span class="p-humberger__en">Information</span></a>
                         </li>
                             <button class="p-humberger__close-button">
                                 <span class="u-visually-hidden">閉じる</span>
@@ -103,7 +103,7 @@
                             <a href="<?php echo esc_url( home_url("/staff/")); ?>" class="p-header__list-jp" title="Staff">スタッフ紹介</a>
                         </li>
                         <li class="p-header__list-item">
-                            <a href="<?php echo esc_url( home_url("/information/")); ?>" class="p-header__list-jp" title="Information">インフォメーション</a>
+                            <a href="<?php echo esc_url( home_url("/all/")); ?>" class="p-header__list-jp" title="Information">インフォメーション</a>
                         </li>
                     </ul>
                 </div>
